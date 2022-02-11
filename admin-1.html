@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>한경증권-관리자</title>
+  <link rel="stylesheet" href="https://static.hankyung.com/css/www/w/common.ui.all.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <script type="text/javascript" src="https://static.hankyung.com/plugin/jquery-1.12.4.min.js"></script>
+  <script src="https://static.hankyung.com/plugin/jquery.cookie.js"></script>
+</head>
+<body>
+<!--[if lte IE 9]>
+<div class="browser-support-info">
+  <div class="layout-inner">
+    <div class="info-txt">
+      <p>귀하의 웹 브라우저(Internet Explorer)는 오래되었습니다. 현재 이용 중인 웹브라우저에서 일부 기능이 지원되지 않습니다.</p>
+      <p>무료이며 우수한 최신 브라우저 중 하나를 다운로드하세요.</p>
+    </div>
+    <div class="browser-list">
+      <a href="https://www.google.com/chrome/" target="_blank" class="chrome"><img src="https://static.hankyung.com/img/www/w/common/icon-browser-chrome.png" alt="Chrome"></a>
+      <a href="https://www.microsoft.com/ko-kr/edge" target="_blank" class="edge"><img src="https://static.hankyung.com/img/www/w/common/icon-browser-edge.png" alt="Edge"></a>
+      <a href="https://www.mozilla.org/ko/firefox/new/" target="_blank" class="firefox"><img src="https://static.hankyung.com/img/www/w/common/icon-browser-firefox.png" alt="Firefox"></a>
+      <a href="https://browser-update.org/ko/update.html?force_outdated=true" target="_blank" class="opera"><img src="https://static.hankyung.com/img/www/w/common/icon-browser-opera.png" alt="Opera"></a>
+    </div>
+    <button type="button" class="btn-close-info"><span class="blind">브라우저 안내 닫기</span></button>
+  </div>
+</div>
+<![endif]-->
+
+<div id="wrap" class="koreamarket"> <!-- [D] 코리아마켓 전용 클래스(.koreamarket) -->
+  <div id="inner">
+
+
+    <!-- [D] 파이낸셜아이큐 클래스 : .fiq-* 사용 -->
+    <div id="container" class="fiq-container">
+      <div class="inner">
+        <div class="fiq-admin">
+          <div class="fiq-top">
+            <p class="fiq-top-txt"><span>한경</span> 컨센서스 매니저</p>
+            <a class="fiq-logout">로그아웃</a>
+          </div>
+
+          <div class="fiq-tab-wrap fiq-tab-wrap1 fiq-tab1-active">
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">기업</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">산업</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn3" data-tab="3">시장</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn4" data-tab="4">경제</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn5" data-tab="5">외환</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn6" data-tab="6">채권</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn7" data-tab="7">펀드</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn8" data-tab="8">퀀트</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn9" data-tab="9">해외</a>
+          </div>
+
+          <div class="fiq-breadcrumbs">HOME > <span></span></div>
+          <div class="fiq-find-wrap">
+            <div class="fiq-find-wrap-inner">
+              <input type="date"> <span>~</span> <input type="date">
+              <div class="fiq-top-line">
+                <div class="fiq-select fiq-ymd">
+                  <select>
+                    <option value="1m">1개월</option>
+                    <option value="2m">2개월</option>
+                    <option value="3m">3개월</option>
+                    <option value="4m">4개월</option>
+                    <option value="5m">5개월</option>
+                    <option value="6m">6개월</option>
+                  </select>
+                </div>
+                <div class="fiq-select fiq-item">
+                  <select>
+                    <option value="">종목명</option>
+                  </select>
+                </div>
+                <div class="fiq-find">
+                  <input type="text" placeholder="검색어를 입력하시오">
+                </div>
+                <a class="fiq-a fiq-find-anchor"></a>
+              </div>
+              <div class="fiq-top-line">
+                <div class="fiq-select fiq-insert">
+                  <select>
+                    <option value="">신규입력</option>
+                  </select>
+                </div>
+                <a class="fiq-a fiq-del">선택삭제</a>
+                <a class="fiq-a fiq-f1">도움말</a>
+                <div class="fiq-select fiq-view-opt">
+                  <select>
+                    <option value="">10개 보기</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="fiq-cont fiq-cont1">
+            <div class="fiq-find-items">
+              <ul>
+                <li>
+                  <div class="fiq-cell-top">
+                    <p>레포트 아이디 : <span>a124124기업</span></p>
+                    <label>
+                      <input type="checkbox">
+                      <i></i>
+                    </label>
+                  </div>
+                  <div class="fiq-content-wrap">
+                    <p class="fiq-tit"><span>a124124 :</span> 상하이증시, 6월 물가지수 발표</p>
+                    <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                      <colgroup>
+                        <col width="100">
+                        <col width="150">
+                        <col width="100">
+                        <col width="120">
+                      </colgroup>
+                      <thead>
+                        <tr>
+                          <th scope="col">작성자</th>
+                          <th scope="col">발행기관</th>
+                          <th scope="col">투자의견</th>
+                          <th scope="col">목표주가</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>홍길동</td>
+                          <td>미래에셋증권</td>
+                          <td>매수</td>
+                          <td>10,000.00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="fiq-yymmdd">yyy-mm-dd</div>
+                  </div>
+                  <div class="fiq-cell-bt">
+                    <a href="" class="fiq-a fiq-del-btn">삭제</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="fiq-cell-top">
+                    <p>레포트 아이디 : <span>a124124</span></p>
+                    <label>
+                      <input type="checkbox">
+                      <i></i>
+                    </label>
+                  </div>
+                  <div class="fiq-content-wrap">
+                    <p class="fiq-tit"><span>a124124 :</span> 상하이증시, 6월 물가지수 발표</p>
+                    <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                      <colgroup>
+                        <col width="100">
+                        <col width="150">
+                        <col width="100">
+                        <col width="120">
+                      </colgroup>
+                      <thead>
+                      <tr>
+                        <th scope="col">작성자</th>
+                        <th scope="col">발행기관</th>
+                        <th scope="col">투자의견</th>
+                        <th scope="col">목표주가</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                        <td>홍길동</td>
+                        <td>미래에셋증권</td>
+                        <td>매수</td>
+                        <td>10,000.00</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                    <div class="fiq-yymmdd">yyy-mm-dd</div>
+                  </div>
+                  <div class="fiq-cell-bt">
+                    <a href="" class="fiq-a fiq-del-btn">삭제</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="fiq-cell-top">
+                    <p>레포트 아이디 : <span>a124124</span></p>
+                    <label>
+                      <input type="checkbox">
+                      <i></i>
+                    </label>
+                  </div>
+                  <div class="fiq-content-wrap">
+                    <p class="fiq-tit"><span>a124124 :</span> 상하이증시, 6월 물가지수 발표</p>
+                    <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                      <colgroup>
+                        <col width="100">
+                        <col width="150">
+                        <col width="100">
+                        <col width="120">
+                      </colgroup>
+                      <thead>
+                      <tr>
+                        <th scope="col">작성자</th>
+                        <th scope="col">발행기관</th>
+                        <th scope="col">투자의견</th>
+                        <th scope="col">목표주가</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                        <td>홍길동</td>
+                        <td>미래에셋증권</td>
+                        <td>매수</td>
+                        <td>10,000.00</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                    <div class="fiq-yymmdd">yyy-mm-dd</div>
+                  </div>
+                  <div class="fiq-cell-bt">
+                    <a href="" class="fiq-a fiq-del-btn">삭제</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="fiq-cell-top">
+                    <p>레포트 아이디 : <span>a124124</span></p>
+                    <label>
+                      <input type="checkbox">
+                      <i></i>
+                    </label>
+                  </div>
+                  <div class="fiq-content-wrap">
+                    <p class="fiq-tit"><span>a124124 :</span> 상하이증시, 6월 물가지수 발표</p>
+                    <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                      <colgroup>
+                        <col width="100">
+                        <col width="150">
+                        <col width="100">
+                        <col width="120">
+                      </colgroup>
+                      <thead>
+                      <tr>
+                        <th scope="col">작성자</th>
+                        <th scope="col">발행기관</th>
+                        <th scope="col">투자의견</th>
+                        <th scope="col">목표주가</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                        <td>홍길동</td>
+                        <td>미래에셋증권</td>
+                        <td>매수</td>
+                        <td>10,000.00</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                    <div class="fiq-yymmdd">yyy-mm-dd</div>
+                  </div>
+                  <div class="fiq-cell-bt">
+                    <a href="" class="fiq-a fiq-del-btn">삭제</a>
+                  </div>
+                </li>
+                <li>
+                  <div class="fiq-cell-top">
+                    <p>레포트 아이디 : <span>a124124</span></p>
+                    <label>
+                      <input type="checkbox">
+                      <i></i>
+                    </label>
+                  </div>
+                  <div class="fiq-content-wrap">
+                    <p class="fiq-tit"><span>a124124 :</span> 상하이증시, 6월 물가지수 발표</p>
+                    <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                      <colgroup>
+                        <col width="100">
+                        <col width="150">
+                        <col width="100">
+                        <col width="120">
+                      </colgroup>
+                      <thead>
+                      <tr>
+                        <th scope="col">작성자</th>
+                        <th scope="col">발행기관</th>
+                        <th scope="col">투자의견</th>
+                        <th scope="col">목표주가</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                        <td>홍길동</td>
+                        <td>미래에셋증권</td>
+                        <td>매수</td>
+                        <td>10,000.00</td>
+                      </tr>
+                      </tbody>
+                    </table>
+                    <div class="fiq-yymmdd">yyy-mm-dd</div>
+                  </div>
+                  <div class="fiq-cell-bt">
+                    <a href="" class="fiq-a fiq-del-btn">삭제</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="fiq-pagination">
+              <a class="fiq-a fiq-prev"></a>
+              <a class="fiq-a fiq-active">1</a>
+              <a class="fiq-a">2</a>
+              <a class="fiq-a">3</a>
+              <a class="fiq-a">4</a>
+              <a class="fiq-a">5</a>
+              <a class="fiq-a fiq-next"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- // 파이낸셜아이큐 -->
+
+  </div>
+</div>
+<script src="js/fiq-polyfill.js"></script>
+<script src="js/fiq-common.js"></script>
+</body>
+</html>

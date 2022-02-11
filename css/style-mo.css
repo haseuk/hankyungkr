@@ -1,0 +1,2305 @@
+@charset "UTF-8";
+.coll {
+  border-collapse: collapse;
+}
+/*--------------------------------------------------------------------------------------------------------------
+*  Template
+*--------------------------------------------------------------------------------------------------------------*/
+a.fiq-a {
+  display: inline-block;
+  cursor: pointer;
+}
+h2.fiq-h2 {
+  font-size: 3.88888889vw;
+  line-height: 4.44444444vw;
+  color: #222222;
+  letter-spacing: -0.09722222vw;
+}
+span.fiq-s-line {
+  width: 100%;
+  height: 2px;
+  background-color: #222222;
+  margin-top: 2.77777778vw;
+  margin-right: 0vw;
+  margin-bottom: 2.77777778vw;
+  margin-left: 0vw;
+  display: inline-block;
+}
+span.fiq-d-line {
+  width: 100%;
+  height: 2px;
+  background-color: #222222;
+  margin-top: 4.16666667vw;
+  margin-right: 0vw;
+  margin-bottom: 4.16666667vw;
+  margin-left: 0vw;
+  display: inline-block;
+  position: relative;
+}
+span.fiq-d-line:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #222222;
+  position: absolute;
+  left: 0vw;
+  bottom: -0.41666667vw;
+  right: auto;
+  top: auto;
+}
+table.fiq-t {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.fiq-select select {
+  outline: none;
+  border: 0;
+  background-color: #fff;
+}
+.fiq-container .fiq-wrap {
+  font-size: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section {
+  padding-top: 2.77777778vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 0vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap {
+  text-align: left;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap .fiq-tab {
+  color: #888;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1 {
+  margin-bottom: 6.66666667vw;
+  overflow: auto;
+  margin-right: -2.22222222vw;
+  display: flex;
+  white-space: nowrap;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1 .fiq-tab {
+  font-size: 2.77777778vw;
+  padding-top: 1.11111111vw;
+  padding-right: 2.08333333vw;
+  padding-bottom: 1.11111111vw;
+  padding-left: 2.08333333vw;
+  border-radius: 0.55555556vw;
+  background-color: #F8F8F8;
+  margin-right: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1 .fiq-tab:last-child {
+  margin-right: 2.22222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active6 .fiq-tab6,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active7 .fiq-tab7,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active8 .fiq-tab8,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active9 .fiq-tab9,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active10 .fiq-tab10 {
+  color: #fff;
+  background-color: #253081;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2 {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2 .fiq-tab {
+  font-size: 3.33333333vw;
+  height: 10vw;
+  line-height: 10vw;
+  flex: 1 1;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active6 .fiq-tab6,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active7 .fiq-tab7,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active8 .fiq-tab8,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active9 .fiq-tab9,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active10 .fiq-tab10 {
+  font-weight: 700;
+  color: #253081;
+  border-bottom: 2px solid #253081;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-star {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-image: url('../img/mo/ico-star-off.svg');
+  background-size: contain;
+  width: 3.05555556vw;
+  height: 2.91666667vw;
+  margin-top: 0vw;
+  margin-right: 1.38888889vw;
+  margin-bottom: 0.69444444vw;
+  margin-left: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-star.fiq-on {
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/star-on.svg');
+  background-size: contain;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-indices {
+  margin-top: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-indices .fiq-price {
+  font-size: 4.72222222vw;
+  line-height: 6.25vw;
+  font-weight: 700;
+  letter-spacing: -0.09444444vw;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 1.66666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-indices.fiq-up .fiq-price,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-indices.fiq-up .fiq-indices-span {
+  color: #FF0000;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-indices.fiq-up .fiq-indices-span span {
+  border-bottom: 1.38vw solid #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-indices.fiq-down .fiq-price,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-indices.fiq-down .fiq-indices-span {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-indices.fiq-down .fiq-indices-span span {
+  border-top: 1.38vw solid #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-select {
+  width: 22.22222222vw;
+  height: 5.41666667vw;
+  border-radius: 0.55555556vw;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  margin-top: 2.77777778vw;
+  overflow: hidden;
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top-h .fiq-select select {
+  font-size: 2.77777778vw;
+  color: #888;
+  width: 100%;
+  height: 100%;
+  padding-top: 0vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 0vw;
+  padding-left: 1.66666667vw;
+  line-height: 5.41666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr th,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr td {
+  font-size: 2.5vw;
+  color: #888;
+  height: 8.05555556vw;
+  line-height: 8.05555556vw;
+  padding-top: 0vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 0vw;
+  padding-left: 1.66666667vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr td.fiq-up {
+  color: #FF0000;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr td.fiq-down {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-date {
+  float: right;
+  margin-top: -2.91666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-date p {
+  font-size: 2.22222222vw;
+  line-height: 2.91666667vw;
+  color: #888;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-date p.fiq-date-time {
+  width: 23.61111111vw;
+  margin-bottom: 0.27777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active1 ~ .fiq-cont1,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active2 ~ .fiq-cont2,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active3 ~ .fiq-cont3,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active4 ~ .fiq-cont4,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active5 ~ .fiq-cont5,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active6 ~ .fiq-cont6,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active7 ~ .fiq-cont7,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active8 ~ .fiq-cont8,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active9 ~ .fiq-cont9,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-tab-active10 ~ .fiq-cont10 {
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-indices-span {
+  font-size: 2.77777778vw;
+  line-height: 3.75vw;
+  letter-spacing: -0.05555556vw;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-indices-span span {
+  width: 0vw;
+  height: 0vw;
+  border-left: 0.83vw solid transparent;
+  border-right: 0.83vw solid transparent;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.41666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-indices-span p {
+  margin-right: 1.66666667vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li {
+  padding-top: 2.36111111vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 2.36111111vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  text-align: left;
+  zoom: 1;
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-l,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-r {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-l p {
+  font-size: 3.33333333vw;
+  line-height: 5vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-l span {
+  font-size: 2.77777778vw;
+  line-height: 5vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-r {
+  float: right;
+  margin-top: 1.52777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-r .fiq-price,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-r .fiq-indices-span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-r .fiq-price {
+  font-size: 3.33333333vw;
+  font-weight: 700;
+  line-height: 4.44444444vw;
+  color: #222222;
+  margin-right: 1.66666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-r .fiq-indices-span p + p {
+  font-size: 2.5vw;
+  color: #fff;
+  width: 11.80555556vw;
+  height: 5vw;
+  text-align: center;
+  line-height: 5vw;
+  border-radius: 0.55555556vw;
+  margin-left: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li.fiq-up .fiq-r .fiq-indices-span span {
+  border-top: 0;
+  border-bottom: 1.38vw solid #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li.fiq-up .fiq-r .fiq-indices-span p {
+  color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li.fiq-up .fiq-r .fiq-indices-span p + p {
+  color: #fff;
+  background-color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li.fiq-down .fiq-r .fiq-indices-span span {
+  border-bottom: 0;
+  border-top: 1.38vw solid #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li.fiq-down .fiq-r .fiq-indices-span p {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li.fiq-down .fiq-r .fiq-indices-span p + p {
+  color: #fff;
+  background-color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap {
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap .fiq-inner-tab {
+  font-size: 2.77777778vw;
+  color: #222;
+  text-align: center;
+  height: 7.5vw;
+  line-height: 7.5vw;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-right: 0;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap .fiq-inner-tab:first-child {
+  border-top-left-radius: 1.11vw;
+  border-bottom-left-radius: 1.11vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap .fiq-inner-tab:last-child {
+  border-top-right-radius: 1.11vw;
+  border-bottom-right-radius: 1.11vw;
+  border-right: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap.fiq-inner-tabs-2n .fiq-inner-tab {
+  width: 47.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap.fiq-inner-active1 .fiq-inner-tab1,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap.fiq-inner-active2 .fiq-inner-tab2 {
+  border: 1px solid #222;
+  color: #222;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-cont-inner-wrap {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-active1 ~ .fiq-cont-inner-wrap1,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-active2 ~ .fiq-cont-inner-wrap2 {
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-wrap {
+  text-align: left;
+  margin-top: 4.16666667vw;
+  margin-right: 0vw;
+  margin-bottom: 2.77777778vw;
+  margin-left: 0vw;
+  zoom: 1;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-wrap .fiq-inner-depth {
+  font-size: 2.5vw;
+  line-height: 3.33333333vw;
+  margin-right: 2.77777778vw;
+  position: relative;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-wrap .fiq-inner-depth:after {
+  content: '';
+  display: block;
+  width: 0.13888889vw;
+  height: 1.38888889vw;
+  background-color: #ddd;
+  position: absolute;
+  right: -1.38888889vw;
+  top: 50%;
+  left: auto;
+  bottom: auto;
+  margin-top: -0.69444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-wrap .fiq-inner-depth.fiq-inner-depth2:after {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-wrap span {
+  font-size: 1.94444444vw;
+  color: #222;
+  float: right;
+  display: inline-block;
+  margin-top: 0.69444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-wrap.fiq-inner-depth-active1 .fiq-inner-depth1,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-wrap.fiq-inner-depth-active2 .fiq-inner-depth2 {
+  color: #253081;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-active1 ~ .fiq-cont-inner-wrap .fiq-depth-table1,
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-active2 ~ .fiq-cont-inner-wrap .fiq-depth-table2 {
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-cont-inner-wrap .fiq-depth-table {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section {
+  overflow: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active1 ~ .fiq-top-h .fiq-h2:after {
+  content: '코스피';
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active2 ~ .fiq-top-h .fiq-h2:after {
+  content: '코스닥';
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active3 ~ .fiq-top-h .fiq-h2:after {
+  content: '코스피200';
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active4 ~ .fiq-top-h .fiq-h2:after {
+  content: '코스닥150';
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active5 ~ .fiq-top-h .fiq-h2:after {
+  content: '코스피200선물';
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active6 ~ .fiq-top-h .fiq-h2:after {
+  content: '코스닥150선물';
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active7 ~ .fiq-top-h .fiq-h2:after {
+  content: '코스피200옵션';
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active8 ~ .fiq-top-h .fiq-h2:after {
+  content: '코스닥150옵션';
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active9 ~ .fiq-top-h .fiq-h2:after {
+  content: '코넥스';
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active5 ~ .fiq-top-h .fiq-indices,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active6 ~ .fiq-top-h .fiq-indices {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active5 ~ .fiq-top-h .fiq-select,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-tab-active6 ~ .fiq-top-h .fiq-select {
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table {
+  width: 103%;
+  overflow: auto;
+  margin-top: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t {
+  width: 194.44444444vw;
+  border-top: 1px solid #ddd;
+  margin-right: 3.05555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t tr th,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t tr th,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t tr th {
+  background-color: #F8F8F8;
+  font-weight: 400;
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t tr td,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t tr td,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t tr td {
+  text-align: right;
+  color: #222;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t tr td:nth-child(4),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t tr td:nth-child(4),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t tr td:nth-child(4),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t tr td:nth-child(6),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t tr td:nth-child(6),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t tr td:nth-child(6) {
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t tr:nth-child(1) th,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t tr:nth-child(1) th,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t tr:nth-child(1) th {
+  border-right: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t tr:nth-child(1) th:last-child,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t tr:nth-child(1) th:last-child,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t tr:nth-child(1) th:last-child {
+  border-right: 0;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t tr:nth-child(2) th:nth-child(4),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t tr:nth-child(2) th:nth-child(4),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t tr:nth-child(2) th:nth-child(4),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t tr:nth-child(2) th:nth-child(5),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t tr:nth-child(2) th:nth-child(5),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t tr:nth-child(2) th:nth-child(5) {
+  border-right: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont7 .fiq-table .fiq-t tr:last-child,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont8 .fiq-table .fiq-t tr:last-child,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec1 .fiq-cont9 .fiq-table .fiq-t tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table {
+  margin-top: 4.16666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t1 {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t1 tr td:nth-child(odd) {
+  text-align: left;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t1 tr td:nth-child(even) {
+  font-size: 2.77777778vw;
+  color: #222222;
+  text-align: right;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t2 {
+  border-top: 1px solid #DDDDDD;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t2 tr {
+  border-bottom: 1px solid #DDDDDD;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t2 tr td {
+  text-align: center;
+  background-color: #F8F8F8;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t2 tr:nth-child(odd) td:nth-child(1) {
+  border-right: 1px solid #DDDDDD;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t2 tr:nth-child(even) td {
+  text-align: right;
+  background-color: #fff;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 {
+  padding: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont {
+  padding-top: 0vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 0vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont1 ul li {
+  padding-top: 2.77777778vw;
+  padding-right: 0vw;
+  padding-bottom: 2.77777778vw;
+  padding-left: 0vw;
+  box-sizing: border-box;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont1 ul li .fiq-txt-wrap {
+  display: inline-block;
+  vertical-align: middle;
+  width: 58.33333333vw;
+  margin-right: 6.66666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont1 ul li .fiq-txt-wrap .fiq-tit {
+  font-size: 2.77777778vw;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 1.11111111vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont1 ul li .fiq-txt-wrap .fiq-source {
+  font-size: 2.22222222vw;
+  color: #888;
+  margin-bottom: 2.22222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont1 ul li .fiq-txt-wrap .fiq-source p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2.77777778vw;
+  position: relative;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont1 ul li .fiq-txt-wrap .fiq-source p:nth-child(1):after {
+  content: '';
+  display: block;
+  width: 0.13888889vw;
+  height: 1.11111111vw;
+  position: absolute;
+  right: -1.38888889vw;
+  top: 50%;
+  left: auto;
+  bottom: auto;
+  margin-top: -0.55555556vw;
+  background-color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont1 ul li .fiq-txt-wrap .fiq-txt {
+  font-size: 2.5vw;
+  color: #888;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.2em;
+  height: 1.2em;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont1 ul li .fiq-pic-wrap {
+  width: 30.55555556vw;
+  height: 19.16666667vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont4 {
+  padding-top: 2.77777778vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 2.77777778vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li {
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li .fiq-r {
+  margin-top: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li .fiq-r .fiq-indices-span {
+  padding-right: 5.55555556vw;
+  box-sizing: border-box;
+  position: relative;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li .fiq-r .fiq-indices-span:after {
+  content: '';
+  display: block;
+  width: 3.33333333vw;
+  height: 3.33333333vw;
+  position: absolute;
+  right: 0vw;
+  top: 50%;
+  left: auto;
+  bottom: auto;
+  margin-top: -1.66666667vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/mo/arrow-right.svg');
+  background-size: contain;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li .fiq-depth {
+  margin-top: 1.66666667vw;
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li .fiq-depth li {
+  border-top: 1px solid #ddd;
+  border-bottom: 0;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li .fiq-depth li .fiq-r {
+  margin-top: 2.08333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li .fiq-depth li .fiq-r .fiq-indices-span {
+  padding-right: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li .fiq-depth li .fiq-r .fiq-indices-span:after {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li.fiq-active {
+  padding-top: 2.08333333vw;
+  padding-right: 0vw;
+  padding-bottom: 0vw;
+  padding-left: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li.fiq-active > .fiq-l p {
+  font-size: 3.88888889vw;
+  font-weight: 700;
+  padding-left: 0.83333333vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li.fiq-active > .fiq-r {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li.fiq-active .fiq-depth {
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap {
+  width: 102.3%;
+  overflow: auto;
+  position: relative;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table {
+  border-top: 1px solid #ddd;
+  width: 236.11111111vw;
+  margin-right: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr th {
+  font-size: 2.5vw;
+  font-weight: 400;
+  color: #888;
+  text-align: center;
+  background-color: #F8F8F8;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr:nth-child(1) th:last-child {
+  border-right: 0;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr:nth-child(5n) {
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr td {
+  text-align: center;
+  color: #222;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr td.fiq-up {
+  color: #FF0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr td.fiq-down {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell {
+  width: 46.38888889vw;
+  margin-right: 2.77777778vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell .fiq-t {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell .fiq-t tr th {
+  background-color: #F8F8F8;
+  border-bottom: 1px solid #ddd;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell .fiq-t tr td {
+  color: #222;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell .fiq-t tr td:nth-child(even) {
+  text-align: right;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell + .fiq-cell {
+  margin-right: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-inner-active1 ~ .fiq-dep-table1,
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-inner-active2 ~ .fiq-dep-table2 {
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-ul-wrap {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-inner-active1 ~ .fiq-ul-wrap1,
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-inner-active2 ~ .fiq-ul-wrap2 {
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13 .fiq-section .fiq-cont .fiq-ul1 {
+  border-top: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13 .fiq-section .fiq-cont .fiq-ul1 li {
+  position: relative;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13 .fiq-section .fiq-cont .fiq-ul1 li .fiq-a {
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 95.55555556vw;
+  height: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13 .fiq-section.fiq-sec1 .fiq-top-h .fiq-star {
+  margin-bottom: 0.97222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13 .fiq-section.fiq-sec1 .fiq-top-h .fiq-h2 .fiq-code {
+  font-size: 3.33333333vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13 .fiq-section.fiq-sec1 .fiq-top-h .fiq-h2 .fiq-nm {
+  font-size: 2.5vw;
+  color: #fff;
+  text-align: center;
+  width: 10.83333333vw;
+  height: 4.44444444vw;
+  line-height: 4.44444444vw;
+  background-color: #888;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2.77777778vw;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13 .fiq-section.fiq-sec1 .fiq-top-h .fiq-h2:after {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-2 .fiq-section .fiq-cont .fiq-ul1 {
+  border-top: 0;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-3 .fiq-section.fiq-sec1 {
+  margin-top: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-3 .fiq-section.fiq-sec1 .fiq-cont {
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-3 .fiq-section.fiq-sec2 .fiq-cont .fiq-inner-depth-active1 ~ .fiq-cont-inner-wrap1,
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-3 .fiq-section.fiq-sec2 .fiq-cont .fiq-inner-depth-active2 ~ .fiq-cont-inner-wrap2 {
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-3 .fiq-section.fiq-sec2 .fiq-cont .fiq-cont-inner-wrap ul {
+  border-top: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-3 .fiq-section.fiq-sec2 .fiq-cont .fiq-cont-inner-wrap ul li {
+  border-bottom: 1px solid #ddd;
+  padding-top: 2.63888889vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 2.5vw;
+  padding-left: 1.66666667vw;
+  box-sizing: border-box;
+  text-align: left;
+  zoom: 1;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-3 .fiq-section.fiq-sec2 .fiq-cont .fiq-cont-inner-wrap ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-3 .fiq-section.fiq-sec2 .fiq-cont .fiq-cont-inner-wrap ul li p {
+  font-size: 2.77777778vw;
+  line-height: 3.75vw;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m13-3 .fiq-section.fiq-sec2 .fiq-cont .fiq-cont-inner-wrap ul li span {
+  font-size: 2.5vw;
+  color: #888;
+  display: inline-block;
+  float: right;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m14 .fiq-section .fiq-tab-wrap {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m14 .fiq-section .fiq-cont .fiq-select {
+  width: 100%;
+  height: 8.88888889vw;
+  border: 1px solid #ddd;
+  border-radius: 0.55555556vw;
+  padding-top: 0vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 0vw;
+  padding-left: 1.66666667vw;
+  box-sizing: border-box;
+  margin-bottom: 4.16666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m14 .fiq-section .fiq-cont .fiq-select select {
+  font-size: 2.77777778vw;
+  color: #888;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 {
+  overflow: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section {
+  zoom: 1;
+  padding-top: 6.25vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section h4 {
+  font-size: 4.44444444vw;
+  line-height: 5.97222222vw;
+  text-align: left;
+  color: #000;
+  display: inline-block;
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-main-date {
+  float: right;
+  margin-top: 2.08333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-main-date p {
+  font-size: 2.5vw;
+  line-height: 3.33333333vw;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-top-line {
+  width: 96%;
+  height: 0.41666667vw;
+  border: 0;
+  border-top: 0.5vw solid #222;
+  border-bottom: 1px solid #222;
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-indices .fiq-indices-span span {
+  width: 0vw;
+  height: 0vw;
+  border-left: 0.83vw solid transparent;
+  border-right: 0.83vw solid transparent;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.41666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-indices.fiq-up .fiq-price,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-indices.fiq-up .fiq-indices-span {
+  color: #FF0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-indices.fiq-up .fiq-indices-span span {
+  border-bottom: 1.38vw solid #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-indices.fiq-down .fiq-price,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-indices.fiq-down .fiq-indices-span {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-indices.fiq-down .fiq-indices-span span {
+  border-top: 1.38vw solid #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual {
+  background-color: #363A46;
+  padding-top: 5.55555556vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 0vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual h4 {
+  color: #fff;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-graph {
+  margin-top: 4.16666667vw;
+  margin-right: 0vw;
+  margin-bottom: 6.94444444vw;
+  margin-left: 0vw;
+  padding-top: 0vw;
+  padding-right: 1.38888889vw;
+  padding-bottom: 0vw;
+  padding-left: 1.38888889vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds {
+  padding-top: 0vw;
+  padding-right: 1.38888889vw;
+  padding-bottom: 0vw;
+  padding-left: 1.38888889vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices {
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 8.33333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices .fiq-nm {
+  font-size: 3.33333333vw;
+  line-height: 4.44444444vw;
+  color: #fff;
+  position: relative;
+  padding-left: 3.61111111vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices .fiq-nm:after {
+  content: '';
+  display: block;
+  width: 2.22222222vw;
+  height: 2.22222222vw;
+  position: absolute;
+  left: 0vw;
+  top: 0.97222222vw;
+  right: auto;
+  bottom: auto;
+  border-radius: 50%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices .fiq-price {
+  font-size: 3.33333333vw;
+  line-height: 4.02777778vw;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices .fiq-indices-span {
+  font-size: 2.77777778vw;
+  line-height: 3.33333333vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices .fiq-indices-span span,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices .fiq-indices-span p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices .fiq-indices-span p {
+  margin-right: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices:nth-child(1) .fiq-nm:after {
+  background-color: #E970B5;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices:nth-child(2) .fiq-nm:after {
+  background-color: #F7C790;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices:nth-child(3) .fiq-nm:after {
+  background-color: #3646B0;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices:nth-child(4) .fiq-nm:after {
+  background-color: #3C9FDB;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper {
+  background-color: #F9F9F9;
+  padding-bottom: 4.16666667vw;
+  box-sizing: border-box;
+  margin-top: 5.55555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper h4 {
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper {
+  padding-top: 1.38888889vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 0vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+  height: 32.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide {
+  width: 30.69444444vw;
+  height: 29.30555556vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 1.38888889vw;
+  padding-top: 4.16666667vw;
+  padding-right: 2.5vw;
+  padding-bottom: 4.16666667vw;
+  padding-left: 2.5vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide > p {
+  font-size: 3.33333333vw;
+  line-height: 4.44444444vw;
+  letter-spacing: -0.25vw;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide .fiq-indices .fiq-price {
+  font-size: 3.88888889vw;
+  line-height: 4.16666667vw;
+  margin-top: 1.66666667vw;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide .fiq-indices .fiq-indices-span > p {
+  font-size: 3.33333333vw;
+  color: #000;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
+  margin-right: 0.69444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide .fiq-indices .fiq-indices-span span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide .fiq-indices .fiq-indices-span div p {
+  font-size: 3.05555556vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide .fiq-indices.fiq-up .fiq-indices-span p {
+  color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide .fiq-indices.fiq-down .fiq-indices-span p {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide .fiq-graph {
+  margin-top: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-button {
+  width: 6.94444444vw;
+  height: 6.94444444vw;
+  margin-top: -3.47222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-button:after {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-button.fiq-left-btn {
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-left.svg');
+  background-size: contain;
+  left: 2.08333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-button.fiq-right-btn {
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-right.svg');
+  background-size: contain;
+  right: 2.08333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper.fiq-swiper2 {
+  height: 28.19444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper.fiq-swiper2 .fiq-slide {
+  height: 25.41666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper.fiq-swiper3 .fiq-slide,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper.fiq-swiper4 .fiq-slide {
+  width: 30.69444444vw;
+  height: 27.63888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper.fiq-swiper3 .fiq-button,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper.fiq-swiper4 .fiq-button {
+  margin-top: -4.86111111vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper.fiq-swiper4 .fiq-slide .fiq-indices .fiq-indices-span p {
+  font-size: 3.05555556vw;
+  line-height: 3.75vw;
+  margin-top: 1.38888889vw;
+  font-weight: 400;
+  padding-top: 0.97222222vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 0.83333333vw;
+  padding-left: 2.22222222vw;
+  border-radius: 0.83333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper.fiq-swiper4 .fiq-slide .fiq-indices.fiq-up .fiq-indices-span p {
+  background-color: #FFECEC;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper.fiq-swiper4 .fiq-slide .fiq-indices.fiq-down .fiq-indices-span p {
+  background-color: #EBF2FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell {
+  padding-top: 2.77777778vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 0vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t {
+  width: 46.66666667vw;
+  margin-right: 2.22222222vw;
+  display: inline-block;
+  vertical-align: top;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t tr:nth-child(3n) {
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t tr th,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t tr td {
+  width: 23.33333333vw;
+  font-weight: 400;
+  padding-top: 1.94444444vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 1.94444444vw;
+  padding-left: 1.66666667vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t tr th {
+  font-size: 2.5vw;
+  color: #888;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t tr td {
+  font-size: 3.05555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t tr td:nth-child(1) {
+  text-align: left;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t tr td:nth-child(2) {
+  text-align: right;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t + .fiq-t {
+  margin-right: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap {
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap .fiq-tab {
+  font-size: 3.33333333vw;
+  width: 47.77777778vw;
+  height: 8.88888889vw;
+  line-height: 8.88888889vw;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  border-right: 0;
+  color: #222;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap .fiq-tab:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap .fiq-tab:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-right: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active5 .fiq-tab5 {
+  font-weight: 700;
+  border: 1px solid #222;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab5n .fiq-tab {
+  width: auto;
+  height: auto;
+  line-height: normal;
+  padding-top: 1.25vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0.97222222vw;
+  padding-left: 2.77777778vw;
+  background-color: #F8F8F8;
+  color: #888;
+  border: 0;
+  border-radius: 0.83333333vw;
+  margin-right: 1.38888889vw;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab5n.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab5n.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab5n.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab5n.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab5n.fiq-tab-active5 .fiq-tab5 {
+  background-color: #253081;
+  color: #fff;
+  border: 0;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cont {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-active1 ~ .fiq-cont1,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-active2 ~ .fiq-cont2,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-active3 ~ .fiq-cont3,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-active4 ~ .fiq-cont4,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-active5 ~ .fiq-cont5 {
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec {
+  padding-top: 6.25vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 6.25vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-top-line {
+  width: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec h4 {
+  margin-top: 2.22222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont {
+  zoom: 1;
+  width: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul {
+  margin-top: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li {
+  width: 100%;
+  padding-top: 2.36111111vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 2.36111111vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li div p {
+  font-size: 3.33333333vw;
+  line-height: 3.75vw;
+  color: #222;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li div > span {
+  font-size: 2.77777778vw;
+  line-height: 3.75vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices {
+  float: right;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices .fiq-indices-span p,
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices .fiq-indices-span span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices .fiq-indices-span p {
+  margin-right: 1.38888889vw;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices .fiq-indices-span span + p {
+  font-size: 2.77777778vw;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices .fiq-indices-span span + p + p {
+  font-size: 2.5vw;
+  text-align: center;
+  padding-top: 0.83333333vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 0.83333333vw;
+  padding-left: 1.66666667vw;
+  border-radius: 0.83333333vw;
+  font-weight: 400;
+  margin-left: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices.fiq-up .fiq-indices-span span ~ p {
+  color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices.fiq-up .fiq-indices-span span + p + p {
+  background-color: #FFECEC;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices.fiq-down .fiq-indices-span span ~ p {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices.fiq-down .fiq-indices-span span + p + p {
+  background-color: #EBF2FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li {
+  height: 24.30555556vw;
+  text-align: left;
+  padding-top: 2.77777778vw;
+  padding-right: 0vw;
+  padding-bottom: 2.77777778vw;
+  padding-left: 0vw;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item {
+  zoom: 1;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item span {
+  font-size: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item span.fiq-up {
+  color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item span.fiq-down {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item .fiq-news-img {
+  float: right;
+  margin-left: 8.33333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item .fiq-news-img img {
+  width: 30vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item .fiq-tit {
+  font-size: 3.33333333vw;
+  letter-spacing: -0.33333333vw;
+  line-height: 4.72222222vw;
+  height: 9.44444444vw;
+  color: #222;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item .fiq-date {
+  font-size: 2.5vw;
+  color: #888;
+  margin-top: 1.66666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec.fiq-sec2 {
+  padding-top: 2.22222222vw;
+  padding-right: 0vw;
+  padding-bottom: 2.22222222vw;
+  padding-left: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec.fiq-sec2 .fiq-top-line {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec.fiq-sec2 .fiq-ul-style {
+  padding-top: 0vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 0vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec.fiq-sec2 .fiq-ul-style li .fiq-news-item .fiq-tit {
+  padding-top: 2.5vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-screener {
+  background-color: #18181C;
+  border-radius: 1.38888889vw;
+  padding-top: 4.16666667vw;
+  padding-right: 3.33333333vw;
+  padding-bottom: 4.16666667vw;
+  padding-left: 3.33333333vw;
+  box-sizing: border-box;
+  zoom: 1;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-screener:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-screener div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-screener div .fiq-tit {
+  font-size: 3.88888889vw;
+  letter-spacing: -0.38888889vw;
+  text-align: left;
+  color: #fff;
+  line-height: 5.55555556vw;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-screener div .fiq-search {
+  font-size: 2.77777778vw;
+  line-height: 4.16666667vw;
+  text-align: center;
+  color: #fff;
+  padding-top: 1.25vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 1.25vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+  background-color: #272730;
+  border-radius: 0.83333333vw;
+  margin-top: 2.77777778vw;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-screener img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16.66666667vw;
+  height: 15.27777778vw;
+  float: right;
+  margin-top: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 {
+  background-color: #F8F8F8;
+  padding-top: 5.55555556vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 5.55555556vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 .fiq-tit {
+  font-size: 3.88888889vw;
+  line-height: 4.44444444vw;
+  letter-spacing: -0.09722222vw;
+  font-weight: 700;
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section {
+  background-color: #fff;
+  border-radius: 1.66666667vw;
+  padding-top: 3.88888889vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 3.88888889vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell h2 {
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell h2 span {
+  font-size: 3.33333333vw;
+  color: #888;
+  letter-spacing: -0.08333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-indices {
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-indices .fiq-price {
+  font-size: 4.72222222vw;
+  line-height: 6.25vw;
+  letter-spacing: -0.09444444vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1.66666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-indices .fiq-indices-span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0.69444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-indices .fiq-indices-span span {
+  width: 0vw;
+  height: 0vw;
+  border-left: 0.83vw solid transparent;
+  border-right: 0.83vw solid transparent;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.41666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-indices .fiq-indices-span p {
+  font-size: 2.77777778vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1.66666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-indices.fiq-up {
+  color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-indices.fiq-up .fiq-indices-span span {
+  border-bottom: 1.38vw solid #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-indices.fiq-down {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-indices.fiq-down .fiq-indices-span span {
+  border-top: 1.38vw solid #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell ul {
+  margin-top: 5.55555556vw;
+  margin-right: 0vw;
+  margin-bottom: 5.55555556vw;
+  margin-left: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell ul li {
+  zoom: 1;
+  margin-bottom: 4.16666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell ul li p {
+  font-size: 2.77777778vw;
+  line-height: 3.75vw;
+  text-align: left;
+  width: 58.33333333vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.2em;
+  height: 1.2em;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell ul li span {
+  font-size: 2.5vw;
+  color: #888;
+  float: right;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-t tr th {
+  font-size: 2.5vw;
+  color: #888;
+  line-height: 3.33333333vw;
+  text-align: center;
+  padding-top: 2.36111111vw;
+  padding-right: 0vw;
+  padding-bottom: 2.36111111vw;
+  padding-left: 0vw;
+  box-sizing: border-box;
+  font-weight: 400;
+  background-color: #F8F8F8;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-t tr td {
+  font-size: 2.77777778vw;
+  line-height: 3.75vw;
+  text-align: right;
+  padding-top: 2.22222222vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 2.08333333vw;
+  padding-left: 1.66666667vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-t tr td span {
+  width: 0vw;
+  height: 0vw;
+  border-left: 0.83vw solid transparent;
+  border-right: 0.83vw solid transparent;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-t tr td.fiq-up span {
+  border-bottom: 1.38vw solid #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-t tr td.fiq-down span {
+  border-top: 1.38vw solid #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-t:nth-of-type(3) {
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell .fiq-t:nth-of-type(3) tr td {
+  text-align: center;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 {
+  padding-top: 5.55555556vw;
+  padding-right: 1.52777778vw;
+  padding-bottom: 5.55555556vw;
+  padding-left: 1.52777778vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell {
+  margin-bottom: 5.55555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell .fiq-h2 {
+  margin-bottom: 2.77777778vw;
+  margin-left: 0.69444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell .fiq-btn {
+  font-size: 2.77777778vw;
+  text-align: center;
+  color: #888;
+  margin: 0.69444444vw;
+  width: 17.63888889vw;
+  height: 7.77777778vw;
+  line-height: 7.77777778vw;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 1.11111111vw;
+  background-color: #F8F8F8;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell .fiq-btn.fiq-active {
+  font-weight: 700;
+  color: #253081;
+  border: 1px solid #253081;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell label input[type=radio] + i {
+  width: 17.63888889vw;
+  height: 7.77777778vw;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 1.11111111vw;
+  background-color: #F8F8F8;
+  text-align: center;
+  line-height: 7.77777778vw;
+  margin: 0.69444444vw;
+  font-style: normal;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell label input[type=radio] + i s {
+  font-size: 2.77777778vw;
+  text-align: center;
+  color: #888;
+  text-decoration: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell label input[type=radio]:checked + i {
+  border: 1px solid #253081;
+  box-sizing: border-box;
+  background-color: #fff;
+  line-height: 7.5vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell label input[type=radio]:checked + i s {
+  color: #253081;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell label input[type=radio] {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell1 label input[type=radio] + i {
+  width: 30.27777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell2 label input[type=radio] + i {
+  width: 17.63888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell3 label input[type=radio] + i {
+  width: 22.5vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell3 label input[type=radio] + i span {
+  width: 1.94444444vw;
+  height: 1.66666667vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/mo/ico-triangle.svg');
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1.11111111vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell3 label input[type=radio]:checked + i span {
+  background-repeat: no-repeat;
+  background-image: url('../img/mo/ico-triangle-blue.svg');
+  background-size: contain;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell3 label:nth-of-type(n+5) span {
+  transform: rotate(180deg);
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell3 label:nth-of-type(n+13) input[type=radio] + i {
+  width: 46.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell4 ul li {
+  zoom: 1;
+  margin-bottom: 0.83333333vw;
+  margin-left: 0.69444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell4 ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell4 ul li p {
+  font-size: 2.77777778vw;
+  display: inline-block;
+  line-height: 7.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-cell.fiq-cell4 ul li .btns {
+  float: right;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-search {
+  font-size: 3.88888889vw;
+  color: #fff;
+  font-weight: 700;
+  width: 95.55555556vw;
+  height: 11.11111111vw;
+  line-height: 11.11111111vw;
+  text-align: center;
+  display: inline-block;
+  border-radius: 1.11111111vw;
+  background-color: #253081;
+  margin-left: 0.69444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul {
+  margin-top: 5.55555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li {
+  width: 100%;
+  padding-top: 2.36111111vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 2.36111111vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li div p {
+  font-size: 3.33333333vw;
+  line-height: 3.75vw;
+  color: #222;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li div > span {
+  font-size: 2.77777778vw;
+  line-height: 3.75vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices {
+  float: right;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices .fiq-indices-span span {
+  width: 0vw;
+  height: 0vw;
+  border-left: 0.83vw solid transparent;
+  border-right: 0.83vw solid transparent;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.41666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices .fiq-indices-span p,
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices .fiq-indices-span span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices .fiq-indices-span p {
+  margin-right: 1.38888889vw;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices .fiq-indices-span span + p {
+  font-size: 2.77777778vw;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices .fiq-indices-span span + p + p {
+  font-size: 2.5vw;
+  text-align: center;
+  padding-top: 0.83333333vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 0.83333333vw;
+  padding-left: 1.66666667vw;
+  border-radius: 0.83333333vw;
+  font-weight: 400;
+  margin-left: 2.77777778vw;
+  color: #fff;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices.fiq-up .fiq-indices-span span {
+  border-bottom: 1.38vw solid #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices.fiq-up .fiq-indices-span span ~ p {
+  color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices.fiq-up .fiq-indices-span span + p + p {
+  background-color: #FF0000;
+  color: #fff;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices.fiq-down .fiq-indices-span span {
+  border-top: 1.38vw solid #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices.fiq-down .fiq-indices-span span ~ p {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li .fiq-indices.fiq-down .fiq-indices-span span + p + p {
+  background-color: #2175FF;
+  color: #fff;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 {
+  padding-top: 5.55555556vw;
+  padding-right: 1.38888889vw;
+  padding-bottom: 5.55555556vw;
+  padding-left: 1.38888889vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-h2 {
+  margin-left: 0.83333333vw;
+  margin-bottom: 3.88888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block {
+  margin-bottom: 5.55555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell {
+  width: 30.69444444vw;
+  height: 27.5vw;
+  margin: 0.83333333vw;
+  border: 1px solid #DDDDDD;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 4.16666667vw;
+  padding-right: 2.5vw;
+  padding-bottom: 4.16666667vw;
+  padding-left: 2.5vw;
+  box-sizing: border-box;
+  border-radius: 1.38888889vw;
+  text-align: left;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell .fiq-tit {
+  font-size: 3.33333333vw;
+  line-height: 4.44444444vw;
+  font-weight: 700;
+  letter-spacing: -0.25vw;
+  margin-bottom: 2.08333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell .fiq-tit span {
+  width: 3.88888889vw;
+  height: 3.88888889vw;
+  margin-right: 1.11111111vw;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-coin-logo.png');
+  background-size: contain;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell .fiq-price {
+  font-size: 3.88888889vw;
+  font-weight: 700;
+  margin-bottom: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell .fiq-per {
+  font-size: 3.05555556vw;
+  width: 13.33333333vw;
+  height: 5.55555556vw;
+  line-height: 5.55555556vw;
+  text-align: center;
+  border-radius: 0.83333333vw;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell.fiq-down .fiq-price {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell.fiq-down .fiq-per {
+  background-color: #EBF2FF;
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell.fiq-up .fiq-price {
+  color: #FF0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell.fiq-up .fiq-per {
+  background-color: #FFECEC;
+  color: #FF0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul {
+  padding-top: 0vw;
+  padding-right: 0.83333333vw;
+  padding-bottom: 0vw;
+  padding-left: 0.83333333vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul li {
+  border-bottom: 1px solid #DDDDDD;
+  margin-bottom: 2.77777778vw;
+  zoom: 1;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul li .fiq-l {
+  width: 56.38888889vw;
+  text-align: left;
+  position: relative;
+  height: 21.52777778vw;
+  display: inline-block;
+  vertical-align: top;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul li .fiq-l .fiq-tit {
+  font-size: 3.33333333vw;
+  line-height: 4.72222222vw;
+  letter-spacing: -0.33333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul li .fiq-l span {
+  font-size: 2.5vw;
+  line-height: 3.05555556vw;
+  color: #888;
+  position: absolute;
+  left: 0vw;
+  bottom: 2.77777778vw;
+  right: auto;
+  top: auto;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul li img {
+  width: 30vw;
+  height: 18.75vw;
+  display: inline-block;
+  float: right;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul.fiq-column li .fiq-l {
+  vertical-align: middle;
+  padding-top: 4.16666667vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul.fiq-column li .fiq-l span {
+  font-size: 2.77777778vw;
+  position: relative;
+  margin-bottom: 2.22222222vw;
+  bottom: auto;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block ul.fiq-column li img {
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type {
+  padding-top: 4.16666667vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 4.16666667vw;
+  padding-left: 2.22222222vw;
+  box-sizing: border-box;
+  border: 1px solid #DDDDDD;
+  margin-top: 0vw;
+  margin-right: 0.83333333vw;
+  margin-bottom: 1.66666667vw;
+  margin-left: 0.83333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type .fiq-tit {
+  font-size: 2.77777778vw;
+  color: #888;
+  line-height: 3.75vw;
+  font-weight: 700;
+  margin-bottom: 2.08333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type ul {
+  padding: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type ul li {
+  margin: 0vw;
+  zoom: 1;
+  line-height: 5.55555556vw;
+  height: 5.55555556vw;
+  border-bottom: 0;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type ul li p {
+  font-size: 3.05555556vw;
+  letter-spacing: -0.22916667vw;
+  display: inline-block;
+  color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type ul li span {
+  font-size: 3.05555556vw;
+  text-align: right;
+  float: right;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 {
+  zoom: 1;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-img {
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-logos {
+  float: right;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-logos span {
+  width: 3.88888889vw;
+  height: 3.88888889vw;
+  border-radius: 0.27777778vw;
+  background-color: #000000;
+  display: inline-block;
+  position: relative;
+  margin-left: 0.55555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-logos span:nth-child(1):after {
+  content: '';
+  display: block;
+  width: 2.22222222vw;
+  height: 3.19444444vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-g.svg');
+  background-size: contain;
+  transform: translate(-50%, -50%);
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-logos span:nth-child(2):after {
+  content: '';
+  display: block;
+  width: 1.80555556vw;
+  height: 2.36111111vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-i.svg');
+  background-size: contain;
+  transform: translate(-50%, -50%);
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-status {
+  margin-top: 4.44444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-status p {
+  font-size: 2.77777778vw;
+  display: inline-block;
+  vertical-align: middle;
+  width: 17.63888889vw;
+  height: 7.77777778vw;
+  line-height: 7.77777778vw;
+  text-align: center;
+  color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-status p.fiq-active {
+  font-weight: 700;
+  line-height: 7.77777778vw;
+  border: 1px solid #222;
+  border-radius: 1.11111111vw;
+  box-sizing: border-box;
+  color: #222;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-img {
+  width: 28.05555556vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/investing.png');
+  background-size: contain;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type2 .fiq-img {
+  width: 35.83333333vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-e-logo.png');
+  background-size: contain;
+  margin-bottom: 2.22222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type3 .fiq-img {
+  width: 29.86111111vw;
+  height: 5vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-g-logo.png');
+  background-size: contain;
+  margin-bottom: 2.22222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-wrap {
+  padding-left: 0.83333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-wrap .fiq-tab {
+  font-size: 2.77777778vw;
+  width: 31.80555556vw;
+  height: 7.77777778vw;
+  line-height: 7.77777778vw;
+  text-align: center;
+  color: #888;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cont {
+  border: 1px solid #ddd;
+  display: none;
+  width: 95.41666667vw;
+  margin-left: 0.83333333vw;
+  padding-top: 3.47222222vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 4.86111111vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cont .fiq-tit {
+  font-size: 3.88888889vw;
+  letter-spacing: -0.29166667vw;
+  text-align: center;
+  line-height: 5vw;
+  vertical-align: middle;
+  margin-bottom: 3.88888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cont .fiq-tit span {
+  width: 5vw;
+  height: 5vw;
+  margin-right: 1.38888889vw;
+  margin-top: -0.69444444vw;
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-coin-logo.png');
+  background-size: contain;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cont .fiq-txt {
+  font-size: 2.77777778vw;
+  text-align: left;
+  line-height: 4.72222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active6 .fiq-tab6,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active7 .fiq-tab7,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active8 .fiq-tab8,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active9 .fiq-tab9 {
+  border: 1px solid #222;
+  color: #222;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active1 ~ .fiq-cont1,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active2 ~ .fiq-cont2,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active3 ~ .fiq-cont3,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active4 ~ .fiq-cont4,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active5 ~ .fiq-cont5,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active6 ~ .fiq-cont6,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active7 ~ .fiq-cont7,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active8 ~ .fiq-cont8,
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active9 ~ .fiq-cont9 {
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page18 section .graph {
+  margin-bottom: 5.55555556vw;
+  width: 95.55555556vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (prefers-color-scheme: dark) {
+  h2.fiq-h2 {
+    color: #888;
+  }
+  span.fiq-s-line {
+    width: 100%;
+    height: 0.27777778vw;
+    background-color: #fff;
+    margin-top: 2.77777778vw;
+    margin-right: 0vw;
+    margin-bottom: 2.77777778vw;
+    margin-left: 0vw;
+    display: inline-block;
+  }
+  span.fiq-d-line {
+    width: 100%;
+    height: 0.27777778vw;
+    background-color: #fff;
+    margin-top: 2.77777778vw;
+    margin-right: 0vw;
+    margin-bottom: 2.77777778vw;
+    margin-left: 0vw;
+    display: inline-block;
+    position: relative;
+  }
+  .fiq-container .fiq-wrap {
+    font-size: 0vw;
+  }
+  .fiq-container .fiq-wrap .fiq-article .fiq-section {
+    border-color: #ddd;
+    background-color: #1c1c1e;
+  }
+  .fiq-contents {
+    border-width: 0.5px;
+    border-color: #323235;
+  }
+  .fiq-icon-search {
+    filter: invert(1);
+  }
+}
+/*# sourceMappingURL=style-mo.css.map */

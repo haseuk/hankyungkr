@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="65712159-d304-4103-b8bd-9e3edc5cd237" name="hankyungkr" url="http://hankyungkr.devcraft.kr">
+        <fileTransfer rootFolder="/var/www/hankyungkr" accessType="SFTP" host="devcraft.kr" port="22" sshConfigId="a0a7e795-6f30-49cc-9500-0f9bca65e2fb" sshConfig="root@devcraft.kr:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

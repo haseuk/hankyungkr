@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>한경증권-관리자</title>
+  <link rel="stylesheet" href="https://static.hankyung.com/css/www/w/common.ui.all.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <script type="text/javascript" src="https://static.hankyung.com/plugin/jquery-1.12.4.min.js"></script>
+  <script src="https://static.hankyung.com/plugin/jquery.cookie.js"></script>
+</head>
+<body>
+<!--[if lte IE 9]>
+<div class="browser-support-info">
+  <div class="layout-inner">
+    <div class="info-txt">
+      <p>귀하의 웹 브라우저(Internet Explorer)는 오래되었습니다. 현재 이용 중인 웹브라우저에서 일부 기능이 지원되지 않습니다.</p>
+      <p>무료이며 우수한 최신 브라우저 중 하나를 다운로드하세요.</p>
+    </div>
+    <div class="browser-list">
+      <a href="https://www.google.com/chrome/" target="_blank" class="chrome"><img src="https://static.hankyung.com/img/www/w/common/icon-browser-chrome.png" alt="Chrome"></a>
+      <a href="https://www.microsoft.com/ko-kr/edge" target="_blank" class="edge"><img src="https://static.hankyung.com/img/www/w/common/icon-browser-edge.png" alt="Edge"></a>
+      <a href="https://www.mozilla.org/ko/firefox/new/" target="_blank" class="firefox"><img src="https://static.hankyung.com/img/www/w/common/icon-browser-firefox.png" alt="Firefox"></a>
+      <a href="https://browser-update.org/ko/update.html?force_outdated=true" target="_blank" class="opera"><img src="https://static.hankyung.com/img/www/w/common/icon-browser-opera.png" alt="Opera"></a>
+    </div>
+    <button type="button" class="btn-close-info"><span class="blind">브라우저 안내 닫기</span></button>
+  </div>
+</div>
+<![endif]-->
+
+<div id="wrap" class="koreamarket"> <!-- [D] 코리아마켓 전용 클래스(.koreamarket) -->
+  <div id="inner">
+
+
+    <!-- [D] 파이낸셜아이큐 클래스 : .fiq-* 사용 -->
+    <div id="container" class="fiq-container">
+      <div class="inner">
+        <div class="fiq-admin fiq-insert-page">
+          <div class="fiq-top">
+            <p class="fiq-top-txt"><span>한경</span> 컨센서스 매니저</p>
+            <a class="fiq-logout">로그아웃</a>
+          </div>
+
+          <div class="fiq-tab-wrap fiq-tab-wrap1 fiq-tab1-active">
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">기업</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">산업</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn3" data-tab="3">시장</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn4" data-tab="4">경제</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn5" data-tab="5">외환</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn6" data-tab="6">채권</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn7" data-tab="7">펀드</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn8" data-tab="8">퀀트</a>
+            <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn9" data-tab="9">해외</a>
+          </div>
+
+          <div class="fiq-breadcrumbs">HOME > <span></span><span> > 레포트 정보 입력/관리</span></div>
+          <div class="fiq-top-tit"><h3>레포트 정보 입력/관리</h3></div>
+
+          <div class="fiq-cont fiq-cont1">
+            <div class="fiq-inner-cont">
+              <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
+                <colgroup>
+                  <col width="120">
+                  <col width="417">
+                  <col width="181">
+                  <col width="417">
+                </colgroup>
+                <tbody>
+                  <tr>
+                    <td>레포트 아이디</td>
+                    <td><input type="text" class="fiq-gray"></td>
+                    <td>구분코드</td>
+                    <td>
+                      <div class="fiq-select">
+                        <select>
+                          <option value=""></option>
+                        </select>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>종목코드(종목명)</td>
+                    <td>
+                      <div class="fiq-input">
+                        <input type="text">
+                        <a class="fiq-a fiq-find"></a>
+                      </div>
+                    </td>
+                    <td>산업코드</td>
+                    <td>
+                      <div class="fiq-input">
+                        <input type="text">
+                        <a class="fiq-a fiq-find"></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>작성자</td>
+                    <td><input type="text"></td>
+                    <td>발생기관</td>
+                    <td>
+                      <div class="fiq-input">
+                        <input type="text">
+                        <a class="fiq-a fiq-find"></a>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>작성일</td>
+                    <td><input type="date"></td>
+                    <td>첨부파일</td>
+                    <td>
+                      <div class="fiq-file-box">
+                        <input type="text" class="fiq-upload-name">
+                        <label for="fiq-file">검색</label>
+                        <input type="file" id="fiq-file">
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>투자의견</td>
+                    <td><input type="text"></td>
+                    <td>목표주가</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>이전 투자의견</td>
+                    <td><input type="text" class="fiq-gray"></td>
+                    <td>이전 목표주가</td>
+                    <td><input type="text" class="fiq-gray"></td>
+                  </tr>
+                  <tr>
+                    <td>투자의견 변동</td>
+                    <td><input type="text" class="fiq-gray"></td>
+                    <td>목표주가 변동</td>
+                    <td><input type="text" class="fiq-gray"></td>
+                  </tr>
+                  <tr>
+                    <td>결산기</td>
+                    <td><input type="text"></td>
+                    <td>예상 매출액</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>예상 영업이익</td>
+                    <td><input type="text"></td>
+                    <td>예상 순이익</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>예상 EPS</td>
+                    <td><input type="text"></td>
+                    <td>예상 PER</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>예상 PBR</td>
+                    <td><input type="text"></td>
+                    <td>예상 EV/EBITDA</td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td>예상 ROE</td>
+                    <td><input type="text"></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>제목</td>
+                    <td colspan="3"><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td class="fiq-textarea">본문</td>
+                    <td colspan="3"><textarea></textarea></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="fiq-btns">
+              <a class="fiq-a fiq-list-go">목록</a>
+              <a class="fiq-a fiq-add">등록</a>
+            </div>
+          </div>
+
+          <div class="fiq-search-popup">
+            <div class="fiq-dim"></div>
+            <div class="fiq-pop-inner">
+              <div class="fiq-top">
+                <input type="text">
+                <a class="fiq-a">검색</a>
+              </div>
+              <div class="fiq-search-cont">
+                <div class="fiq-h">
+                  <p>종목(산업/발행) 코드</p>
+                  <p>종목(산업/발행기관) 명</p>
+                </div>
+                <div class="fiq-table-wrap">
+                  <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                    <colgroup>
+                      <col width="50%">
+                      <col width="50%">
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <td class="txt-num">005380</td>
+                        <td>현대차</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005360</td>
+                        <td>모나미</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005390</td>
+                        <td>신성통상</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005320</td>
+                        <td>국동</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005300</td>
+                        <td>롯데칠성</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005385</td>
+                        <td>현대차우</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005387</td>
+                        <td>현대차2우B</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005389</td>
+                        <td>현대차3우B</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005305</td>
+                        <td>롯데칠성우</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005380</td>
+                        <td>현대차</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005360</td>
+                        <td>모나미</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005390</td>
+                        <td>신성통상</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005320</td>
+                        <td>국동</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005300</td>
+                        <td>롯데칠성</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005385</td>
+                        <td>현대차우</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005387</td>
+                        <td>현대차2우B</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005389</td>
+                        <td>현대차3우B</td>
+                      </tr>
+                      <tr>
+                        <td class="txt-num">005305</td>
+                        <td>롯데칠성우</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <a class="fiq-a fiq-list-view">목록</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // 파이낸셜아이큐 -->
+
+  </div>
+</div>
+<script src="js/fiq-polyfill.js"></script>
+<script src="js/fiq-common.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="우측화살표" transform="translate(-1284.97 -1001.97)">
+    <circle id="원버튼" cx="25" cy="25" r="25" transform="translate(1284.97 1001.97)" fill="#888"/>
+    <path id="화살표" d="M1306.97,1037.349v-2l8.382-8.381-8.382-8.382v-2l10.382,10.382-10.38,10.379Z" fill="#fff"/>
+  </g>
+</svg>

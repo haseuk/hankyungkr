@@ -1,7 +1,7 @@
 window.onload = function() {
   printTime();
 }
-let timeTxt = document.querySelector('.fiq-date-time');
+let timeTxt = document.querySelectorAll('.fiq-date-time');
 function printTime() {
   let dateInfo = new Date();
   let year = dateInfo.getFullYear();
@@ -10,7 +10,10 @@ function printTime() {
   let hours = modifyNumber(dateInfo.getHours());
   let minutes = modifyNumber(dateInfo.getMinutes());
   let seconds = modifyNumber(dateInfo.getSeconds());
-  if(timeTxt)timeTxt.innerHTML = (year + '/' + month + '/' + date + ' ' + ' | ' + hours + ':' + minutes + ':' + seconds);
+  // if(timeTxt)timeTxt.innerHTML = (year + '/' + month + '/' + date + ' ' + ' | ' + hours + ':' + minutes + ':' + seconds);
+  Array.prototype.forEach.call(timeTxt, function(e) {
+    e.innerHTML = (year + '/' + month + '/' + date + ' ' + ' | ' + hours + ':' + minutes + ':' + seconds);
+  });
   setTimeout('printTime()', 1000);
 }
 function modifyNumber(time){

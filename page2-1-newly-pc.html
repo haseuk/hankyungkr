@@ -328,651 +328,649 @@
     <!-- [D] 파이낸셜아이큐 클래스 : .fiq-* 사용 -->
   <div id="container" class="fiq-container">
     <div class="inner">
-      <div class="fiq-wrap" style="overflow: hidden;">
-        <article class="fiq-article fiq-page1 fiq-page3s fiq-edit">
-          <section class="fiq-section fiq-sec1">
-            <div class="fiq-top fiq-view">
-              <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 삼성전자 005930 <span>코스피</span></p>
-                <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                <div class="fiq-indices txt-num fiq-up">
-                  <p class="fiq-price">2,985.27</p>
-                  <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
+      <div class="fiq-wrap fiq-newly">
+        <article class="fiq-article fiq-page1s">
+          <div class="fiq-top-title">
+            <h2 class="fiq-h2">주요시세</h2>
+            <span class="fiq-h2-span">※ 당일 종목별 매매상위 5개 회원사 정보를 이용한 추정치임</span>
+          </div>
+          <section class="fiq-section">
+            <div class="fiq-tabs-wrap fiq-tab-type-a fiq-tabs-wrap1 fiq-tabs-wrap-7n fiq-top-active1">
+              <a class="fiq-a fiq-top-tab fiq-top-tab1" data-tab-cl="1">업종등락</a>
+              <a class="fiq-a fiq-top-tab fiq-top-tab2" data-tab-cl="2">시가총액</a>
+              <a class="fiq-a fiq-top-tab fiq-top-tab3" data-tab-cl="3">거래량</a>
+              <a class="fiq-a fiq-top-tab fiq-top-tab4" data-tab-cl="4">상승종목</a>
+              <a class="fiq-a fiq-top-tab fiq-top-tab5" data-tab-cl="5">하락종목</a>
+              <a class="fiq-a fiq-top-tab fiq-top-tab6" data-tab-cl="6">신규상장</a>
+              <a class="fiq-a fiq-top-tab fiq-top-tab7" data-tab-cl="7">관리종목</a>
+            </div>
+
+            <!-- ####### 업종등락 탭 #######-->
+            <div class="fiq-tab-sibl fiq-tab-sibl1">
+              <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap1 fiq-tab2n fiq-tab1-active">
+                <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">코스피</a>
+                <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">코스닥</a>
               </div>
-              <div class="fiq-cell">
+
+              <div class="fiq-cont fiq-cont1 fiq-page2-1">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="295">
+                    <col width="85">
+                    <col width="85">
+                    <col width="85">
+                    <col width="85">
+                    <col width="85">
+                    <col width="85">
+                    <col width="85">
+                    <col width="85">
+                    <col width="85">
+                    <col width="60">
+                    <col width="60">
                   </colgroup>
+                  <thead>
+                  <tr>
+                    <th scope="col">종목명</th>
+                    <th scope="col">현재가</th>
+                    <th scope="col">전일비</th>
+                    <th scope="col">등락률</th>
+                    <th scope="col">액면가</th>
+                    <th scope="col">시가총액</th>
+                    <th scope="col">상장주식수</th>
+                    <th scope="col">외국인비율</th>
+                    <th scope="col">거래량</th>
+                    <th scope="col">PER</th>
+                    <th scope="col">ROE</th>
+                    <th scope="col">토론실</th>
+                  </tr>
+                  </thead>
+                  <!-- ####### td에 fiq-up클래스 들어가면 등락률칸에 상승 빨간색 #######-->
+                  <!-- ####### td에 fiq-down클래스 들어가면 등락률칸에 하락 파란색 #######-->
                   <tbody>
-                    <tr>
-                      <td>전일종가</td>
-                      <td class="txt-num">1,000.00</td>
-                      <td>거래량(천주)</td>
-                      <td class="txt-num">1,000,000.00</td>
-                    </tr>
-                    <tr>
-                      <td>시가</td>
-                      <td class="txt-num">1,000.00</td>
-                      <td>거래대금</td>
-                      <td class="txt-num">1,000.00</td>
-                    </tr>
-                    <tr>
-                      <td>고가</td>
-                      <td class="txt-num">1,000.00</td>
-                      <td>52주 고가</td>
-                      <td class="txt-num">1,000,000.00</td>
-                    </tr>
-                    <tr>
-                      <td>저가</td>
-                      <td class="txt-num">1,000.00</td>
-                      <td>52주 저가</td>
-                      <td class="txt-num">1,000,000.00</td>
-                    </tr>
+                  <tr class="fiq-up">
+                    <td>넥스트사이언스<br><span class="code">00354</span></td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num"><span></span>13,000</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">1,200</td>
+                    <td class="txt-num">8,530,200</td>
+                    <td class="txt-num">8,530,200</td>
+                    <td class="txt-num">34.25</td>
+                    <td class="txt-num">8,530,200</td>
+                    <td class="txt-num">34.25</td>
+                    <td class="txt-num">34.25</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>대성산업<br><span class="code">00354</span></td>
+                    <td class="txt-num">3,010</td>
+                    <td class="txt-num"><span></span>800</td>
+                    <td class="txt-num">+0.36%</td>
+                    <td class="txt-num">9,010</td>
+                    <td class="txt-num">989,010</td>
+                    <td class="txt-num">989,010</td>
+                    <td class="txt-num">23.22</td>
+                    <td class="txt-num">989,010</td>
+                    <td class="txt-num">23.22</td>
+                    <td class="txt-num">23.22</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>카카오<br><span class="code">00354</span></td>
+                    <td class="txt-num">24,710</td>
+                    <td class="txt-num"><span></span>2,500</td>
+                    <td class="txt-num">+2.00%</td>
+                    <td class="txt-num">710</td>
+                    <td class="txt-num">124,710</td>
+                    <td class="txt-num">124,710</td>
+                    <td class="txt-num">47.96</td>
+                    <td class="txt-num">124,710</td>
+                    <td class="txt-num">47.96</td>
+                    <td class="txt-num">47.96</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-down">
+                    <td>비케이탑스<br><span class="code">00354</span></td>
+                    <td class="txt-num">6,820</td>
+                    <td class="txt-num"><span></span>3,000</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">6,820</td>
+                    <td class="txt-num">236,820</td>
+                    <td class="txt-num">236,820</td>
+                    <td class="txt-num">8.30</td>
+                    <td class="txt-num">236,820</td>
+                    <td class="txt-num">8.30</td>
+                    <td class="txt-num">8.30</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>신세계 I&C<br><span class="code">00354</span></td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num"><span></span>43,000</td>
+                    <td class="txt-num">+1.69%</td>
+                    <td class="txt-num">700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">78.44</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">78.44</td>
+                    <td class="txt-num">78.44</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>삼성바이오로직스<br><span class="code">00354</span></td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num"><span></span>8,300</td>
+                    <td class="txt-num">-3.79%</td>
+                    <td class="txt-num">1,200</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">5.98</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">5.98</td>
+                    <td class="txt-num">5.98</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-down">
+                    <td>카카오뱅크<br><span class="code">00354</span></td>
+                    <td class="txt-num">3,010</td>
+                    <td class="txt-num"><span></span>16,200</td>
+                    <td class="txt-num">+0.36%</td>
+                    <td class="txt-num">3,010</td>
+                    <td class="txt-num">873,010</td>
+                    <td class="txt-num">873,010</td>
+                    <td class="txt-num">12.56</td>
+                    <td class="txt-num">873,010</td>
+                    <td class="txt-num">12.56</td>
+                    <td class="txt-num">12.56</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>퓨런티어<br><span class="code">00354</span></td>
+                    <td class="txt-num">24,710</td>
+                    <td class="txt-num"><span></span>150</td>
+                    <td class="txt-num">+2.00%</td>
+                    <td class="txt-num">410</td>
+                    <td class="txt-num">1,224,710</td>
+                    <td class="txt-num">1,224,710</td>
+                    <td class="txt-num">87.44</td>
+                    <td class="txt-num">1,224,710</td>
+                    <td class="txt-num">87.44</td>
+                    <td class="txt-num">87.44</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>네이버<br><span class="code">00354</span></td>
+                    <td class="txt-num">6,820</td>
+                    <td class="txt-num"><span></span>8,150</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">820</td>
+                    <td class="txt-num">766,820</td>
+                    <td class="txt-num">766,820</td>
+                    <td class="txt-num">13.56</td>
+                    <td class="txt-num">766,820</td>
+                    <td class="txt-num">13.56</td>
+                    <td class="txt-num">13.56</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-down">
+                    <td>풀무원<br><span class="code">00354</span></td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num"><span></span>1,300</td>
+                    <td class="txt-num">-13.69%</td>
+                    <td class="txt-num">700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">45.66</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">45.66</td>
+                    <td class="txt-num">45.66</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>넥스트사이언스<br><span class="code">00354</span></td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num"><span></span>880</td>
+                    <td class="txt-num">-0.74%</td>
+                    <td class="txt-num">200</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">84.22</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">84.22</td>
+                    <td class="txt-num">84.22</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>대성산업<br><span class="code">00354</span></td>
+                    <td class="txt-num">3,010</td>
+                    <td class="txt-num"><span></span>3,700</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">110</td>
+                    <td class="txt-num">2,343,010</td>
+                    <td class="txt-num">2,343,010</td>
+                    <td class="txt-num">3.56</td>
+                    <td class="txt-num">2,343,010</td>
+                    <td class="txt-num">3.56</td>
+                    <td class="txt-num">3.56</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-down">
+                    <td>카카오<br><span class="code">00354</span></td>
+                    <td class="txt-num">24,710</td>
+                    <td class="txt-num"><span></span>1,300</td>
+                    <td class="txt-num">-8.21%</td>
+                    <td class="txt-num">310</td>
+                    <td class="txt-num">924,710</td>
+                    <td class="txt-num">924,710</td>
+                    <td class="txt-num">23.44</td>
+                    <td class="txt-num">924,710</td>
+                    <td class="txt-num">23.44</td>
+                    <td class="txt-num">23.44</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>비케이탑스<br><span class="code">00354</span></td>
+                    <td class="txt-num">6,820</td>
+                    <td class="txt-num"><span></span>300</td>
+                    <td class="txt-num">-17.73%</td>
+                    <td class="txt-num">820</td>
+                    <td class="txt-num">996,820</td>
+                    <td class="txt-num">996,820</td>
+                    <td class="txt-num">5.46</td>
+                    <td class="txt-num">996,820</td>
+                    <td class="txt-num">5.46</td>
+                    <td class="txt-num">5.46</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>신세계 I&C<br><span class="code">00354</span></td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num"><span class="fiq-increase"></span>13,700</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">3,700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">13.56</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">13.56</td>
+                    <td class="txt-num">13.56</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="fiq-section fiq-sec2">
-            <div class="fiq-tab-wrap fiq-tab-wrap1 fiq-tab7n fiq-tab6-active">
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">공시 · 공매도</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">매매동향</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn3" data-tab="3">기업정보</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn4 txt-en" data-tab="4">ESG</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn5" data-tab="5">리포트</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn6" data-tab="6">컨센서스</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn7" data-tab="7">토론</a>
-            </div>
-
-            <!-- ####### 공시 공매도 탭 #######-->
-            <div class="fiq-cont fiq-cont1">
-              <div class="fiq-inner-tab-wrap fiq-inner-tab1-active">
-                <a class="fiq-a fiq-inner-tab1 fiq-inner-tab">공시</a>
-                <span class="fiq-point"> · </span>
-                <a class="fiq-a fiq-inner-tab2 fiq-inner-tab">공매도</a>
-              </div>
-              <div class="fiq-inner-cont fiq-inner-cont1">
-                <ul>
-                  <li><p>삼성전자㈜ 주주명부폐쇄기간 또는 기준일 설정</p><span class="txt-num">2021.12.16.04.58</span></li>
-                  <li><p>삼성전자㈜ 주주명부폐쇄기간 또는 기준일 설정</p><span class="txt-num">2021.12.16.04.58</span></li>
-                  <li><p>삼성전자㈜ 전환사채 발행후만기전 사채취득(3회차)</p><span class="txt-num">2021.12.16.04.58</span></li>
-                  <li><p>삼성전자㈜ 전환가액 조정</p><span class="txt-num">2021.12.16.04.58</span></li>
-                </ul>
-              </div>
-              <div class="fiq-inner-cont fiq-inner-cont2">
-                <!-- ####### 아래 div삭제 #######-->
-                <div style="font-size:18px;background:#D9EFFF;width: 100%;height: 100%;text-align: center;line-height: 304px;">iframe 들어갈 자리</div>
-              </div>
-            </div>
-            <!-- ####### 매매동향 탭 #######-->
-            <div class="fiq-cont fiq-cont2">
-              <div class="fiq-box">
-                <div class="fiq-legend">
-                  <p>외국인</p>
-                  <p>기관</p>
-                  <p>주가</p>
-                </div>
-
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph7.png" alt="" style="display: block; width: 100%;">
-                </div>
-              </div>
-              <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
-                <colgroup>
-                  <col width="131">
-                  <col width="131">
-                  <col width="131">
-                  <col width="131">
-                  <col width="131">
-                  <col width="131">
-                  <col width="131">
-                  <col width="131">
-                </colgroup>
-                <thead>
-                  <tr>
-                    <th scope="col" rowspan="2">일자</th>
-                    <th scope="col" rowspan="2">종가</th>
-                    <th scope="col" rowspan="2">전일비</th>
-                    <th scope="col" rowspan="2">등락률</th>
-                    <th scope="col" rowspan="2">거래량</th>
-                    <th scope="col">기관</th>
-                    <th scope="col" colspan="3">외국인</th>
-                  </tr>
-                  <tr>
-                    <th>순매매량</th>
-                    <th>순매매량</th>
-                    <th>보유주수</th>
-                    <th>보유율</th>
-                  </tr>
-                </thead>
-                <!-- ####### td에 fiq-up클래스 들어가면 등락률칸에 상승 빨간색 #######-->
-                <!-- ####### td에 fiq-down클래스 들어가면 등락률칸에 하락 파란색 #######-->
-                <tbody>
-                  <tr>
-                    <td class="txt-num">2021-12-16</td>
-                    <td class="txt-num">118,500</td>
-                    <td class="txt-num">0</td>
-                    <td class="txt-num">0.00</td>
-                    <td class="txt-num">1,070,233</td>
-                    <td class="txt-num fiq-down">-118,512</td>
-                    <td class="txt-num fiq-up">+161,402</td>
-                    <td class="txt-num">137,985,074</td>
-                    <td class="txt-num">30.95</td>
-                  </tr>
-                  <tr>
-                    <td class="txt-num">2021-12-16</td>
-                    <td class="txt-num">118,500</td>
-                    <td class="txt-num">0</td>
-                    <td class="txt-num">0.00</td>
-                    <td class="txt-num">1,070,233</td>
-                    <td class="txt-num fiq-down">-118,512</td>
-                    <td class="txt-num fiq-down">-161,402</td>
-                    <td class="txt-num">137,985,074</td>
-                    <td class="txt-num">30.95</td>
-                  </tr>
-                  <tr>
-                    <td class="txt-num">2021-12-16</td>
-                    <td class="txt-num">118,500</td>
-                    <td class="txt-num">0</td>
-                    <td class="txt-num">0.00</td>
-                    <td class="txt-num">1,070,233</td>
-                    <td class="txt-num fiq-up">+118,512</td>
-                    <td class="txt-num fiq-up">+161,402</td>
-                    <td class="txt-num">137,985,074</td>
-                    <td class="txt-num">30.95</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-            <!-- ####### 기업정보 탭 #######-->
-            <div class="fiq-cont fiq-cont3">
-              <div class="cont-wrap">
-                <p class="fiq-tit">기업의 개요</p>
-                <div class="iframe-wrap">
-                  <!-- ####### 아래 div삭제 #######-->
-                  <div style="font-size:18px;background:#D9EFFF;width: 100%;height: 100%;text-align: center;line-height: 160px;">iframe 들어갈 자리</div>
-                </div>
-              </div>
-              <div class="cont-wrap">
-                <p class="fiq-tit">주요재무</p>
-                <div class="iframe-wrap">
-                  <!-- ####### 아래 div삭제 #######-->
-                  <div style="font-size:18px;background:#D9EFFF;width: 100%;height: 100%;text-align: center;line-height: 412px;">iframe 들어갈 자리</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- ####### ESG 탭 #######-->
-            <div class="fiq-cont fiq-cont4">
-              <p class="fiq-tit">ESG란?</p>
-              <p class="fiq-txt">
-                <span class="txt-en">Environment, Social, Governance Guidance</span><br>
-                재무정보에 대비되는 개념으로 재무에서 드러나지 않는 기업의 리스크 관리 지표이자 지속 가능성 평가 지표입니다.
-              </p>
-              <div class="fiq-cell">
-                <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
+              <div class="fiq-cont fiq-cont2 fiq-page2-1">
+                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="240">
-                    <col width="140">
+                    <col width="12.5%">
+                    <col width="12.5%">
+                    <col width="12.5%">
+                    <col width="12.5%">
+                    <col width="12.5%">
+                    <col width="12.5%">
+                    <col width="12.5%">
+                    <col width="12.5%">
                   </colgroup>
+                  <!-- ####### tr에 fiq-up클래스 들어가면 상승 빨간색 #######-->
+                  <!-- ####### tr에 fiq-down클래스 들어가면 하락 파란색 #######-->
+                  <thead>
                   <tr>
-                    <th colspan="2">환경</th>
+                    <th scope="col">업종명</th>
+                    <th scope="col">지수</th>
+                    <th scope="col">전일비</th>
+                    <th scope="col">등락률</th>
+                    <th scope="col">거래량</th>
+                    <th scope="col">상승</th>
+                    <th scope="col">보합</th>
+                    <th scope="col">하락</th>
                   </tr>
+                  </thead>
+                  <tbody>
                   <tr>
-                    <td>
-                      <p>온실가스배출량</p>
-                      <p>7.2tCO2</p>
-                      <p>업종평균 13.6tCO2</p>
+                    <td class="fiq-depth-open"><a>섬유,의복</a></td>
+                    <td class="txt-num">469.37</td>
+                    <td class="txt-num"><span></span>6.31</td>
+                    <td class="txt-num">1.43</td>
+                    <td class="txt-num">31,317</td>
+                    <td class="txt-num">9</td>
+                    <td class="txt-num">1</td>
+                    <td class="txt-num">17</td>
+                  </tr>
+                  <tr class="fiq-depth1">
+                    <td colspan="8">
+                      <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                        <colgroup>
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                          <th scope="col">종목명</th>
+                          <th scope="col">현재가</th>
+                          <th scope="col">전일비</th>
+                          <th scope="col">등락률</th>
+                          <th scope="col">거래량</th>
+                          <th scope="col">거래대금</th>
+                          <th scope="col">시가총액</th>
+                          <th scope="col"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        </tbody>
+                      </table>
                     </td>
-                    <td>그래프</td>
                   </tr>
-                  <tr>
-                    <td>
-                      <p>에너지사용량</p>
-                      <p>2.4887TOE</p>
-                      <p>업종평균 6.1316TOE</p>
+                  <tr class="fiq-up">
+                    <td class="fiq-depth-open"><a>전기가스업</a></td>
+                    <td class="txt-num">469.37</td>
+                    <td class="txt-num"><span></span>6.31</td>
+                    <td class="txt-num">1.43</td>
+                    <td class="txt-num">31,317</td>
+                    <td class="txt-num">9</td>
+                    <td class="txt-num">1</td>
+                    <td class="txt-num">17</td>
+                  </tr>
+                  <tr class="fiq-depth1">
+                    <td colspan="8">
+                      <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                        <colgroup>
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                          <th scope="col">종목명</th>
+                          <th scope="col">현재가</th>
+                          <th scope="col">전일비</th>
+                          <th scope="col">등락률</th>
+                          <th scope="col">거래량</th>
+                          <th scope="col">거래대금</th>
+                          <th scope="col">시가총액</th>
+                          <th scope="col"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        </tbody>
+                      </table>
                     </td>
-                    <td>그래프</td>
                   </tr>
-                  <tr>
-                    <td>
-                      <p>미세먼지배출량</p>
-                      <p>52.7ton</p>
-                      <p>업종평균11.5ton</p>
+                  <tr class="fiq-up">
+                    <td class="fiq-depth-open"><a>전기,전자</a></td>
+                    <td class="txt-num">469.37</td>
+                    <td class="txt-num"><span></span>6.31</td>
+                    <td class="txt-num">1.43</td>
+                    <td class="txt-num">31,317</td>
+                    <td class="txt-num">9</td>
+                    <td class="txt-num">1</td>
+                    <td class="txt-num">17</td>
+                  </tr>
+                  <tr class="fiq-depth1">
+                    <td colspan="8">
+                      <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                        <colgroup>
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                          <th scope="col">종목명</th>
+                          <th scope="col">현재가</th>
+                          <th scope="col">전일비</th>
+                          <th scope="col">등락률</th>
+                          <th scope="col">거래량</th>
+                          <th scope="col">거래대금</th>
+                          <th scope="col">시가총액</th>
+                          <th scope="col"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        </tbody>
+                      </table>
                     </td>
-                    <td>그래프</td>
                   </tr>
-                  <tr>
-                    <td>
-                      <p>용수재활용률</p>
-                      <p class="txt-num">15.0%</p>
-                      <p>업종평균 28.9%</p>
+                  <tr class="fiq-up">
+                    <td class="fiq-depth-open"><a>금융업</a></td>
+                    <td class="txt-num">469.37</td>
+                    <td class="txt-num"><span></span>6.31</td>
+                    <td class="txt-num">1.43</td>
+                    <td class="txt-num">31,317</td>
+                    <td class="txt-num">9</td>
+                    <td class="txt-num">1</td>
+                    <td class="txt-num">17</td>
+                  </tr>
+                  <tr class="fiq-depth1">
+                    <td colspan="8">
+                      <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
+                        <colgroup>
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                          <col width="12.5%">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                          <th scope="col">종목명</th>
+                          <th scope="col">현재가</th>
+                          <th scope="col">전일비</th>
+                          <th scope="col">등락률</th>
+                          <th scope="col">거래량</th>
+                          <th scope="col">거래대금</th>
+                          <th scope="col">시가총액</th>
+                          <th scope="col"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>대성에너지</td>
+                          <td class="txt-num">11.050</td>
+                          <td class="txt-num">450</td>
+                          <td class="txt-num">4.25%</td>
+                          <td class="txt-num">10,464,100</td>
+                          <td class="txt-num">126,756</td>
+                          <td class="txt-num">3,039</td>
+                          <td></td>
+                        </tr>
+                        </tbody>
+                      </table>
                     </td>
-                    <td>그래프</td>
                   </tr>
-                  <tr>
-                    <td>
-                      <p>폐기물 재활용률</p>
-                      <p class="txt-num">96.2%</p>
-                      <p>업종평균79.4%</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
+                  </tbody>
                 </table>
               </div>
-              <div class="fiq-cell">
-                <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
-                  <colgroup>
-                    <col width="240">
-                    <col width="140">
-                  </colgroup>
-                  <tr>
-                    <th colspan="2">환경</th>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>온실가스배출량</p>
-                      <p>7.2tCO2</p>
-                      <p>업종평균 13.6tCO2</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>에너지사용량</p>
-                      <p>2.4887TOE</p>
-                      <p>업종평균 6.1316TOE</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>미세먼지배출량</p>
-                      <p>52.7ton</p>
-                      <p>업종평균11.5ton</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>용수재활용률</p>
-                      <p class="txt-num">15.0%</p>
-                      <p>업종평균 28.9%</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>폐기물 재활용률</p>
-                      <p class="txt-num">96.2%</p>
-                      <p>업종평균79.4%</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                </table>
-              </div>
-              <div class="fiq-cell">
-                <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
-                  <colgroup>
-                    <col width="240">
-                    <col width="140">
-                  </colgroup>
-                  <tr>
-                    <th colspan="2">환경</th>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>온실가스배출량</p>
-                      <p>7.2tCO2</p>
-                      <p>업종평균 13.6tCO2</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>에너지사용량</p>
-                      <p>2.4887TOE</p>
-                      <p>업종평균 6.1316TOE</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>미세먼지배출량</p>
-                      <p>52.7ton</p>
-                      <p>업종평균11.5ton</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>용수재활용률</p>
-                      <p class="txt-num">15.0%</p>
-                      <p>업종평균 28.9%</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>폐기물 재활용률</p>
-                      <p class="txt-num">96.2%</p>
-                      <p>업종평균79.4%</p>
-                    </td>
-                    <td>그래프</td>
-                  </tr>
-                </table>
-              </div>
+
             </div>
 
-            <!-- ####### 리포트 탭 #######-->
-            <div class="fiq-cont fiq-cont5 fiq-report">
-              <div class="fiq-inner5">
-                <div class="fiq-list">
-                  <p class="fiq-tit">날짜</p>
-                  <div class="fiq-date-wrap">
-                    <input type="date"><span>~</span><input type="date">
-                  </div>
-                  <div class="fiq-select">
-                    <select>
-                      <option value="">1개월</option>
-                      <option value="">3개월</option>
-                      <option value="">6개월</option>
-                      <option value="">12개월</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="fiq-list fiq-list2">
-                  <p class="fiq-tit">투자의견</p>
-                  <div class="fiq-select">
-                    <select>
-                      <option value="">전체</option>
-                    </select>
-                  </div>
-                  <p class="fiq-tit fiq-tit2">목표주가 상/하향</p>
-                  <div class="fiq-select">
-                    <select>
-                      <option value="">전체</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="fiq-list fiq-list3">
-                  <div class="fiq-select">
-                    <select>
-                      <option value="">전체</option>
-                    </select>
-                  </div>
-                  <form action="">
-                    <input type="search" placeholder="검색어를 입력하세요">
-                    <input type="submit" value="검색">
-                  </form>
-                </div>
-              </div>
-              <section class="fiq-section fiq-sec3">
-                <div class="fiq-box-wrap">
-                  <div class="fiq-img"><span style="width: 225px;height: 221px;background:#F8F8F8;display: inline-block;border-radius: 10px; "></span></div>
-                  <div class="fiq-r">
-                    <div class="fiq-top">
-                      <p>삼성전자 <span>005930</span></p>
-                      <p class="fiq-pop-open"><a>/  동해물과 백두산이 마르고 닳도록 동해물과 백두산이 마르고 닳도록</a></p>
-                      <ul>
-                        <li class="fiq-up">
-                          <p><span>투자의견</span>매수</p>
-                          <p><span>목표주가</span>10,000(상향)</p>
-                          <p><span>작성자</span>홍길동</p>
-                          <p><span>발행기관</span>미래에셋증권</p>
-                          <p><span>발표일</span>2022-02-08</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="fiq-down">
-                    <a class="fiq-pop-open"></a>
-                  </div>
-                </div>
-                <div class="fiq-box-wrap">
-                  <div class="fiq-img"><span style="width: 225px;height: 221px;background:#F8F8F8;display: inline-block;border-radius: 10px; "></span></div>
-                  <div class="fiq-r">
-                    <div class="fiq-top">
-                      <p>삼성전자 <span>005930</span></p>
-                      <p class="fiq-pop-open"><a>/  동해물과 백두산이 마르고 닳도록 동해물과 백두산이 마르고 닳도록</a></p>
-                      <ul>
-                        <li class="fiq-stay">
-                          <p><span>투자의견</span>보유</p>
-                          <p><span>목표주가</span>10,000(유지)</p>
-                          <p><span>작성자</span>홍길동</p>
-                          <p><span>발행기관</span>미래에셋증권</p>
-                          <p><span>발표일</span>2022-02-08</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="fiq-down">
-                    <a class="fiq-pop-open"></a>
-                  </div>
-                </div>
-                <div class="fiq-box-wrap">
-                  <div class="fiq-img"><span style="width: 225px;height: 221px;background:#F8F8F8;display: inline-block;border-radius: 10px; "></span></div>
-                  <div class="fiq-r">
-                    <div class="fiq-top">
-                      <p>삼성전자 <span class="txt-num">005930</span></p>
-                      <p class="fiq-pop-open"><a>/  동해물과 백두산이 마르고 닳도록 동해물과 백두산이 마르고 닳도록</a></p>
-                      <ul>
-                        <li class="fiq-down">
-                          <p><span>투자의견</span>매도</p>
-                          <p><span>목표주가</span>10,000(하향)</p>
-                          <p><span>작성자</span>홍길동</p>
-                          <p><span>발행기관</span>미래에셋증권</p>
-                          <p><span>발표일</span>2022-02-08</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="fiq-down">
-                    <a class="fiq-pop-open"></a>
-                  </div>
-                </div>
-                <div class="fiq-paging">
-                  <a class="fiq-a fiq-prev"></a>
-                  <span class="txt-num fiq-active">1</span>
-                  <span class="txt-num">2</span>
-                  <a class="fiq-a fiq-next"></a>
-                </div>
-              </section>
-            </div>
+            <!-- ####### 시가총액 탭 #######-->
 
-            <!-- ####### 컨센서스 탭 #######-->
-            <div class="fiq-cont fiq-cont6">
-              <div class="cont-wrap">
-                <p class="fiq-tit">컨센서스</p>
-                <div class="iframe-wrap" style="width:50%;">
-                  <!-- ####### 아래 div삭제 #######-->
-                  <div style="font-size:18px;background:#D9EFFF;width:100%;height: 100%;text-align: center;line-height: 160px;">그래프 들어갈 자리</div>
-                </div>
-                <div class="fiq-table">
-                  <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
-                    <colgroup>
-                      <col width="50%">
-                      <col width="50%">
-                    </colgroup>
-                    <tbody>
-                    <tr>
-                      <td>종합 투자의견</td>
-                      <td>강력매수</td>
-                    </tr>
-                    <tr>
-                      <td>종합 목표주가</td>
-                      <td>10,000원 <span>YYYY_MM_DD 기준</span></td>
-                    </tr>
-                    <tr>
-                      <td>종가</td>
-                      <td>10,000원 <span>YYYY_MM_DD 기준</span></td>
-                    </tr>
-                    <tr>
-                      <td>전체 발표 횟수</td>
-                      <td>50건</td>
-                    </tr>
-                    <tr>
-                      <td>최근 발표일</td>
-                      <td>YYYY_MM_DD</td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <div class="cont-wrap cont-wrap1">
-                <p class="fiq-tit">투자의견</p>
-                <div class="iframe-wrap">
-                  <!-- ####### 아래 div삭제 #######-->
-                  <div style="font-size:18px;background:#D9EFFF;width: 100%;height: 100%;text-align: center;line-height: 412px;">그래프 들어갈 자리</div>
-                </div>
-              </div>
-              <div class="cont-wrap cont-wrap1">
-                <p class="fiq-tit">목표주가</p>
-                <div class="iframe-wrap">
-                  <!-- ####### 아래 div삭제 #######-->
-                  <div style="font-size:18px;background:#D9EFFF;width: 100%;height: 100%;text-align: center;line-height: 412px;">그래프 들어갈 자리</div>
-                </div>
-              </div>
-            </div>
+            <!-- ####### 거래량 탭 #######-->
 
-            <!-- ####### 토론 탭 #######-->
-            <div class="fiq-cont fiq-cont7">
-              <div class="fiq-input-box">
-                <a class="fiq-a fiq-search-icon"></a>
-                <input type="text" class="fiq-input">
-              </div>
-              <a class="fiq-a fiq-search">검색</a>
-              <a class="fiq-a fiq-write">글쓰기</a>
-              <!-- ####### td에 디폴트 회색 #######-->
-              <!-- ####### td에 up클래스 들어가면 상승 빨간색 #######-->
-              <!-- ####### td에 down클래스 들어가면 하락 파란색 #######-->
-              <table cellpadding="0" cellspacing="0" border="0" class="fiq-t">
-                <colgroup>
-                  <col width="120">
-                  <col width="500">
-                  <col width="158">
-                  <col width="122">
-                  <col width="122">
-                  <col width="158">
-                </colgroup>
-                <tr>
-                  <th>예측</th>
-                  <th>제목</th>
-                  <th>작성자</th>
-                  <th>조회</th>
-                  <th>추천</th>
-                  <th>작성일</th>
-                </tr>
-                <tr>
-                  <td class="fiq-up"><span>상승</span></td>
-                  <td>역시 예상을 한치 빗나가질 않네</td>
-                  <td>김민호</td>
-                  <td class="txt-num">191</td>
-                  <td class="txt-num">1</td>
-                  <td class="txt-num">2021-11-17 09:33</td>
-                </tr>
-                <tr>
-                  <td class="fiq-down"><span>하락</span></td>
-                  <td>리미나투스 상장설. 실체를 밝혀주세요.</td>
-                  <td>아이스</td>
-                  <td class="txt-num">300</td>
-                  <td class="txt-num">1</td>
-                  <td class="txt-num">2021-11-17 09:33</td>
-                </tr>
-                <tr>
-                  <td><span>중립</span></td>
-                  <td>리미나투스 상장설. 실체를 밝혀주세요.</td>
-                  <td>아이스</td>
-                  <td class="txt-num">11</td>
-                  <td class="txt-num">1</td>
-                  <td class="txt-num">2021-11-17 09:33</td>
-                </tr>
-              </table>
-            </div>
+            <!-- ####### 상승종목 탭 #######-->
+
+            <!-- ####### 하락종목 탭 #######-->
+
+            <!-- ####### 신규상장 탭 #######-->
+
+            <!-- ####### 관리종목 탭 #######-->
           </section>
 
         </article>
-        <div class="fiq-popup">
-          <div class="fiq-dim"></div>
-          <div class="fiq-inner">
-            <div class="fiq-pop-wrap">
-              <div class="fiq-img"><span style="width: 225px;height: 221px;background:#F8F8F8;display: inline-block;border-radius: 10px; "></span></div>
-              <div class="fiq-r">
-                <div class="fiq-top">
-                  <p>삼성전자 <span class="txt-num">005930</span></p>
-                  <p>동해물과 백두산이 마르고 닳도록 동해물과 백두산이 마르고 닳도록 </p>
-                  <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
-                    <colgroup>
-                      <col width="117">
-                      <col width="110">
-                      <col width="110">
-                      <col width="110">
-                      <col width="110">
-                      <col width="110">
-                      <col width="110">
-                      <col width="110">
-                    </colgroup>
-                    <thead>
-                    <tr>
-                      <th scope="col">상장시장</th>
-                      <th scope="col">업종</th>
-                      <th scope="col">투자의견</th>
-                      <th scope="col">목표주가</th>
-                      <th scope="col">작성자</th>
-                      <th scope="col">발행기관</th>
-                      <th scope="col">발표일</th>
-                      <th scope="col">다운로드</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                      <td>유가증권</td>
-                      <td>전기전자</td>
-                      <td>매수</td>
-                      <td>10,000원(상향)</td>
-                      <td>홍길동</td>
-                      <td>미래에셋증궈</td>
-                      <td>YYYY-MM-DD</td>
-                      <td><a></a></td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <div class="graph" style="width: 100%;display: block;margin-top: 20px;">
-                <img src="img/pc/graph22.png" alt="" style="width: 100%;">
-              </div>
-              <div class="fiq-report-cont">
-                <p class="fiq-tit">리포트 주요 내용</p>
-                <p class="fiq-txt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos.</p>
-              </div>
-            </div>
-            <a class="fiq-close"></a>
-          </div>
-        </div>
       </div>
     </div>
   </div>
     <!-- // 파이낸셜아이큐 -->
-
 
 
     <!-- [D] 광고: PC 하단 -->
@@ -1151,16 +1149,16 @@
 <script src="js/fiq-polyfill.js"></script>
 <script src="js/fiq-common.js"></script>
 <script>
-  let fiqPopup = document.querySelector('.fiq-popup');
-  let fiqPopOpen = document.querySelectorAll('.fiq-pop-open');
-  Array.prototype.forEach.call(fiqPopOpen, function(e) {
+  let tabsWrap = document.querySelector('.fiq-tabs-wrap');
+  let tabBtn = document.querySelectorAll('.fiq-top-tab');
+  Array.prototype.forEach.call(tabBtn, function(e) {
     e.addEventListener('click', function() {
-      fiqPopup.classList.add('open');
+      let idx = e.getAttribute('data-tab-cl');
+      for (let i = 1; i < tabBtn.length+1; i++) {
+        tabsWrap.classList.remove('fiq-top-active' + i);
+      }
+      tabsWrap.classList.add('fiq-top-active' + idx);
     })
-  });
-  let fiqClose = document.querySelector('.fiq-close');
-  fiqClose.addEventListener('click', function() {
-    fiqPopup.classList.remove('open');
   })
 </script>
 </body>

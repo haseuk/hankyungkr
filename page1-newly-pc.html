@@ -329,9 +329,18 @@
   <div id="container" class="fiq-container">
     <div class="inner">
       <div class="fiq-wrap fiq-newly">
-        <article class="fiq-article fiq-page1">
+        <article class="fiq-article fiq-page1"> 
+          <div class="fiq-top-title">
+            <h2 class="fiq-h2">주요지수</h2>
+            <span class="select-style">
+              <select title="카테고리 선택" name="isGrpId">
+                  <option value="">전체</option>
+                  <option value="1">1</option>
+              </select>
+            </span>
+          </div> 
           <section class="fiq-section fiq-sec1">
-            <div class="fiq-tabs-wrap fiq-tabs-wrap1 fiq-tabs-wrap-9n fiq-top-active1">
+            <div class="fiq-tabs-wrap fiq-tab-type-a fiq-tabs-wrap1 fiq-tabs-wrap-9n fiq-top-active1">
               <a class="fiq-a fiq-top-tab fiq-top-tab1" data-tab-cl="1">코스피</a>
               <a class="fiq-a fiq-top-tab fiq-top-tab2" data-tab-cl="2">코스닥</a>
               <a class="fiq-a fiq-top-tab fiq-top-tab3" data-tab-cl="3">코스피200</a>
@@ -345,821 +354,957 @@
             <!-- ####### 코스피 탭 #######-->
             <div class="fiq-top fiq-tab-sibl fiq-tab-sibl1 fiq-view">
               <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 코스피</p>
                 <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
                 <div class="fiq-indices txt-num fiq-up">
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
+                  <span class="fiq-s-date">2022.3.2. 장중</span>
                 </div>
               </div>
               <div class="fiq-cell">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="85">
+                    <col width="135">
+                    <col width="85">
+                    <col width="115">
+                    <col width="85">
+                    <col width="145">
+                    <col width="85">
+                    <col width="85">
                   </colgroup>
                   <tbody>
                     <tr>
                       <td>전일종가</td>
-                      <td class="txt-num">1,000.00</td>
+                      <td class="txt-num">2,600</td>
+                      <td>고가</td>
+                      <td class="txt-num fiq-up">2,800</td>
                       <td>거래량(천주)</td>
-                      <td class="txt-num">1,000,000.00</td>
+                      <td class="txt-num">2,600</td>
+                      <td>52주 고가</td>
+                      <td class="txt-num">2,800</td>
                     </tr>
                     <tr>
                       <td>시가</td>
-                      <td class="txt-num">1,000.00</td>
-                      <td>거래대금</td>
-                      <td class="txt-num">1,000.00</td>
-                    </tr>
-                    <tr>
-                      <td>고가</td>
-                      <td class="txt-num">1,000.00</td>
-                      <td>52주 고가</td>
-                      <td class="txt-num">1,000,000.00</td>
-                    </tr>
-                    <tr>
+                      <td class="txt-num">2,700</td>
                       <td>저가</td>
-                      <td class="txt-num">1,000.00</td>
+                      <td class="txt-num fiq-down">2,800</td>
+                      <td>거래대금</td>
+                      <td class="txt-num">2,600</td>
                       <td>52주 저가</td>
-                      <td class="txt-num">1,000,000.00</td>
+                      <td class="txt-num">2,800</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">투자별 매매동향</td>
+                      <td class="pn">개인</td>
+                      <td class="fiq-down">-438억원</td>
+                      <td class="pn">외국인</td>
+                      <td class="fiq-up">+1,291억원</td>
+                      <td class="pn">기관</td>
+                      <td class="pn-ls fiq-up">+1,291억원</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-summary">
-                <div>
-                  <p>외국인</p>
-                  <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>기관</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>개인</p>
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>프로그램</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-              </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
+              <div class="fiq-graph">
+                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
+                <img src="img/pc/chart.png" alt="" style="display: block; width: 100%;">
               </div>
             </div>
-
             <!-- ####### 코스닥 탭 #######-->
             <div class="fiq-top fiq-tab-sibl fiq-tab-sibl2 fiq-view">
               <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 코스닥</p>
                 <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
                 <div class="fiq-indices txt-num fiq-up">
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
+                  <span class="fiq-s-date">2022.3.2. 장중</span>
                 </div>
               </div>
               <div class="fiq-cell">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="85">
+                    <col width="135">
+                    <col width="85">
+                    <col width="115">
+                    <col width="85">
+                    <col width="145">
+                    <col width="85">
+                    <col width="85">
                   </colgroup>
                   <tbody>
                   <tr>
                     <td>전일종가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>고가</td>
+                    <td class="txt-num fiq-up">2,800</td>
                     <td>거래량(천주)</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>52주 고가</td>
+                    <td class="txt-num">2,800</td>
                   </tr>
                   <tr>
                     <td>시가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">1,000.00</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>52주 고가</td>
-                    <td class="txt-num">1,000,000.00</td>
-                  </tr>
-                  <tr>
+                    <td class="txt-num">2,700</td>
                     <td>저가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num fiq-down">2,800</td>
+                    <td>거래대금</td>
+                    <td class="txt-num">2,600</td>
                     <td>52주 저가</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,800</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">투자별 매매동향</td>
+                    <td class="pn">개인</td>
+                    <td class="fiq-down">-438억원</td>
+                    <td class="pn">외국인</td>
+                    <td class="fiq-up">+1,291억원</td>
+                    <td class="pn">기관</td>
+                    <td class="pn-ls fiq-up">+1,291억원</td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-summary">
-                <div>
-                  <p>외국인</p>
-                  <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>기관</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>개인</p>
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>프로그램</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-              </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
+              <div class="fiq-graph">
+                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
+                <img src="img/pc/chart.png" alt="" style="display: block; width: 100%;">
               </div>
             </div>
-
             <!-- ####### 코스피200 탭 #######-->
             <div class="fiq-top fiq-tab-sibl fiq-tab-sibl3 fiq-view">
               <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 코스피200</p>
                 <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
                 <div class="fiq-indices txt-num fiq-up">
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
+                  <span class="fiq-s-date">2022.3.2. 장중</span>
                 </div>
               </div>
               <div class="fiq-cell">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="85">
+                    <col width="135">
+                    <col width="85">
+                    <col width="115">
+                    <col width="85">
+                    <col width="145">
+                    <col width="85">
+                    <col width="85">
                   </colgroup>
                   <tbody>
                   <tr>
                     <td>전일종가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>고가</td>
+                    <td class="txt-num fiq-up">2,800</td>
                     <td>거래량(천주)</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>52주 고가</td>
+                    <td class="txt-num">2,800</td>
                   </tr>
                   <tr>
                     <td>시가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">1,000.00</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>52주 고가</td>
-                    <td class="txt-num">1,000,000.00</td>
-                  </tr>
-                  <tr>
+                    <td class="txt-num">2,700</td>
                     <td>저가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num fiq-down">2,800</td>
+                    <td>거래대금</td>
+                    <td class="txt-num">2,600</td>
                     <td>52주 저가</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,800</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">투자별 매매동향</td>
+                    <td class="pn">개인</td>
+                    <td class="fiq-down">-438억원</td>
+                    <td class="pn">외국인</td>
+                    <td class="fiq-up">+1,291억원</td>
+                    <td class="pn">기관</td>
+                    <td class="pn-ls fiq-up">+1,291억원</td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-summary">
-                <div>
-                  <p>외국인</p>
-                  <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>기관</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>개인</p>
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>프로그램</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-              </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
+              <div class="fiq-graph">
+                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
+                <img src="img/pc/chart.png" alt="" style="display: block; width: 100%;">
               </div>
             </div>
-
             <!-- ####### 코스닥150 탭 #######-->
             <div class="fiq-top fiq-tab-sibl fiq-tab-sibl4 fiq-view">
               <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 코스닥150</p>
                 <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
                 <div class="fiq-indices txt-num fiq-up">
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
+                  <span class="fiq-s-date">2022.3.2. 장중</span>
                 </div>
               </div>
               <div class="fiq-cell">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="85">
+                    <col width="135">
+                    <col width="85">
+                    <col width="115">
+                    <col width="85">
+                    <col width="145">
+                    <col width="85">
+                    <col width="85">
                   </colgroup>
                   <tbody>
                   <tr>
                     <td>전일종가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>고가</td>
+                    <td class="txt-num fiq-up">2,800</td>
                     <td>거래량(천주)</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>52주 고가</td>
+                    <td class="txt-num">2,800</td>
                   </tr>
                   <tr>
                     <td>시가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">1,000.00</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>52주 고가</td>
-                    <td class="txt-num">1,000,000.00</td>
-                  </tr>
-                  <tr>
+                    <td class="txt-num">2,700</td>
                     <td>저가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num fiq-down">2,800</td>
+                    <td>거래대금</td>
+                    <td class="txt-num">2,600</td>
                     <td>52주 저가</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,800</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">투자별 매매동향</td>
+                    <td class="pn">개인</td>
+                    <td class="fiq-down">-438억원</td>
+                    <td class="pn">외국인</td>
+                    <td class="fiq-up">+1,291억원</td>
+                    <td class="pn">기관</td>
+                    <td class="pn-ls fiq-up">+1,291억원</td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-summary">
-                <div>
-                  <p>외국인</p>
-                  <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>기관</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>개인</p>
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>프로그램</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-              </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
+              <div class="fiq-graph">
+                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
+                <img src="img/pc/chart.png" alt="" style="display: block; width: 100%;">
               </div>
             </div>
-
             <!-- ####### 코스피200선물 탭 #######-->
             <div class="fiq-top fiq-tab-sibl fiq-tab-sibl5 fiq-view">
               <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 코스피200선물</p>
                 <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
                 <div class="fiq-indices txt-num fiq-up">
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
+                  <span class="fiq-s-date">2022.3.2. 장중</span>
                 </div>
               </div>
               <div class="fiq-cell">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="85">
+                    <col width="135">
+                    <col width="85">
+                    <col width="115">
+                    <col width="85">
+                    <col width="145">
+                    <col width="85">
+                    <col width="85">
                   </colgroup>
                   <tbody>
                   <tr>
                     <td>전일종가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>고가</td>
+                    <td class="txt-num fiq-up">2,800</td>
                     <td>거래량(천주)</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>52주 고가</td>
+                    <td class="txt-num">2,800</td>
                   </tr>
                   <tr>
                     <td>시가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">1,000.00</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>52주 고가</td>
-                    <td class="txt-num">1,000,000.00</td>
-                  </tr>
-                  <tr>
+                    <td class="txt-num">2,700</td>
                     <td>저가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num fiq-down">2,800</td>
+                    <td>거래대금</td>
+                    <td class="txt-num">2,600</td>
                     <td>52주 저가</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,800</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">투자별 매매동향</td>
+                    <td class="pn">개인</td>
+                    <td class="fiq-down">-438억원</td>
+                    <td class="pn">외국인</td>
+                    <td class="fiq-up">+1,291억원</td>
+                    <td class="pn">기관</td>
+                    <td class="pn-ls fiq-up">+1,291억원</td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-summary">
-                <div>
-                  <p>외국인</p>
-                  <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>기관</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>개인</p>
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>프로그램</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-              </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
+              <div class="fiq-graph">
+                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
+                <img src="img/pc/chart.png" alt="" style="display: block; width: 100%;">
               </div>
             </div>
-
             <!-- ####### 코스닥150선물 탭 #######-->
             <div class="fiq-top fiq-tab-sibl fiq-tab-sibl6 fiq-view">
               <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 코스닥150선물</p>
                 <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
                 <div class="fiq-indices txt-num fiq-up">
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
+                  <span class="fiq-s-date">2022.3.2. 장중</span>
                 </div>
               </div>
               <div class="fiq-cell">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="85">
+                    <col width="135">
+                    <col width="85">
+                    <col width="115">
+                    <col width="85">
+                    <col width="145">
+                    <col width="85">
+                    <col width="85">
                   </colgroup>
                   <tbody>
                   <tr>
                     <td>전일종가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>고가</td>
+                    <td class="txt-num fiq-up">2,800</td>
                     <td>거래량(천주)</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>52주 고가</td>
+                    <td class="txt-num">2,800</td>
                   </tr>
                   <tr>
                     <td>시가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">1,000.00</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>52주 고가</td>
-                    <td class="txt-num">1,000,000.00</td>
-                  </tr>
-                  <tr>
+                    <td class="txt-num">2,700</td>
                     <td>저가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num fiq-down">2,800</td>
+                    <td>거래대금</td>
+                    <td class="txt-num">2,600</td>
                     <td>52주 저가</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,800</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">투자별 매매동향</td>
+                    <td class="pn">개인</td>
+                    <td class="fiq-down">-438억원</td>
+                    <td class="pn">외국인</td>
+                    <td class="fiq-up">+1,291억원</td>
+                    <td class="pn">기관</td>
+                    <td class="pn-ls fiq-up">+1,291억원</td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-summary">
-                <div>
-                  <p>외국인</p>
-                  <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>기관</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>개인</p>
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>프로그램</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-              </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
+              <div class="fiq-graph">
+                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
+                <img src="img/pc/chart.png" alt="" style="display: block; width: 100%;">
               </div>
             </div>
-
             <!-- ####### 코스피200옵션 탭 #######-->
             <div class="fiq-top fiq-tab-sibl fiq-tab-sibl7 fiq-view">
               <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 코스피200옵션</p>
                 <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
                 <div class="fiq-indices txt-num fiq-up">
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
+                  <span class="fiq-s-date">2022.3.2. 장중</span>
                 </div>
               </div>
               <div class="fiq-cell">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="85">
+                    <col width="135">
+                    <col width="85">
+                    <col width="115">
+                    <col width="85">
+                    <col width="145">
+                    <col width="85">
+                    <col width="85">
                   </colgroup>
                   <tbody>
                   <tr>
                     <td>전일종가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>고가</td>
+                    <td class="txt-num fiq-up">2,800</td>
                     <td>거래량(천주)</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>52주 고가</td>
+                    <td class="txt-num">2,800</td>
                   </tr>
                   <tr>
                     <td>시가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">1,000.00</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>52주 고가</td>
-                    <td class="txt-num">1,000,000.00</td>
-                  </tr>
-                  <tr>
+                    <td class="txt-num">2,700</td>
                     <td>저가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num fiq-down">2,800</td>
+                    <td>거래대금</td>
+                    <td class="txt-num">2,600</td>
                     <td>52주 저가</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,800</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">투자별 매매동향</td>
+                    <td class="pn">개인</td>
+                    <td class="fiq-down">-438억원</td>
+                    <td class="pn">외국인</td>
+                    <td class="fiq-up">+1,291억원</td>
+                    <td class="pn">기관</td>
+                    <td class="pn-ls fiq-up">+1,291억원</td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-summary">
-                <div>
-                  <p>외국인</p>
-                  <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>기관</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>개인</p>
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>프로그램</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-              </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
+              <div class="fiq-graph">
+                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
+                <img src="img/pc/chart.png" alt="" style="display: block; width: 100%;">
               </div>
             </div>
-
             <!-- ####### 코스닥150옵션 탭 #######-->
             <div class="fiq-top fiq-tab-sibl fiq-tab-sibl8 fiq-view">
               <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 코스닥150옵션</p>
                 <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
                 <div class="fiq-indices txt-num fiq-up">
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
+                  <span class="fiq-s-date">2022.3.2. 장중</span>
                 </div>
               </div>
               <div class="fiq-cell">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="85">
+                    <col width="135">
+                    <col width="85">
+                    <col width="115">
+                    <col width="85">
+                    <col width="145">
+                    <col width="85">
+                    <col width="85">
                   </colgroup>
                   <tbody>
                   <tr>
                     <td>전일종가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>고가</td>
+                    <td class="txt-num fiq-up">2,800</td>
                     <td>거래량(천주)</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>52주 고가</td>
+                    <td class="txt-num">2,800</td>
                   </tr>
                   <tr>
                     <td>시가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">1,000.00</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>52주 고가</td>
-                    <td class="txt-num">1,000,000.00</td>
-                  </tr>
-                  <tr>
+                    <td class="txt-num">2,700</td>
                     <td>저가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num fiq-down">2,800</td>
+                    <td>거래대금</td>
+                    <td class="txt-num">2,600</td>
                     <td>52주 저가</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,800</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">투자별 매매동향</td>
+                    <td class="pn">개인</td>
+                    <td class="fiq-down">-438억원</td>
+                    <td class="pn">외국인</td>
+                    <td class="fiq-up">+1,291억원</td>
+                    <td class="pn">기관</td>
+                    <td class="pn-ls fiq-up">+1,291억원</td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-summary">
-                <div>
-                  <p>외국인</p>
-                  <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>기관</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>개인</p>
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>프로그램</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-              </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
+              <div class="fiq-graph">
+                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
+                <img src="img/pc/chart.png" alt="" style="display: block; width: 100%;">
               </div>
             </div>
-
             <!-- ####### 코넥스 탭 #######-->
             <div class="fiq-top fiq-tab-sibl fiq-tab-sibl9 fiq-view">
               <div class="fiq-cell">
-                <p class="fiq-tit"><a class="fiq-a fiq-favorite"></a> 코넥스</p>
                 <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
                 <div class="fiq-indices txt-num fiq-up">
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
+                  <span class="fiq-s-date">2022.3.2. 장중</span>
                 </div>
               </div>
               <div class="fiq-cell">
                 <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                   <colgroup>
-                    <col width="127">
-                    <col width="167">
-                    <col width="127">
-                    <col width="167">
+                    <col width="85">
+                    <col width="135">
+                    <col width="85">
+                    <col width="115">
+                    <col width="85">
+                    <col width="145">
+                    <col width="85">
+                    <col width="85">
                   </colgroup>
                   <tbody>
                   <tr>
                     <td>전일종가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>고가</td>
+                    <td class="txt-num fiq-up">2,800</td>
                     <td>거래량(천주)</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,600</td>
+                    <td>52주 고가</td>
+                    <td class="txt-num">2,800</td>
                   </tr>
                   <tr>
                     <td>시가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">1,000.00</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">1,000.00</td>
-                    <td>52주 고가</td>
-                    <td class="txt-num">1,000,000.00</td>
-                  </tr>
-                  <tr>
+                    <td class="txt-num">2,700</td>
                     <td>저가</td>
-                    <td class="txt-num">1,000.00</td>
+                    <td class="txt-num fiq-down">2,800</td>
+                    <td>거래대금</td>
+                    <td class="txt-num">2,600</td>
                     <td>52주 저가</td>
-                    <td class="txt-num">1,000,000.00</td>
+                    <td class="txt-num">2,800</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">투자별 매매동향</td>
+                    <td class="pn">개인</td>
+                    <td class="fiq-down">-438억원</td>
+                    <td class="pn">외국인</td>
+                    <td class="fiq-up">+1,291억원</td>
+                    <td class="pn">기관</td>
+                    <td class="pn-ls fiq-up">+1,291억원</td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <div class="fiq-summary">
-                <div>
-                  <p>외국인</p>
-                  <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>기관</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>개인</p>
-                  <div class="fiq-indices txt-num fiq-up"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-                <div>
-                  <p>프로그램</p>
-                  <div class="fiq-indices txt-num fiq-down"><div class="fiq-indices-span"><span></span><p>1279억</p></div></div>
-                </div>
-              </div>
-              <div class="fiq-box">
-                <div class="fiq-graph">
-                  <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                  <img src="img/pc/graph6.png" alt="" style="display: block; width: 100%;">
-                </div>
+              <div class="fiq-graph">
+                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
+                <img src="img/pc/chart.png" alt="" style="display: block; width: 100%;">
               </div>
             </div>
           </section>
+
+
           <section class="fiq-section fiq-sec2">
-            <div class="fiq-tab-wrap fiq-tab-wrap1 fiq-tab6n fiq-tab5-active">
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">뉴스</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">차트</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn3" data-tab="3">시세</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn4" data-tab="4">구성종목</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn5" data-tab="5">리포트</a>
-              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn6" data-tab="6">토론</a>
+            <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap1 fiq-tab6n fiq-tab1-active">
+              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">종합</a>
+              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">뉴스</a>
+              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn3" data-tab="3">종목</a>
+              <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn4" data-tab="4">토론</a>
             </div>
 
-            <!-- ####### 시세 탭 #######-->
-            <div class="fiq-cont fiq-cont3">
+            <!-- ####### 종합 탭 #######-->
+            <div class="fiq-cont fiq-cont1">
+              <p class="fiq-tit">종목</p>
               <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
                 <colgroup>
-                  <col width="232">
-                  <col width="158">
-                  <col width="158">
-                  <col width="158">
-                  <col width="158">
-                  <col width="158">
-                  <col width="158">
+                  <col width="295">
+                  <col width="85">
+                  <col width="85">
+                  <col width="85">
+                  <col width="85">
+                  <col width="85">
+                  <col width="85">
+                  <col width="85">
+                  <col width="85">
+                  <col width="85">
+                  <col width="60">
+                  <col width="60">
                 </colgroup>
                 <thead>
                   <tr>
-                    <th scope="col">일자</th>
+                    <th scope="col">종목명</th>
                     <th scope="col">현재가</th>
                     <th scope="col">전일비</th>
                     <th scope="col">등락률</th>
-                    <th scope="col">거래량</th>
-                    <th scope="col">거래대금</th>
+                    <th scope="col">액면가</th>
                     <th scope="col">시가총액</th>
+                    <th scope="col">상장주식수</th>
+                    <th scope="col">외국인비율</th>
+                    <th scope="col">거래량</th>
+                    <th scope="col">PER</th>
+                    <th scope="col">ROE</th>
+                    <th scope="col">토론실</th>
                   </tr>
                 </thead>
                 <!-- ####### td에 fiq-up클래스 들어가면 등락률칸에 상승 빨간색 #######-->
                 <!-- ####### td에 fiq-down클래스 들어가면 등락률칸에 하락 파란색 #######-->
                 <tbody>
-                  <tr>
-                    <td class="txt-num">2021-12-16</td>
-                    <td class="txt-num">72,000</td>
-                    <td class="txt-num">1,000</td>
-                    <td class="fiq-down txt-num">-1.24%</td> <!-- ####### 등락률칸 #######-->
-                    <td class="txt-num">10,646,777</td>
-                    <td class="txt-num">126,756</td>
-                    <td class="txt-num">300,000</td>
+                  <tr class="fiq-up">
+                    <td>넥스트사이언스<br><span class="code">00354</span></td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num"><span></span>13,000</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">1,200</td>
+                    <td class="txt-num">8,530,200</td>
+                    <td class="txt-num">8,530,200</td>
+                    <td class="txt-num">34.25</td>
+                    <td class="txt-num">8,530,200</td>
+                    <td class="txt-num">34.25</td>
+                    <td class="txt-num">34.25</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
                   </tr>
-                  <tr>
-                    <td class="txt-num">2021-12-15</td>
-                    <td class="txt-num">72,000</td>
-                    <td class="txt-num">1,000</td>
-                    <td class="fiq-up txt-num txt-num">+1.24%</td> <!-- ####### 등락률칸 #######-->
-                    <td class="txt-num">10,646,777</td>
-                    <td class="txt-num">126,756</td>
-                    <td class="txt-num">300,000</td>
+                  <tr class="fiq-up">
+                    <td>대성산업<br><span class="code">00354</span></td>
+                    <td class="txt-num">3,010</td>
+                    <td class="txt-num"><span></span>800</td>
+                    <td class="txt-num">+0.36%</td>
+                    <td class="txt-num">9,010</td>
+                    <td class="txt-num">989,010</td>
+                    <td class="txt-num">989,010</td>
+                    <td class="txt-num">23.22</td>
+                    <td class="txt-num">989,010</td>
+                    <td class="txt-num">23.22</td>
+                    <td class="txt-num">23.22</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
                   </tr>
-                  <tr>
-                    <td class="txt-num">2021-12-14</td>
-                    <td class="txt-num">72,000</td>
-                    <td class="txt-num">1,000</td>
-                    <td class="fiq-up txt-num txt-num">+1.24%</td><!-- ####### 등락률칸 #######-->
-                    <td class="txt-num">10,646,777</td>
-                    <td class="txt-num">126,756</td>
-                    <td class="txt-num">300,000</td>
+                  <tr class="fiq-up">
+                    <td>카카오<br><span class="code">00354</span></td>
+                    <td class="txt-num">24,710</td>
+                    <td class="txt-num"><span></span>2,500</td>
+                    <td class="txt-num">+2.00%</td>
+                    <td class="txt-num">710</td>
+                    <td class="txt-num">124,710</td>
+                    <td class="txt-num">124,710</td>
+                    <td class="txt-num">47.96</td>
+                    <td class="txt-num">124,710</td>
+                    <td class="txt-num">47.96</td>
+                    <td class="txt-num">47.96</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
                   </tr>
-                  <tr>
-                    <td class="txt-num">2021-12-13</td>
-                    <td class="txt-num">72,000</td>
-                    <td class="txt-num">1,000</td>
-                    <td class="fiq-down txt-num">-1.24%</td><!-- ####### 등락률칸 #######-->
-                    <td class="txt-num">10,646,777</td>
-                    <td class="txt-num">126,756</td>
-                    <td class="txt-num">300,000</td>
+                  <tr class="fiq-down">
+                    <td>비케이탑스<br><span class="code">00354</span></td>
+                    <td class="txt-num">6,820</td>
+                    <td class="txt-num"><span></span>3,000</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">6,820</td>
+                    <td class="txt-num">236,820</td>
+                    <td class="txt-num">236,820</td>
+                    <td class="txt-num">8.30</td>
+                    <td class="txt-num">236,820</td>
+                    <td class="txt-num">8.30</td>
+                    <td class="txt-num">8.30</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>신세계 I&C<br><span class="code">00354</span></td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num"><span></span>43,000</td>
+                    <td class="txt-num">+1.69%</td>
+                    <td class="txt-num">700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">78.44</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">78.44</td>
+                    <td class="txt-num">78.44</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>삼성바이오로직스<br><span class="code">00354</span></td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num"><span></span>8,300</td>
+                    <td class="txt-num">-3.79%</td>
+                    <td class="txt-num">1,200</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">5.98</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">5.98</td>
+                    <td class="txt-num">5.98</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-down">
+                    <td>카카오뱅크<br><span class="code">00354</span></td>
+                    <td class="txt-num">3,010</td>
+                    <td class="txt-num"><span></span>16,200</td>
+                    <td class="txt-num">+0.36%</td>
+                    <td class="txt-num">3,010</td>
+                    <td class="txt-num">873,010</td>
+                    <td class="txt-num">873,010</td>
+                    <td class="txt-num">12.56</td>
+                    <td class="txt-num">873,010</td>
+                    <td class="txt-num">12.56</td>
+                    <td class="txt-num">12.56</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>퓨런티어<br><span class="code">00354</span></td>
+                    <td class="txt-num">24,710</td>
+                    <td class="txt-num"><span></span>150</td>
+                    <td class="txt-num">+2.00%</td>
+                    <td class="txt-num">410</td>
+                    <td class="txt-num">1,224,710</td>
+                    <td class="txt-num">1,224,710</td>
+                    <td class="txt-num">87.44</td>
+                    <td class="txt-num">1,224,710</td>
+                    <td class="txt-num">87.44</td>
+                    <td class="txt-num">87.44</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>네이버<br><span class="code">00354</span></td>
+                    <td class="txt-num">6,820</td>
+                    <td class="txt-num"><span></span>8,150</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">820</td>
+                    <td class="txt-num">766,820</td>
+                    <td class="txt-num">766,820</td>
+                    <td class="txt-num">13.56</td>
+                    <td class="txt-num">766,820</td>
+                    <td class="txt-num">13.56</td>
+                    <td class="txt-num">13.56</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-down">
+                    <td>풀무원<br><span class="code">00354</span></td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num"><span></span>1,300</td>
+                    <td class="txt-num">-13.69%</td>
+                    <td class="txt-num">700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">45.66</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">45.66</td>
+                    <td class="txt-num">45.66</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>넥스트사이언스<br><span class="code">00354</span></td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num"><span></span>880</td>
+                    <td class="txt-num">-0.74%</td>
+                    <td class="txt-num">200</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">84.22</td>
+                    <td class="txt-num">530,200</td>
+                    <td class="txt-num">84.22</td>
+                    <td class="txt-num">84.22</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>대성산업<br><span class="code">00354</span></td>
+                    <td class="txt-num">3,010</td>
+                    <td class="txt-num"><span></span>3,700</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">110</td>
+                    <td class="txt-num">2,343,010</td>
+                    <td class="txt-num">2,343,010</td>
+                    <td class="txt-num">3.56</td>
+                    <td class="txt-num">2,343,010</td>
+                    <td class="txt-num">3.56</td>
+                    <td class="txt-num">3.56</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-down">
+                    <td>카카오<br><span class="code">00354</span></td>
+                    <td class="txt-num">24,710</td>
+                    <td class="txt-num"><span></span>1,300</td>
+                    <td class="txt-num">-8.21%</td>
+                    <td class="txt-num">310</td>
+                    <td class="txt-num">924,710</td>
+                    <td class="txt-num">924,710</td>
+                    <td class="txt-num">23.44</td>
+                    <td class="txt-num">924,710</td>
+                    <td class="txt-num">23.44</td>
+                    <td class="txt-num">23.44</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>비케이탑스<br><span class="code">00354</span></td>
+                    <td class="txt-num">6,820</td>
+                    <td class="txt-num"><span></span>300</td>
+                    <td class="txt-num">-17.73%</td>
+                    <td class="txt-num">820</td>
+                    <td class="txt-num">996,820</td>
+                    <td class="txt-num">996,820</td>
+                    <td class="txt-num">5.46</td>
+                    <td class="txt-num">996,820</td>
+                    <td class="txt-num">5.46</td>
+                    <td class="txt-num">5.46</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
+                  </tr>
+                  <tr class="fiq-up">
+                    <td>신세계 I&C<br><span class="code">00354</span></td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num"><span class="fiq-increase"></span>13,700</td>
+                    <td class="txt-num">+3.93%</td>
+                    <td class="txt-num">3,700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">13.56</td>
+                    <td class="txt-num">713,700</td>
+                    <td class="txt-num">13.56</td>
+                    <td class="txt-num">13.56</td>
+                    <td><a class="fiq-a"><img src="img/pc/arrow_right-g.svg" alt=""></a></td>
                   </tr>
                 </tbody>
               </table>
-            </div>
 
-            <!-- ####### 리포트 탭 #######-->
-            <div class="fiq-cont fiq-cont5 fiq-report">
-              <ul>
-                <li>
-                  <div class="fiq-txt-wrap">
-                    <p class="fiq-tit">[Start with IBKS] KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록</p>
-                    <div class="fiq-source"><p>IBK투자증권</p><p class="txt-num">2021.12.16</p></div>
-                    <p class="fiq-txt">KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록. 전일 미국 물가 지표 상승 부담에 테이퍼링 부담감이 확대된 가운데, 연준의 통화정책 결정 및 방향성 주목하며 관망세 짙어짐. 국내 확진자 수 급증에 따른 방역 강화 우려도 증시에 하방 압력을 가함.</p>
-                  </div>
-                  <div class="fiq-pic-wrap">
-                    <img src="img/pc/report.png" alt="">
-                  </div>
-                </li>
-                <li>
-                  <div class="fiq-txt-wrap">
-                    <p class="fiq-tit">[Start with IBKS] KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록</p>
-                    <div class="fiq-source"><p>IBK투자증권</p><p class="txt-num">2021.12.16</p></div>
-                    <p class="fiq-txt">KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록. 전일 미국 물가 지표 상승 부담에 테이퍼링 부담감이 확대된 가운데, 연준의 통화정책 결정 및 방향성 주목하며 관망세 짙어짐. 국내 확진자 수 급증에 따른 방역 강화 우려도 증시에 하방 압력을 가함.</p>
-                  </div>
-                  <div class="fiq-pic-wrap">
-                    <img src="img/pc/report.png" alt="">
+              <p class="fiq-tit">시가총액상</p>
+              <ul class="fiq-graph-cell">
+                <li class="fiq-up">
+                  <p>삼성바이오로직스 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph23.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
                   </div>
                 </li>
-                <li>
-                  <div class="fiq-txt-wrap">
-                    <p class="fiq-tit">[Start with IBKS] KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록</p>
-                    <div class="fiq-source"><p>IBK투자증권</p><p class="txt-num">2021.12.16</p></div>
-                    <p class="fiq-txt">KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록. 전일 미국 물가 지표 상승 부담에 테이퍼링 부담감이 확대된 가운데, 연준의 통화정책 결정 및 방향성 주목하며 관망세 짙어짐. 국내 확진자 수 급증에 따른 방역 강화 우려도 증시에 하방 압력을 가함.</p>
+                <li class="fiq-up">
+                  <p>카카오뱅크 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph23.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
                   </div>
-                  <div class="fiq-pic-wrap">
-                    <img src="img/pc/report.png" alt="">
+                </li>
+                <li class="fiq-down">
+                  <p>퓨런티어 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph24.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="fiq-up">
+                  <p>삼성전자 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph23.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="fiq-up">
+                  <p>삼성바이오로직스 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph23.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="fiq-up">
+                  <p>카카오뱅크 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph23.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="fiq-down">
+                  <p>퓨런티어 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph24.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="fiq-up">
+                  <p>삼성전자 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph23.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="fiq-up">
+                  <p>삼성바이오로직스 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph23.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="fiq-up">
+                  <p>카카오뱅크 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph23.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="fiq-down">
+                  <p>퓨런티어 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph24.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="fiq-up">
+                  <p>삼성전자 <span class="txt-num">00532</span></p>
+                  <div class="fiq-cell">
+                    <div class="fiq-graph">
+                      <img src="img/pc/graph23.png" alt="">
+                    </div>
+                    <div class="fiq-indi">
+                      <p class="txt-num">286,000</p>
+                      <span class="txt-num">+0.20%</span>
+                    </div>
                   </div>
                 </li>
               </ul>

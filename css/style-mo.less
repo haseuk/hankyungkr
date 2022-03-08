@@ -11,7 +11,7 @@ span.fiq-d-line { .wh(100%,2px); .bgc(@c2); .m(30,0); .ib; .rel;
   &:after { .cnt; .wh(100%,1px); .bgc(@c2); .abs; .lb(0,-3); }
 }
 table.fiq-t { .t-fix; .coll; }
-.fiq-select select { outline: none; .-a; .bgc(#fff); }
+.fiq-select select, .fiq-input input { outline: none; .-a; .bgc(#fff); }
 
 .fiq-container  {
   .fiq-wrap { .fs(0);
@@ -800,7 +800,431 @@ table.fiq-t { .t-fix; .coll; }
           .graph { .mb(40); .w(688); .mh-c; }
         }
       }
+      &.fiq-m2 {
+        .fiq-section.fiq-sec2 {
+          .fiq-cont5 {
+            .fiq-c5 { .bgc(#F8F8F8); .p(30,20); .-box; .mt(20);
+              li { .mb(30);
+                p { .fs(22); .w(128); .ib; .vam; }
+                .fiq-r { .ib; .vam; }
+                .fiq-input, .fiq-select, .fiq-date { .h(56); .-a(#DDDDDD); .br(10); .bgc(#fff); .p(0,12); .-box; }
+                .fiq-select { .w(196); .mb(12);
+                  select { .fs(22); background: transparent; .h(56); .lh(56); .wf; }
+                }
+                .fiq-date { .w(240); .ib; .vam; float: none; .mt(0);
+                  input { .fs(22); background: transparent; .h(56); .lh(56); .wf; }
+                }
+                .fiq-input { .w(520); .h(56); .ib; .vam;
+                  input { .fs(22); .lh(56); background: transparent; .f; }
+                }
+                span { .fs(22); .ib; .vam; .lh(56); .m(0,10); }
+                &.fiq-list1 {
+                  .fiq-input { .w(520); .ib; .vam; .mb(0);
+                    input { .fs(22); }
+                  }
+                  .fiq-select { .w(520); .ib; .vam; .mb(0);
+                    select { .fs(22); }
+                  }
+                }
+                &.fiq-list2 {
+                  .fiq-select { .w(196); .ib; .vam; .mb(0); .mr(10); }
+                  .fiq-input { .w(442); .ib; .vam; }
+                }
+              }
+            }
+            .fiq-bo-sec {
+              ul {
+                li { .p(30,24,70); .-box; .-a(#DDDDDD); .mb(20); .rel; overflow: hidden;
+                  .fiq-img { .wh(225,221); .ib; .vat; .mr(28);
+                    span { .f; }
+                  }
+                  .fiq-r { .ib; .vat; .w(380);
+                    .fiq-top {
+                      p { .fs(24); .bold;.ib; .vam; .w(380); overflow: hidden; text-overflow: ellipsis; display: -webkit-inline-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-wrap:break-word; line-height: 1.4em;
+                        .fiq-code { .fs(20); color:#888; }
+                        .fiq-code + a { .regular; }
+                      }
+                      ul { .mt(24);
+                        li { .-a; .p(0);
+                          p { .fs(20); .lh(34); .block;
+                            span { .fs(20); .regular; .w(120); .ib; color:#888888; }
+                          }
+                          &.fiq-up {
+                            p {
+                              &:nth-child(1), &:nth-child(2) { color:#FF0000; .bold;
+                                span { .regular; }
+                              }
+                            }
+                          }
+                          &.fiq-down {
+                            p {
+                              &:nth-child(1), &:nth-child(2) { color:#2175FF; .bold;
+                                span { .regular; }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  .fiq-download { .wh(688,50); .bgc(#F8F8F8); .ib; .abs; .lb; .-t(#ddd); .pointer;
+                    &:after { .cnt; .wh(28,24); .contain('../img/pc/ico-download.svg'); .abs; .lt(50%,13); .ml(-14); pointer-events: none; }
+                  }
+                }
+              }
+            }
+            .fiq-more { .fs(24); color:#888; .wh(100%,64); .-a(#ddd,2px); .-box; .tc; .lh(64); .br(4); .ib; .pointer; .mb(30); }
+            .fiq-search { .fs(28); .tc; color:#fff; .bold; .ib; .wh(100%,80); .lh(80); .br(8); .bgc(#253081); .m(16,0,28); }
+          }
+          .fiq-cont6 {
+            .fiq-cell { .p(20,0); .-box;
+              .fiq-h2 { .m(30,0,10); }
+              .graph { .-a(#ddd); .-box; }
+              .fiq-table {
+                .fiq-t {
+                  tr { .-t(#ddd);
+                    &:last-child { .-b(#ddd); }
+                    td { .fs(22); line-height: normal; .p(10,12);
+                      &:nth-child(1) { .tl; }
+                      &:nth-child(2) { .tr; .bold; }
+                      span { .fs(18); color:#888; .regular; .block; .lh1; }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      &.fiq-page19 {
+        .fiq-section { .pr(0); .m(30,0,50); overflow: hidden;
+          .fiq-h2 { .mb(20); }
+          .fiq-tab-wrap { .mb(20);
+            .fiq-tab { .fs(20); .p(0); color:#222; .wh(344,54); .lh(54); .-a(#ddd); .mr(0); .br(0); .bgc(#fff); .-box;
+              &:first-child { border-top-left-radius: 1.11vw; border-bottom-left-radius: 1.11vw; }
+              &:last-child { border-top-right-radius: 1.11vw; border-bottom-right-radius: 1.11vw; .-l; }
+            }
+            &.fiq-tab-active1 .fiq-tab1,
+            &.fiq-tab-active2 .fiq-tab2 { .-a(#222); .bgc(#fff); color:#222; .bold; }
+          }
+          .fiq-cont {
+            .fiq-swiper { .pr(16); .-box;
+              .fiq-slide { .-a(#DDDDDD); .-box; .br(10); overflow: hidden;
+                .fiq-img { .wh(100%,330);
+                  span { .f;  }
+                }
+                .fiq-top { .p(20); .tl;
+                  p { .fs(24); .mb(24);
+                    .txt-num { .fs(20); color:#888; }
+                  }
+                  ul {
+                    li {
+                      p { .fs(20); .mb(10);
+                        span { .w(90); color:#888; .mr(30); .ib; }
+                      }
+                      &.fiq-up {
+                        p {
+                          &:nth-child(1), &:nth-child(2) { color:#FF0000; .bold;
+                            span { .regular; }
+                          }
+                        }
+                      }
+                      &.fiq-down {
+                        p {
+                          &:nth-child(1), &:nth-child(2) { color:#2175FF; .bold;
+                            span { .regular; }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              .fiq-button { .wh(50,50);
+                &:after { .hide; }
+                &.fiq-right-btn { .contain('../img/pc/ico-right.svg'); .r(16); }
+                &.fiq-left-btn { .contain('../img/pc/ico-left.svg'); .l(0); }
+              }
+            }
+          }
+          &.fiq-sec2 { .pr(16);
+            .fiq-tab-wrap { .ib; .-a;
+              .fiq-tab { .wh(229,56); .br(0); .-a; .-r(#ddd); .-t(#ddd); .ib;
+                &:nth-child(1), &:nth-child(4) { .-l(#ddd); }
+                &:nth-child(n+4) { .-b(#ddd); }
+              }
+              &.fiq-tab-active1 .fiq-tab1,
+              &.fiq-tab-active2 .fiq-tab2,
+              &.fiq-tab-active3 .fiq-tab3,
+              &.fiq-tab-active4 .fiq-tab4,
+              &.fiq-tab-active5 .fiq-tab5,
+              &.fiq-tab-active6 .fiq-tab6 { .-a(#222); color:#222; }
+            }
+            .fiq-cont { .p(30,20); .-box; .bgc(#F8F8F8);
+              ul {
+                li { .mb(30);
+                  p { .fs(22); .w(128); .ib; .vam; }
+                  .fiq-r { .ib; .vam; }
+                  .fiq-input, .fiq-select, .fiq-date { .h(56); .-a(#DDDDDD); .br(10); .bgc(#fff); .p(0,12); .-box; }
+                  .fiq-select { .w(196); .mb(12);
+                    select { .fs(22); background: transparent; .h(56); .lh(56); .wf; }
+                  }
+                  .fiq-date { .w(240); .ib; .vam; float: none; .mt(0);
+                    input { .fs(22); background: transparent; .h(56); .lh(56); .wf; }
+                  }
+                  .fiq-input { .w(520); .h(56); .ib; .vam;
+                    input { .fs(22); .lh(56); background: transparent; .f; }
+                  }
+                  span { .fs(22); .ib; .vam; .lh(56); .m(0,10); }
+                  &.fiq-list1 {
+                    .fiq-input { .w(520); .ib; .vam; .mb(0);
+                      input { .fs(22); }
+                    }
+                    .fiq-select { .w(520); .ib; .vam; .mb(0);
+                      select { .fs(22); }
+                    }
+                  }
+                  &.fiq-list2 {
+                    .fiq-select { .w(196); .ib; .vam; .mb(0); .mr(10); }
+                    .fiq-input { .w(442); .ib; .vam; }
+                  }
+                }
+              }
+            }
+            .fiq-bo-sec {
+              ul {
+                li { .p(30,24,70); .-box; .-a(#DDDDDD); .mb(20); .rel; overflow: hidden;
+                  .fiq-img { .wh(225,221); .ib; .vat; .mr(28);
+                    span { .f; }
+                  }
+                  .fiq-r { .ib; .vat; .w(380);
+                    .fiq-top {
+                      p { .fs(24); .bold;.ib; .vam; .w(380); overflow: hidden; text-overflow: ellipsis; display: -webkit-inline-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; word-wrap:break-word; line-height: 1.4em;
+                        .fiq-code { .fs(20); color:#888; }
+                        .fiq-code + a { .regular; }
+                      }
+                      ul { .mt(24);
+                        li { .-a; .p(0);
+                          p { .fs(20); .lh(34); .block;
+                            span { .fs(20); .regular; .w(120); .ib; color:#888888; }
+                          }
+                          &.fiq-up {
+                            p {
+                              &:nth-child(1), &:nth-child(2) { color:#FF0000; .bold;
+                                span { .regular; }
+                              }
+                            }
+                          }
+                          &.fiq-down {
+                            p {
+                              &:nth-child(1), &:nth-child(2) { color:#2175FF; .bold;
+                                span { .regular; }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                  .fiq-download { .wh(688,50); .bgc(#F8F8F8); .ib; .abs; .lb; .-t(#ddd); .pointer;
+                    &:after { .cnt; .wh(28,24); .contain('../img/pc/ico-download.svg'); .abs; .lt(50%,13); .ml(-14); pointer-events: none; }
+                  }
+                }
+              }
+            }
+            .fiq-more { .fs(24); color:#888; .wh(100%,64); .-a(#ddd,2px); .-box; .tc; .lh(64); .br(4); .ib; .pointer; }
+            .fiq-search { .fs(28); .tc; color:#fff; .bold; .ib; .wh(100%,80); .lh(80); .br(8); .bgc(#253081); .m(16,0,28); }
+          }
+        }
+      }
     }
+
+    &.fiq-newly {
+      .fiq-article {
+        .fiq-section {
+          .fiq-tab-wrap {
+            &.fiq-tab-active1 .fiq-tab1,
+            &.fiq-tab-active2 .fiq-tab2,
+            &.fiq-tab-active3 .fiq-tab3,
+            &.fiq-tab-active4 .fiq-tab4,
+            &.fiq-tab-active5 .fiq-tab5,
+            &.fiq-tab-active6 .fiq-tab6 { color:#222!important; .-a(#222)!important; .bgc(#fff)!important; }
+
+            &.fiq-tab-type-a {
+              .fiq-tab { .fs(20); .-a; .bgc(#fff)!important; color:#888; .lh(27); .p(10,20,8); .-box; }
+            }
+            &.fiq-tab-type-b { .-t(#DDDDDD); .mb(20);
+              .fiq-tab { .fs(24)!important; .lh(72)!important; .-a!important; .-b(#222)!important; .bgc(#fff)!important; color:#888; .p(0); .-box; }
+              &.fiq-tab-active1 .fiq-tab1,
+              &.fiq-tab-active2 .fiq-tab2,
+              &.fiq-tab-active3 .fiq-tab3,
+              &.fiq-tab-active4 .fiq-tab4 { .-b(#222,5px)!important; }
+            }
+          }
+        }
+        &.fiq-m2 {
+          .fiq-sec1 { .bgc(#F7F7F7); .pb(460); .rel;
+            .fiq-cont {
+              .fiq-table {
+                .fiq-t { .-t; .-b;
+                  tr {
+                    td { .p(0,20);
+                      &:nth-child(odd) { .bold; color:#222; }
+                      &:nth-child(even) { .regular; }
+                    }
+                    &:nth-child(2) {
+                      td:nth-child(2) { color:#FF0000; }
+                    }
+                    &:nth-child(3) {
+                      td:nth-child(2) { color:#2175FF; }
+                    }
+                  }
+                }
+                .fiq-t1 { .-b(#DDDDDD); }
+                .fiq-t2 {
+                  tr { .-a;
+                    td { color:#888!important; .-a!important; .bgc(#F8F8F8); .tc; .regular!important;
+                      &.fiq-td-t { color:#222!important; .bold!important; }
+                      &.fiq-up { color:#ff0000!important; }
+                      &.fiq-down { color:#2175FF!important; }
+                    }
+                    &:nth-child(2) { .-b(#ddd); }
+                  }
+                }
+              }
+              .fiq-graph { .abs; .lb; .wh(100%,460); }
+            }
+          }
+          .fiq-sec2 { .mt(40);
+            .fiq-cont {
+              .fiq-t {
+                tr { .rel;
+                  &:nth-child(even) { .bgc(#FAFCFE); .-t(#DDDDDD); .-b(#DDDDDD); }
+                  &:after { .cnt; .wh(8,100%); .bgc(#ddd); .abs; .lt; }
+                  td { .fs(24); color:#222; .h(92); .lh(92); .-box; .p(0,10);
+                    &:nth-child(1) { .tl; .pl(25);
+                      span { .fs(20); color:#888; }
+                    }
+                    &:nth-child(2) { .tr;
+                      .fiq-indi {
+                        p, span { .ib; .vam; }
+                        p { .mr(10); .bold; }
+                        p + span { border-left: 1vw solid transparent; border-right: 1vw solid transparent; .mr(5); }
+                        p + span + p {.regular;}
+                      }
+                    }
+                    &:nth-child(3) { .tr;
+                      span { .fs(18); color:#fff; .p(6,12); .-box; .tc; .regular; .br(4); .ib; height: auto; line-height: normal; }
+                    }
+                  }
+                  &.fiq-up {
+                    &:after { .bgc(#ff0000); }
+                    td{
+                      &:nth-child(2) {
+                        span { border-bottom: 1.7vw solid #ff0000; }
+                        span + p { color:#ff0000; }
+                      }
+                      &:nth-child(3) span { .bgc(#ff0000); }
+                    }
+                  }
+                  &.fiq-down {
+                    &:after { .bgc(#2175FF); }
+                    td{
+                      &:nth-child(2) {
+                        span { border-top: 1.7vw solid #2175FF; }
+                        span + p { color:#2175FF; }
+                      }
+                      &:nth-child(3) span { .bgc(#2175FF); }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+  .fiq-popup { .abs; .lt; .f; z-index: 10000000; .hide;
+    .fiq-dim { .fix; .lt; .f; background: rgba(0,0,0,0.7); }
+    .fiq-inner { .fix; .lt(50%,60); .wh(600,80vh); .ml(-300); .bgc(#fff); z-index: 10; overflow: auto;
+      .fiq-top-tit { .-b(#ddd); .p(14,0,13); .-box;
+        p { .fs(24); .bold; .p(0,20); .-box;
+          span { .fs(20); color:#888; .regular; }
+        }
+      }
+      .fiq-tit { .fs(28); .w(543); .pl(20); .mt(28); .-box; overflow: hidden; text-overflow: ellipsis; display: -webkit-inline-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; word-wrap:break-word; line-height: 1.2em; }
+      .graph { .wh(560,310); .mh-c; }
+      ul { .m(30,0,40); .p(0,20); .-box;
+        li { .lh(58); .tl; .clear; .p(0,12); .-box; .-b(#ddd);
+          p { .ib; .vam;
+            &:nth-child(1) { .fs(18); color:#888; }
+            &:nth-child(2) { .fs(20); color:#222; .fr;
+              a { .contain('../img/pc/ico-download.svg'); .wh(28,24); .pointer; .ib; }
+            }
+          }
+        }
+        &.fiq-up {
+          li {
+            &:nth-child(3) p + p, &:nth-child(4) p + p { color:#FF0000; .bold; }
+          }
+        }
+        &.fiq-down {
+          li {
+            &:nth-child(3) p + p, &:nth-child(4) p + p { color:#2175FF; .bold; }
+          }
+        }
+      }
+      .fiq-h2 { .pl(20); .-box; .mb(20); }
+      .fiq-txt { .fs(20); .lh(32); .p(0,20); .-box; .mb(50); }
+    }
+    .fiq-close { .wh(60,60); .rt; .abs; .pointer;
+      span { .wh(40,40); .contain('../img/pc/ico-x.svg'); .abs; .lt(50%,50%); transform: translate(-50%,-50%); .ib; }
+    }
+    &.fiq-open { .ib; }
+  }
+
+  .fiq-search-popup { .fix; .lt; .f; z-index: 10000000; .hide;
+    .fiq-dim { .fix; .lt; .f; .bgc(#000); opacity: 0.3; }
+    .fiq-pop-inner { .abs; .lt(50%,50%); .bgc(#fff); .wh(600,600); .m(-300,-300); .-a(#707070); .p(30); .-box;
+      .fiq-top { .fs(0); width: auto; height: auto;
+        input, .fiq-a { .fs(24); color:#222; .h(60); .lh(60); .-a(#DDDDDF); .br(4); .ib; .vam; }
+        input { .w(73%); .tl; .pl(20); .-box; .mr(2%); }
+        .fiq-a { .w(25%); .-a; .bgc(#888); .tc; color:#fff; }
+      }
+      .fiq-search-cont { .mt(10); .-a(#DDDDDF); .-box; .br(4); .rel;
+        &:before { .cnt; .wh(1,100%); .bgc(#DDDDDF); .abs; .lt(50%,0); }
+        .fiq-h { .fs(0);
+          p { .fs(20); .bold; color:#222; .wh(50%,60); .lh(60); .bgc(#F2F3F7); .tc; .ib; .vam; .-box;
+            &:last-child { .-r; }
+          }
+        }
+        .fiq-table-wrap { .h(330); overflow: auto;
+          .fiq-t { .wf;
+            tr {
+              &:hover { .bgc(#E5EBFE); }
+              td { .fs(20); color:#222; .h(38); .lh(38); .p(0,20); .-box; .tl;
+                &:nth-child(even) { .tr; }
+              }
+            }
+          }
+        }
+      }
+      .fiq-list-view { .fs(24); color:#fff; .wh(95,60); .lh(60); .tc; .br(4); .bgc(#152B67); .block; .mt(15); .mh-c; }
+    }
+    &.fiq-open { .block; }
   }
 }
 

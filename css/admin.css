@@ -867,7 +867,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   background-color: #152B67;
   margin-top: 68px;
 }
-.fiq-container .fiq-admin.fiq-insert-page .fiq-search-popup.on {
+.fiq-container .fiq-admin.fiq-insert-page .fiq-search-popup.fiq-on {
   display: block;
 }
 /*# sourceMappingURL=admin.css.map */

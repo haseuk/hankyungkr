@@ -52,7 +52,8 @@ table.fiq-t {
   table-layout: fixed;
   border-collapse: collapse;
 }
-.fiq-select select {
+.fiq-select select,
+.fiq-input input {
   outline: none;
   border: 0;
   background-color: #fff;
@@ -2261,6 +2262,1253 @@ table.fiq-t {
   width: 95.55555556vw;
   margin-left: auto;
   margin-right: auto;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 {
+  background-color: #F8F8F8;
+  padding-top: 4.16666667vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 4.16666667vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  margin-top: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li {
+  margin-bottom: 4.16666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li p {
+  font-size: 3.05555556vw;
+  width: 17.77777778vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-r {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-input,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-select,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-date {
+  height: 7.77777778vw;
+  border: 1px solid #DDDDDD;
+  border-radius: 1.38888889vw;
+  background-color: #fff;
+  padding-top: 0vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 0vw;
+  padding-left: 1.66666667vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-select {
+  width: 27.22222222vw;
+  margin-bottom: 1.66666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-select select {
+  font-size: 3.05555556vw;
+  background: transparent;
+  height: 7.77777778vw;
+  line-height: 7.77777778vw;
+  width: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-date {
+  width: 33.33333333vw;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  margin-top: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-date input {
+  font-size: 3.05555556vw;
+  background: transparent;
+  height: 7.77777778vw;
+  line-height: 7.77777778vw;
+  width: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-input {
+  width: 72.22222222vw;
+  height: 7.77777778vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li .fiq-input input {
+  font-size: 3.05555556vw;
+  line-height: 7.77777778vw;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li span {
+  font-size: 3.05555556vw;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 7.77777778vw;
+  margin-top: 0vw;
+  margin-right: 1.38888889vw;
+  margin-bottom: 0vw;
+  margin-left: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li.fiq-list1 .fiq-input {
+  width: 72.22222222vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li.fiq-list1 .fiq-input input {
+  font-size: 3.05555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li.fiq-list1 .fiq-select {
+  width: 72.22222222vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li.fiq-list1 .fiq-select select {
+  font-size: 3.05555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li.fiq-list2 .fiq-select {
+  width: 27.22222222vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0vw;
+  margin-right: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-c5 li.fiq-list2 .fiq-input {
+  width: 61.38888889vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li {
+  padding-top: 4.16666667vw;
+  padding-right: 3.33333333vw;
+  padding-bottom: 9.72222222vw;
+  padding-left: 3.33333333vw;
+  box-sizing: border-box;
+  border: 1px solid #DDDDDD;
+  margin-bottom: 2.77777778vw;
+  position: relative;
+  overflow: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-img {
+  width: 31.25vw;
+  height: 30.69444444vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3.88888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-img span {
+  width: 100%;
+  height: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r {
+  display: inline-block;
+  vertical-align: top;
+  width: 52.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top p {
+  font-size: 3.33333333vw;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+  width: 52.77777778vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.4em;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top p .fiq-code {
+  font-size: 2.77777778vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top p .fiq-code + a {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul {
+  margin-top: 3.33333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li {
+  border: 0;
+  padding: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p {
+  font-size: 2.77777778vw;
+  line-height: 4.72222222vw;
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p span {
+  font-size: 2.77777778vw;
+  font-weight: 400;
+  width: 16.66666667vw;
+  display: inline-block;
+  color: #888888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(1),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(2) {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) span,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(2) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(1),
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(2) {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) span,
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(2) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-download {
+  width: 95.55555556vw;
+  height: 6.94444444vw;
+  background-color: #F8F8F8;
+  display: inline-block;
+  position: absolute;
+  left: 0vw;
+  bottom: 0vw;
+  right: auto;
+  top: auto;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-bo-sec ul li .fiq-download:after {
+  content: '';
+  display: block;
+  width: 3.88888889vw;
+  height: 3.33333333vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-download.svg');
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 1.80555556vw;
+  right: auto;
+  bottom: auto;
+  margin-left: -1.94444444vw;
+  pointer-events: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-more {
+  font-size: 3.33333333vw;
+  color: #888;
+  width: 100%;
+  height: 8.88888889vw;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 8.88888889vw;
+  border-radius: 0.55555556vw;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 4.16666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont5 .fiq-search {
+  font-size: 3.88888889vw;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  height: 11.11111111vw;
+  line-height: 11.11111111vw;
+  border-radius: 1.11111111vw;
+  background-color: #253081;
+  margin-top: 2.22222222vw;
+  margin-right: 0vw;
+  margin-bottom: 3.88888889vw;
+  margin-left: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont6 .fiq-cell {
+  padding-top: 2.77777778vw;
+  padding-right: 0vw;
+  padding-bottom: 2.77777778vw;
+  padding-left: 0vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont6 .fiq-cell .fiq-h2 {
+  margin-top: 4.16666667vw;
+  margin-right: 0vw;
+  margin-bottom: 1.38888889vw;
+  margin-left: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont6 .fiq-cell .graph {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont6 .fiq-cell .fiq-table .fiq-t tr {
+  border-top: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont6 .fiq-cell .fiq-table .fiq-t tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont6 .fiq-cell .fiq-table .fiq-t tr td {
+  font-size: 3.05555556vw;
+  line-height: normal;
+  padding-top: 1.38888889vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 1.38888889vw;
+  padding-left: 1.66666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont6 .fiq-cell .fiq-table .fiq-t tr td:nth-child(1) {
+  text-align: left;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont6 .fiq-cell .fiq-table .fiq-t tr td:nth-child(2) {
+  text-align: right;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont6 .fiq-cell .fiq-table .fiq-t tr td span {
+  font-size: 2.5vw;
+  color: #888;
+  font-weight: 400;
+  display: block;
+  line-height: 1;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section {
+  padding-right: 0vw;
+  margin-top: 4.16666667vw;
+  margin-right: 0vw;
+  margin-bottom: 6.94444444vw;
+  margin-left: 0vw;
+  overflow: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-h2 {
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-tab-wrap {
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-tab-wrap .fiq-tab {
+  font-size: 2.77777778vw;
+  padding: 0vw;
+  color: #222;
+  width: 47.77777778vw;
+  height: 7.5vw;
+  line-height: 7.5vw;
+  border: 1px solid #ddd;
+  margin-right: 0vw;
+  border-radius: 0vw;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-tab-wrap .fiq-tab:first-child {
+  border-top-left-radius: 1.11vw;
+  border-bottom-left-radius: 1.11vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-tab-wrap .fiq-tab:last-child {
+  border-top-right-radius: 1.11vw;
+  border-bottom-right-radius: 1.11vw;
+  border-left: 0;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-tab-wrap.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-tab-wrap.fiq-tab-active2 .fiq-tab2 {
+  border: 1px solid #222;
+  background-color: #fff;
+  color: #222;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper {
+  padding-right: 2.22222222vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide {
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 1.38888889vw;
+  overflow: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-img {
+  width: 100%;
+  height: 45.83333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-img span {
+  width: 100%;
+  height: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top {
+  padding: 2.77777778vw;
+  text-align: left;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top p {
+  font-size: 3.33333333vw;
+  margin-bottom: 3.33333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top p .txt-num {
+  font-size: 2.77777778vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li p {
+  font-size: 2.77777778vw;
+  margin-bottom: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li p span {
+  width: 12.5vw;
+  color: #888;
+  margin-right: 4.16666667vw;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p:nth-child(1),
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p:nth-child(2) {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p:nth-child(1) span,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p:nth-child(2) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p:nth-child(1),
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p:nth-child(2) {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p:nth-child(1) span,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p:nth-child(2) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-button {
+  width: 6.94444444vw;
+  height: 6.94444444vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-button:after {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-button.fiq-right-btn {
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-right.svg');
+  background-size: contain;
+  right: 2.22222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-button.fiq-left-btn {
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-left.svg');
+  background-size: contain;
+  left: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 {
+  padding-right: 2.22222222vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap {
+  display: inline-block;
+  border: 0;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap .fiq-tab {
+  width: 31.80555556vw;
+  height: 7.77777778vw;
+  border-radius: 0vw;
+  border: 0;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap .fiq-tab:nth-child(1),
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap .fiq-tab:nth-child(4) {
+  border-left: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap .fiq-tab:nth-child(n+4) {
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap.fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap.fiq-tab-active6 .fiq-tab6 {
+  border: 1px solid #222;
+  color: #222;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont {
+  padding-top: 4.16666667vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 4.16666667vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li {
+  margin-bottom: 4.16666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li p {
+  font-size: 3.05555556vw;
+  width: 17.77777778vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-r {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-input,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-select,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-date {
+  height: 7.77777778vw;
+  border: 1px solid #DDDDDD;
+  border-radius: 1.38888889vw;
+  background-color: #fff;
+  padding-top: 0vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 0vw;
+  padding-left: 1.66666667vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-select {
+  width: 27.22222222vw;
+  margin-bottom: 1.66666667vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-select select {
+  font-size: 3.05555556vw;
+  background: transparent;
+  height: 7.77777778vw;
+  line-height: 7.77777778vw;
+  width: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-date {
+  width: 33.33333333vw;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  margin-top: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-date input {
+  font-size: 3.05555556vw;
+  background: transparent;
+  height: 7.77777778vw;
+  line-height: 7.77777778vw;
+  width: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-input {
+  width: 72.22222222vw;
+  height: 7.77777778vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li .fiq-input input {
+  font-size: 3.05555556vw;
+  line-height: 7.77777778vw;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li span {
+  font-size: 3.05555556vw;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 7.77777778vw;
+  margin-top: 0vw;
+  margin-right: 1.38888889vw;
+  margin-bottom: 0vw;
+  margin-left: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li.fiq-list1 .fiq-input {
+  width: 72.22222222vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li.fiq-list1 .fiq-input input {
+  font-size: 3.05555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li.fiq-list1 .fiq-select {
+  width: 72.22222222vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li.fiq-list1 .fiq-select select {
+  font-size: 3.05555556vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li.fiq-list2 .fiq-select {
+  width: 27.22222222vw;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0vw;
+  margin-right: 1.38888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont ul li.fiq-list2 .fiq-input {
+  width: 61.38888889vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li {
+  padding-top: 4.16666667vw;
+  padding-right: 3.33333333vw;
+  padding-bottom: 9.72222222vw;
+  padding-left: 3.33333333vw;
+  box-sizing: border-box;
+  border: 1px solid #DDDDDD;
+  margin-bottom: 2.77777778vw;
+  position: relative;
+  overflow: hidden;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-img {
+  width: 31.25vw;
+  height: 30.69444444vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3.88888889vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-img span {
+  width: 100%;
+  height: 100%;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r {
+  display: inline-block;
+  vertical-align: top;
+  width: 52.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top p {
+  font-size: 3.33333333vw;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+  width: 52.77777778vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.4em;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top p .fiq-code {
+  font-size: 2.77777778vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top p .fiq-code + a {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul {
+  margin-top: 3.33333333vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li {
+  border: 0;
+  padding: 0vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p {
+  font-size: 2.77777778vw;
+  line-height: 4.72222222vw;
+  display: block;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p span {
+  font-size: 2.77777778vw;
+  font-weight: 400;
+  width: 16.66666667vw;
+  display: inline-block;
+  color: #888888;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(1),
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(2) {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) span,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(2) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(1),
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(2) {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) span,
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(2) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-download {
+  width: 95.55555556vw;
+  height: 6.94444444vw;
+  background-color: #F8F8F8;
+  display: inline-block;
+  position: absolute;
+  left: 0vw;
+  bottom: 0vw;
+  right: auto;
+  top: auto;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-download:after {
+  content: '';
+  display: block;
+  width: 3.88888889vw;
+  height: 3.33333333vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-download.svg');
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 1.80555556vw;
+  right: auto;
+  bottom: auto;
+  margin-left: -1.94444444vw;
+  pointer-events: none;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-more {
+  font-size: 3.33333333vw;
+  color: #888;
+  width: 100%;
+  height: 8.88888889vw;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 8.88888889vw;
+  border-radius: 0.55555556vw;
+  display: inline-block;
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-search {
+  font-size: 3.88888889vw;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  height: 11.11111111vw;
+  line-height: 11.11111111vw;
+  border-radius: 1.11111111vw;
+  background-color: #253081;
+  margin-top: 2.22222222vw;
+  margin-right: 0vw;
+  margin-bottom: 3.88888889vw;
+  margin-left: 0vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-active6 .fiq-tab6 {
+  color: #222 !important;
+  border: 1px solid #222 !important;
+  background-color: #fff !important;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-a .fiq-tab {
+  font-size: 2.77777778vw;
+  border: 0;
+  background-color: #fff !important;
+  color: #888;
+  line-height: 3.75vw;
+  padding-top: 1.38888889vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 1.11111111vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b {
+  border-top: 1px solid #DDDDDD;
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b .fiq-tab {
+  font-size: 3.33333333vw !important;
+  line-height: 10vw !important;
+  border: 0 !important;
+  border-bottom: 1px solid #222 !important;
+  background-color: #fff !important;
+  color: #888;
+  padding: 0vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active1 .fiq-tab1,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active2 .fiq-tab2,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active3 .fiq-tab3,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active4 .fiq-tab4 {
+  border-bottom: 5px solid #222 !important;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 {
+  background-color: #F7F7F7;
+  padding-bottom: 63.88888889vw;
+  position: relative;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t {
+  border-top: 0;
+  border-bottom: 0;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t tr td {
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t tr td:nth-child(odd) {
+  font-weight: 700;
+  color: #222;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t tr td:nth-child(even) {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t tr:nth-child(2) td:nth-child(2) {
+  color: #FF0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t tr:nth-child(3) td:nth-child(2) {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t1 {
+  border-bottom: 1px solid #DDDDDD;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t2 tr {
+  border: 0;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t2 tr td {
+  color: #888 !important;
+  border: 0 !important;
+  background-color: #F8F8F8;
+  text-align: center;
+  font-weight: 400 !important;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t2 tr td.fiq-td-t {
+  color: #222 !important;
+  font-weight: 700 !important;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t2 tr td.fiq-up {
+  color: #ff0000 !important;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t2 tr td.fiq-down {
+  color: #2175FF !important;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t2 tr:nth-child(2) {
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-graph {
+  position: absolute;
+  left: 0vw;
+  bottom: 0vw;
+  right: auto;
+  top: auto;
+  width: 100%;
+  height: 63.88888889vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 {
+  margin-top: 5.55555556vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr {
+  position: relative;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr:nth-child(even) {
+  background-color: #FAFCFE;
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr:after {
+  content: '';
+  display: block;
+  width: 1.11111111vw;
+  height: 100%;
+  background-color: #ddd;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td {
+  font-size: 3.33333333vw;
+  color: #222;
+  height: 12.77777778vw;
+  line-height: 12.77777778vw;
+  box-sizing: border-box;
+  padding-top: 0vw;
+  padding-right: 1.38888889vw;
+  padding-bottom: 0vw;
+  padding-left: 1.38888889vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(1) {
+  text-align: left;
+  padding-left: 3.47222222vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(1) span {
+  font-size: 2.77777778vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(2) {
+  text-align: right;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(2) .fiq-indi p,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(2) .fiq-indi span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(2) .fiq-indi p {
+  margin-right: 1.38888889vw;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(2) .fiq-indi p + span {
+  border-left: 1vw solid transparent;
+  border-right: 1vw solid transparent;
+  margin-right: 0.69444444vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(2) .fiq-indi p + span + p {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(3) {
+  text-align: right;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(3) span {
+  font-size: 2.5vw;
+  color: #fff;
+  padding-top: 0.83333333vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 0.83333333vw;
+  padding-left: 1.66666667vw;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 0.55555556vw;
+  display: inline-block;
+  height: auto;
+  line-height: normal;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-up:after {
+  background-color: #ff0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-up td:nth-child(2) span {
+  border-bottom: 1.7vw solid #ff0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-up td:nth-child(2) span + p {
+  color: #ff0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-up td:nth-child(3) span {
+  background-color: #ff0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-down:after {
+  background-color: #2175FF;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-down td:nth-child(2) span {
+  border-top: 1.7vw solid #2175FF;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-down td:nth-child(2) span + p {
+  color: #2175FF;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-down td:nth-child(3) span {
+  background-color: #2175FF;
+}
+.fiq-container .fiq-popup {
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 10000000;
+  display: none;
+}
+.fiq-container .fiq-popup .fiq-dim {
+  position: fixed;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.fiq-container .fiq-popup .fiq-inner {
+  position: fixed;
+  left: 50%;
+  top: 8.33333333vw;
+  right: auto;
+  bottom: auto;
+  width: 83.33333333vw;
+  height: 80vh;
+  margin-left: -41.66666667vw;
+  background-color: #fff;
+  z-index: 10;
+  overflow: auto;
+}
+.fiq-container .fiq-popup .fiq-inner .fiq-top-tit {
+  border-bottom: 1px solid #ddd;
+  padding-top: 1.94444444vw;
+  padding-right: 0vw;
+  padding-bottom: 1.80555556vw;
+  padding-left: 0vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-popup .fiq-inner .fiq-top-tit p {
+  font-size: 3.33333333vw;
+  font-weight: 700;
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-popup .fiq-inner .fiq-top-tit p span {
+  font-size: 2.77777778vw;
+  color: #888;
+  font-weight: 400;
+}
+.fiq-container .fiq-popup .fiq-inner .fiq-tit {
+  font-size: 3.88888889vw;
+  width: 75.41666667vw;
+  padding-left: 2.77777778vw;
+  margin-top: 3.88888889vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.2em;
+}
+.fiq-container .fiq-popup .fiq-inner .graph {
+  width: 77.77777778vw;
+  height: 43.05555556vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fiq-container .fiq-popup .fiq-inner ul {
+  margin-top: 4.16666667vw;
+  margin-right: 0vw;
+  margin-bottom: 5.55555556vw;
+  margin-left: 0vw;
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-popup .fiq-inner ul li {
+  line-height: 8.05555556vw;
+  text-align: left;
+  zoom: 1;
+  padding-top: 0vw;
+  padding-right: 1.66666667vw;
+  padding-bottom: 0vw;
+  padding-left: 1.66666667vw;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-popup .fiq-inner ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-popup .fiq-inner ul li p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-popup .fiq-inner ul li p:nth-child(1) {
+  font-size: 2.5vw;
+  color: #888;
+}
+.fiq-container .fiq-popup .fiq-inner ul li p:nth-child(2) {
+  font-size: 2.77777778vw;
+  color: #222;
+  float: right;
+}
+.fiq-container .fiq-popup .fiq-inner ul li p:nth-child(2) a {
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-download.svg');
+  background-size: contain;
+  width: 3.88888889vw;
+  height: 3.33333333vw;
+  cursor: pointer;
+  display: inline-block;
+}
+.fiq-container .fiq-popup .fiq-inner ul.fiq-up li:nth-child(3) p + p,
+.fiq-container .fiq-popup .fiq-inner ul.fiq-up li:nth-child(4) p + p {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-popup .fiq-inner ul.fiq-down li:nth-child(3) p + p,
+.fiq-container .fiq-popup .fiq-inner ul.fiq-down li:nth-child(4) p + p {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-popup .fiq-inner .fiq-h2 {
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  margin-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-popup .fiq-inner .fiq-txt {
+  font-size: 2.77777778vw;
+  line-height: 4.44444444vw;
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  margin-bottom: 6.94444444vw;
+}
+.fiq-container .fiq-popup .fiq-close {
+  width: 8.33333333vw;
+  height: 8.33333333vw;
+  right: 0vw;
+  top: 0vw;
+  left: auto;
+  bottom: auto;
+  position: absolute;
+  cursor: pointer;
+}
+.fiq-container .fiq-popup .fiq-close span {
+  width: 5.55555556vw;
+  height: 5.55555556vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-x.svg');
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
+.fiq-container .fiq-popup.fiq-open {
+  display: inline-block;
+}
+.fiq-container .fiq-search-popup {
+  position: fixed;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 10000000;
+  display: none;
+}
+.fiq-container .fiq-search-popup .fiq-dim {
+  position: fixed;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.3;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  background-color: #fff;
+  width: 83.33333333vw;
+  height: 83.33333333vw;
+  margin-top: -41.66666667vw;
+  margin-right: -41.66666667vw;
+  margin-bottom: -41.66666667vw;
+  margin-left: -41.66666667vw;
+  border: 1px solid #707070;
+  padding: 4.16666667vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top {
+  font-size: 0vw;
+  width: auto;
+  height: auto;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top input,
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top .fiq-a {
+  font-size: 3.33333333vw;
+  color: #222;
+  height: 8.33333333vw;
+  line-height: 8.33333333vw;
+  border: 1px solid #DDDDDF;
+  border-radius: 0.55555556vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top input {
+  width: 73%;
+  text-align: left;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  margin-right: 2%;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top .fiq-a {
+  width: 25%;
+  border: 0;
+  background-color: #888;
+  text-align: center;
+  color: #fff;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont {
+  margin-top: 1.38888889vw;
+  border: 1px solid #DDDDDF;
+  box-sizing: border-box;
+  border-radius: 0.55555556vw;
+  position: relative;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont:before {
+  content: '';
+  display: block;
+  width: 0.13888889vw;
+  height: 100%;
+  background-color: #DDDDDF;
+  position: absolute;
+  left: 50%;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-h {
+  font-size: 0vw;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-h p {
+  font-size: 2.77777778vw;
+  font-weight: 700;
+  color: #222;
+  width: 50%;
+  height: 8.33333333vw;
+  line-height: 8.33333333vw;
+  background-color: #F2F3F7;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-h p:last-child {
+  border-right: 0;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-table-wrap {
+  height: 45.83333333vw;
+  overflow: auto;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-table-wrap .fiq-t {
+  width: 100%;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-table-wrap .fiq-t tr:hover {
+  background-color: #E5EBFE;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-table-wrap .fiq-t tr td {
+  font-size: 2.77777778vw;
+  color: #222;
+  height: 5.27777778vw;
+  line-height: 5.27777778vw;
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+  text-align: left;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-table-wrap .fiq-t tr td:nth-child(even) {
+  text-align: right;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-list-view {
+  font-size: 3.33333333vw;
+  color: #fff;
+  width: 13.19444444vw;
+  height: 8.33333333vw;
+  line-height: 8.33333333vw;
+  text-align: center;
+  border-radius: 0.55555556vw;
+  background-color: #152B67;
+  display: block;
+  margin-top: 2.08333333vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fiq-container .fiq-search-popup.fiq-open {
+  display: block;
 }
 @media (prefers-color-scheme: dark) {
   h2.fiq-h2 {

@@ -1580,8 +1580,12 @@ select.fiq-se, input.fiq-input { outline: none; }
 
     &.fiq-newly {
       .fiq-article { .pt(0); .clear;
+        .select-style { .w(240); .ib; .abs; .lt(0,40); height:50px; background:#fff; box-sizing:border-box}
+        .select-style select {position:relative; z-index:2; width:100%; height:100%; padding: 0 39px 0 15px ;border:1px solid #ddd; border-radius:5px; background:transparent; font-size:15px; line-height:48px; vertical-align:middle; cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none; -o-appearance:none; outline:none; box-sizing:border-box}
+        .select-style select::-ms-expand {opacity:0}
+        .select-style select option {font-size:15px}
+        .select-style::after {content:''; position:absolute; top:17px; right:15px; width:10px; height:10px; border-right:1px solid #222; border-bottom:1px solid #222; transform:rotate(45deg)}
         .fiq-top-title { .tl; .rel; .pt(40); .-box; .mb(20);
-          &:after { .cnt; .wh(100vw,428); .bgc(#F8F8F8); .abs; .lt(50%,0); .ml(-50vw); visibility: visible; z-index: -1; }
           .fiq-h2 { .ib; .lh(45); .mb(0); }
           .select-style { .w(240); .ib; .abs; .rt(0,40); height:50px; background:#fff; box-sizing:border-box}
           .select-style select {position:relative; z-index:2; width:100%; height:100%; padding: 0 39px 0 15px ;border:1px solid #ddd; border-radius:5px; background:transparent; font-size:15px; line-height:48px; vertical-align:middle; cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none; -o-appearance:none; outline:none; box-sizing:border-box}
@@ -1590,7 +1594,7 @@ select.fiq-se, input.fiq-input { outline: none; }
           .select-style::after {content:''; position:absolute; top:17px; right:15px; width:10px; height:10px; border-right:1px solid #222; border-bottom:1px solid #222; transform:rotate(45deg)}
         }
         .fiq-section {
-          .fiq-tabs-wrap { .w(1180); .fs(0); .h(50); .-b; .mb(45);
+          .fiq-tabs-wrap { .w(1180); .fs(0); .h(50); .-b; .mb(30);
             .fiq-top-tab { .fs(16); .h(50); .lh(48); .tc; .ib; .vam; .-a(#ddd); .-r; .ls(-1.2); color:#222; .-box; .br(0); .mt(0); .bgc(#fff);
               &:first-child { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
               &:last-child { border-top-right-radius: 10px; border-bottom-right-radius: 10px; .-r(#ddd); }
@@ -1617,7 +1621,9 @@ select.fiq-se, input.fiq-input { outline: none; }
             &.fiq-tab4-active .fiq-tab-btn4:after { .cnt; .abs; .lb; .wh(100%,4); .bgc(#222); }
           }
           .fiq-top:after { .hide; }
-          .fiq-view { .-t; .-b; .p(0);
+          .fiq-view { .-t; .-b; .p(0); }
+          .fiq-tab-sibl1 {
+            &:after { .cnt; .wh(100vw,428); .bgc(#F8F8F8); .abs; .lt(50%,-220); .ml(-50vw); visibility: visible; z-index: -1; }
             .fiq-cell {
               .fiq-indices { height: auto; line-height: normal; .mb(0);
                 .fiq-price { .fs(60); .lh(60); .m(0,0,20,0); .block; }
@@ -1646,10 +1652,81 @@ select.fiq-se, input.fiq-input { outline: none; }
                 }
               }
             }
-            .fiq-graph { .mt(100); }
+            .fiq-visual-graph { .mt(100); }
+          }
+          .fiq-tab-sibl7 {
+            &:after { .cnt; .wh(100vw,292); .bgc(#F8F8F8); .abs; .lt(50%,-200); .ml(-50vw); visibility: visible; z-index: -1; }
+            .select-style { .t(0); }
+            .fiq-table { .pt(150); .-box;
+              .fiq-date { .fs(12); color:#888; .tl; .mb(10);
+                span { color:#253180; }
+              }
+              .fiq-t { .ib; .vat;
+                tr { .-l(#F3F3F3); .-r(#F3F3F3); .-b(#DDDDDD);
+                  &:nth-child(even) { .bgc(#FAFCFE); }
+                  &:hover { .bgc(#E5EAF4); }
+                  &:first-child td { color:#888;
+                    &:after { .hide!important; }
+                  }
+                  th { .fs(14); color:#222; .bold; .-r(#ddd); .-t(#ddd); .-b(#F3F3F3);
+                    &:last-child { .-r; }
+                  }
+                  td { .fs(15); .tr; .p(17,15); .-box; .-r(#F3F3F3); .rel;
+                    span { border-left:6px solid transparent; border-right:6px solid transparent; .ib; .vam; .mr(5); }
+                  }
+                }
+              }
+              .fiq-t1 { .w(655);
+                tr {
+                  td {
+                    &:first-child:after { .cnt; .abs; .lt; .wh(5,100%); .bgc(#ddd); }
+                  }
+                  &.fiq-up {
+                    td {
+                      &:first-child:after { .bgc(#FF4040); }
+                      &:nth-child(3) { color:#FF4040;
+                        span { .-b(#ff0000,10px); }
+                      }
+                    }
+                  }
+                  &.fiq-down {
+                    td {
+                      &:first-child:after { .bgc(#2175FF); }
+                      &:nth-child(3) { color:#2175FF;
+                        span { .-t(#2175FF,10px); }
+                      }
+                    }
+                  }
+                }
+              }
+              .fiq-t2 { .w(525);
+                tr {
+                  td {
+                    &:last-child:after { .cnt; .abs; .rt; .wh(5,100%); .bgc(#ddd); }
+                  }
+                  &.fiq-up {
+                    td {
+                      &:last-child:after { .bgc(#FF4040); }
+                      &:nth-child(2) { color:#FF4040;
+                        span { .-b(#ff0000,10px); }
+                      }
+                    }
+                  }
+                  &.fiq-down {
+                    td {
+                      &:last-child:after { .bgc(#2175FF); }
+                      &:nth-child(2) { color:#2175FF;
+                        span { .-t(#2175FF,10px); }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
 
           &.fiq-sec2 {
+            &:after { .hide; }
             .fiq-cont {
               .fiq-tit { .fs(20); .bold; .ls(-0.15em); .tl; .pt(30); .-box; .mb(20); .-t(#DDDDDD); }
               .fiq-t { .mb(40);
@@ -1709,6 +1786,24 @@ select.fiq-se, input.fiq-input { outline: none; }
                       span { .bgc(#2175FF); }
                     }
                   }
+                }
+              }
+            }
+            .fiq-cont2 { .tl;
+              .fiq-cont2-inner { .pt(32); .-box; .-t(#ddd);
+                .fiq-news-tit { .fs(20); .ls(-0.15em); .bold; .ib; .vat; .mr(27); }
+                .fiq-news-list { .w(1114); .ib; .vat; .pl(20); .-box; .-l(#DDDDDD); .mb(50);
+                  li { .pb(50); .-box; .rel;
+                    &:after { .cnt; .wh(11,11); .br(50%); .bgc(#E5E5E5); .abs; .lt(-26,0); }
+                    .fiq-source { .fs(16); color:#888; .lh(21); .mb(3); }
+                    .fiq-txt { .fs(16); .lh(24); color:#888; .tl; .clear; .ls(0);
+                      .fiq-tit { .fs(24); .lh(32); .regular; .mb(20); .-t; .pt(0); .ls(0); }
+                      img { .wh(180,114); .ib; .fr; .ml(30); }
+                    }
+                  }
+                }
+                .fiq-more-btn { .fs(16); .wh(100%,50); .lh(50); .tc; .bold; .rel; .-a(#DDDDDD); .br(10); .ib; .pointer;
+                  &:after { .cnt; .wh(11,6); .abs; .lt(50%,22); .contain('../img/pc/arrow_down_g.svg'); .ml(30); pointer-events: none; }
                 }
               }
             }

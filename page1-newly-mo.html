@@ -47,7 +47,7 @@
       <div class="fiq-wrap fiq-newly">
         <article class="fiq-article fiq-m2">
           <section class="fiq-section fiq-sec1">
-            <div class="fiq-tab-wrap fiq-tab-type-a fiq-tab-wrap1 fiq-tab-active1">
+            <div class="fiq-tab-wrap fiq-tab-type-a fiq-tab-wrap1 fiq-tab-active6">
               <a class="fiq-a fiq-tab fiq-tab1">코스피</a>
               <a class="fiq-a fiq-tab fiq-tab2">코스닥</a>
               <a class="fiq-a fiq-tab fiq-tab3">코스피2000</a>
@@ -66,13 +66,6 @@
                   <p class="fiq-price">2,985.27</p>
                   <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
                 </div>
-                <div class="fiq-select">
-                  <select>
-                    <option value="">22년 3월물</option>
-                    <option value="">22년 2월물</option>
-                    <option value="">22년 1월물</option>
-                  </select>
-                </div>
                 <div class="fiq-date">
                   <p class="fiq-date-time txt-num"></p>
                   <p>20분 지연</p>
@@ -152,548 +145,336 @@
                 <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
                 <img src="img/mo/graph1.png" alt="" style="display: block; width: 100%;height: 100%;">
               </div>
-            </div>
-            <!-- ####### 코스닥 탭 #######-->
-            <div class="fiq-cont fiq-cont2">
-              <div class="fiq-top-h">
-                <a class="fiq-a fiq-star"></a><h2 class="fiq-h2">코스닥</h2>
-                <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                <div class="fiq-indices txt-num fiq-up">
-                  <p class="fiq-price">2,985.27</p>
-                  <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
+
+              <div class="fiq-section fiq-sec2">
+                <div class="fiq-tab-wrap fiq-tab-type-b fiq-tabs-6n fiq-tab-wrap2 fiq-tab-active2">
+                  <a class="fiq-a fiq-tab fiq-tab1">종합</a>
+                  <a class="fiq-a fiq-tab fiq-tab2">뉴스</a>
+                  <a class="fiq-a fiq-tab fiq-tab3">종목</a>
+                  <a class="fiq-a fiq-tab fiq-tab4">토론</a>
                 </div>
-                <div class="fiq-select">
-                  <select>
-                    <option value="">22년 3월물</option>
-                    <option value="">22년 2월물</option>
-                    <option value="">22년 1월물</option>
-                  </select>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
-              <div class="fiq-table">
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t1">
-                  <colgroup>
+
+                <!-- ####### 종합 탭 #######-->
+                <div class="fiq-cont fiq-cont1">
+                  <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
+                    <col width="45%">
+                    <col width="35%">
                     <col width="20%">
-                    <col width="30%">
-                    <col width="20%">
-                    <col width="30%">
-                  </colgroup>
-                  <tbody>
-                  <tr>
-                    <td>시가</td>
-                    <td class="txt-num">2973.04</td>
-                    <td>거래량</td>
-                    <td class="txt-num">595,597</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">2985.77</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">119,013억원</td>
-                  </tr>
-                  <tr>
-                    <td>저가</td>
-                    <td class="txt-num">2,930.27</td>
-                    <td>52주최고</td>
-                    <td class="txt-num">3,316.08</td>
-                  </tr>
-                  <tr>
-                    <td>전일종가</td>
-                    <td class="txt-num">2,980.27</td>
-                    <td>52주최저</td>
-                    <td class="txt-num">2,591.34</td>
-                  </tr>
-                  </tbody>
-                </table>
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t2">
-                  <colgroup>
-                    <col width="28%">
-                    <col width="24%">
-                    <col width="24%">
-                    <col width="24%">
-                  </colgroup>
-                  <tbody>
-                  <!-- ####### td에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### td에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">투자자별</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-down">-3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">프로그램</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-up">+3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fiq-graph">
-                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                <img src="img/mo/graph1.png" alt="" style="display: block; width: 100%;height: 100%;">
+                    <tbody>
+                    <tr class="fiq-up">
+                      <td>삼성전자 <span class="txt-num">00532</span></td>
+                      <td>
+                        <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
+                      </td>
+                      <td><span>+0.48%</span></td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td>삼성전자 <span class="txt-num">00532</span></td>
+                      <td>
+                        <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
+                      </td>
+                      <td><span>+0.48%</span></td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td>삼성전자 <span class="txt-num">00532</span></td>
+                      <td>
+                        <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
+                      </td>
+                      <td><span>+0.48%</span></td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td>삼성전자 <span class="txt-num">00532</span></td>
+                      <td>
+                        <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
+                      </td>
+                      <td><span>+0.48%</span></td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td>삼성전자 <span class="txt-num">00532</span></td>
+                      <td>
+                        <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
+                      </td>
+                      <td><span>+0.48%</span></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- ####### 뉴스 탭 #######-->
+                <div class="fiq-cont fiq-cont2">
+                  <ul class="fiq-news-list">
+                    <li>
+                      <img src="img/mo/img1.png" alt="">
+                      [Start with IBKS] KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록
+                      <span>2021.12.16</span>
+                    </li>
+                    <li>
+                      <img src="img/mo/img1.png" alt="">
+                      [Start with IBKS] KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록
+                      <span>2021.12.16</span>
+                    </li>
+                    <li>
+                      [Start with IBKS] KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록
+                      <span>2021.12.16</span>
+                    </li>
+                    <li>
+                      <img src="img/mo/img1.png" alt="">
+                      [Start with IBKS] KOSPI는 FOMC 회의 결과 주시하며 강보합을 기록
+                      <span>2021.12.16</span>
+                    </li>
+                  </ul>
+                  <a class="fiq-more-btn">더보기</a>
+                </div>
               </div>
             </div>
-            <!-- ####### 코스피2000 탭 #######-->
-            <div class="fiq-cont fiq-cont3">
-              <div class="fiq-top-h">
-                <a class="fiq-a fiq-star"></a><h2 class="fiq-h2">코스피2000</h2>
-                <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                <div class="fiq-indices txt-num fiq-up">
-                  <p class="fiq-price">2,985.27</p>
-                  <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-select">
-                  <select>
-                    <option value="">22년 3월물</option>
-                    <option value="">22년 2월물</option>
-                    <option value="">22년 1월물</option>
-                  </select>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
-              <div class="fiq-table">
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t1">
-                  <colgroup>
-                    <col width="20%">
-                    <col width="30%">
-                    <col width="20%">
-                    <col width="30%">
-                  </colgroup>
-                  <tbody>
-                  <tr>
-                    <td>시가</td>
-                    <td class="txt-num">2973.04</td>
-                    <td>거래량</td>
-                    <td class="txt-num">595,597</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">2985.77</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">119,013억원</td>
-                  </tr>
-                  <tr>
-                    <td>저가</td>
-                    <td class="txt-num">2,930.27</td>
-                    <td>52주최고</td>
-                    <td class="txt-num">3,316.08</td>
-                  </tr>
-                  <tr>
-                    <td>전일종가</td>
-                    <td class="txt-num">2,980.27</td>
-                    <td>52주최저</td>
-                    <td class="txt-num">2,591.34</td>
-                  </tr>
-                  </tbody>
-                </table>
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t2">
-                  <colgroup>
-                    <col width="28%">
-                    <col width="24%">
-                    <col width="24%">
-                    <col width="24%">
-                  </colgroup>
-                  <tbody>
-                  <!-- ####### td에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### td에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">투자자별</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-down">-3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">프로그램</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-up">+3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fiq-graph">
-                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                <img src="img/mo/graph1.png" alt="" style="display: block; width: 100%;height: 100%;">
-              </div>
-            </div>
-            <!-- ####### 코스닥150 탭 #######-->
-            <div class="fiq-cont fiq-cont4">
-              <div class="fiq-top-h">
-                <a class="fiq-a fiq-star"></a><h2 class="fiq-h2">코스닥150</h2>
-                <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                <div class="fiq-indices txt-num fiq-up">
-                  <p class="fiq-price">2,985.27</p>
-                  <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-select">
-                  <select>
-                    <option value="">22년 3월물</option>
-                    <option value="">22년 2월물</option>
-                    <option value="">22년 1월물</option>
-                  </select>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
-              <div class="fiq-table">
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t1">
-                  <colgroup>
-                    <col width="20%">
-                    <col width="30%">
-                    <col width="20%">
-                    <col width="30%">
-                  </colgroup>
-                  <tbody>
-                  <tr>
-                    <td>시가</td>
-                    <td class="txt-num">2973.04</td>
-                    <td>거래량</td>
-                    <td class="txt-num">595,597</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">2985.77</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">119,013억원</td>
-                  </tr>
-                  <tr>
-                    <td>저가</td>
-                    <td class="txt-num">2,930.27</td>
-                    <td>52주최고</td>
-                    <td class="txt-num">3,316.08</td>
-                  </tr>
-                  <tr>
-                    <td>전일종가</td>
-                    <td class="txt-num">2,980.27</td>
-                    <td>52주최저</td>
-                    <td class="txt-num">2,591.34</td>
-                  </tr>
-                  </tbody>
-                </table>
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t2">
-                  <colgroup>
-                    <col width="28%">
-                    <col width="24%">
-                    <col width="24%">
-                    <col width="24%">
-                  </colgroup>
-                  <tbody>
-                  <!-- ####### td에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### td에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">투자자별</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-down">-3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">프로그램</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-up">+3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fiq-graph">
-                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                <img src="img/mo/graph1.png" alt="" style="display: block; width: 100%;height: 100%;">
-              </div>
-            </div>
-            <!-- ####### 선물 탭 #######-->
-            <div class="fiq-cont fiq-cont5">
-              <div class="fiq-top-h">
-                <a class="fiq-a fiq-star"></a><h2 class="fiq-h2">선물</h2>
-                <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                <div class="fiq-indices txt-num fiq-up">
-                  <p class="fiq-price">2,985.27</p>
-                  <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-select">
-                  <select>
-                    <option value="">22년 3월물</option>
-                    <option value="">22년 2월물</option>
-                    <option value="">22년 1월물</option>
-                  </select>
-                </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
-              <div class="fiq-table">
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t1">
-                  <colgroup>
-                    <col width="20%">
-                    <col width="30%">
-                    <col width="20%">
-                    <col width="30%">
-                  </colgroup>
-                  <tbody>
-                  <tr>
-                    <td>시가</td>
-                    <td class="txt-num">2973.04</td>
-                    <td>거래량</td>
-                    <td class="txt-num">595,597</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">2985.77</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">119,013억원</td>
-                  </tr>
-                  <tr>
-                    <td>저가</td>
-                    <td class="txt-num">2,930.27</td>
-                    <td>52주최고</td>
-                    <td class="txt-num">3,316.08</td>
-                  </tr>
-                  <tr>
-                    <td>전일종가</td>
-                    <td class="txt-num">2,980.27</td>
-                    <td>52주최저</td>
-                    <td class="txt-num">2,591.34</td>
-                  </tr>
-                  </tbody>
-                </table>
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t2">
-                  <colgroup>
-                    <col width="28%">
-                    <col width="24%">
-                    <col width="24%">
-                    <col width="24%">
-                  </colgroup>
-                  <tbody>
-                  <!-- ####### td에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### td에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">투자자별</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-down">-3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">프로그램</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-up">+3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fiq-graph">
-                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                <img src="img/mo/graph1.png" alt="" style="display: block; width: 100%;height: 100%;">
-              </div>
-            </div>
+
             <!-- ####### 옵션 탭 #######-->
             <div class="fiq-cont fiq-cont6">
               <div class="fiq-top-h">
-                <a class="fiq-a fiq-star"></a><h2 class="fiq-h2">옵션</h2>
-                <!-- ####### fiq-indices에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                <!-- ####### fiq-indices에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                <div class="fiq-indices txt-num fiq-up">
-                  <p class="fiq-price">2,985.27</p>
-                  <div class="fiq-indices-span"><span></span><p>11.75</p><p>+0.48%</p></div>
-                </div>
-                <div class="fiq-select">
-                  <select>
-                    <option value="">22년 3월물</option>
-                    <option value="">22년 2월물</option>
-                    <option value="">22년 1월물</option>
+                <a class="fiq-a fiq-star"></a><h2 class="fiq-h2">KOSPI200옵션</h2>
+                <span class="select-style">
+                  <select title="카테고리 선택" name="isGrpId">
+                      <option value="">22년 3월물</option>
+                      <option value="">22년 4월물</option>
                   </select>
+                </span>
+              </div>
+
+              <div class="fiq-table-wrap">
+                <div class="fiq-table">
+                  <div class="fiq-date">2021/11/00 | 10:30:00 <span>20분 지연</span></div>
+
+
+                  <!-- ####### 콜옵션 #######-->
+                  <table cellspacing="0" cellpadding="0" border="0" class="fiq-t fiq-t1">
+                    <thead>
+                    <tr>
+                      <th scope="col" colspan="4">콜옵션</th>
+                      <th scope="col">행사가격</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>약정수량</td>
+                      <td>내재변동</td>
+                      <td>전일비</td>
+                      <td>현재가</td>
+                      <td>행사가</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">10</td>
+                      <td class="txt-num">0.23</td>
+                      <td class="txt-num"><span></span>22.85</td>
+                      <td class="txt-num">22.85</td>
+                      <td class="txt-num">342.50</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">15</td>
+                      <td class="txt-num">0.20</td>
+                      <td class="txt-num"><span></span>5.15</td>
+                      <td class="txt-num">21.85</td>
+                      <td class="txt-num">345.00</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">36</td>
+                      <td class="txt-num">0.26</td>
+                      <td class="txt-num"><span></span>4.50</td>
+                      <td class="txt-num">19.60</td>
+                      <td class="txt-num">347.50</td>
+                    </tr>
+                    <tr  class="fiq-up">
+                      <td class="txt-num">276</td>
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span></span>4.50</td>
+                      <td class="txt-num">17.00</td>
+                      <td class="txt-num">350.00</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">126</td>
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span> </span>4.50</td>
+                      <td class="txt-num">15.40</td>
+                      <td class="txt-num">352.50</td>
+                    <tr class="fiq-up">
+                      <td class="txt-num">624</td>
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span></span>3.68</td>
+                      <td class="txt-num">12.45</td>
+                      <td class="txt-num">355.00</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">1,546</td>
+                      <td class="txt-num">0.24</td>
+                      <td class="txt-num"><span></span>3.38</td>
+                      <td class="txt-num">10.45</td>
+                      <td class="txt-num">357.50</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">4,198</td>
+                      <td class="txt-num">0.23</td>
+                      <td class="txt-num"><span></span>2.77</td>
+                      <td class="txt-num">8.41</td>
+                      <td class="txt-num">360.00</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">15,283</td>
+                      <td class="txt-num">0.23</td>
+                      <td class="txt-num"><span></span>2.44</td>
+                      <td class="txt-num">6.79</td>
+                      <td class="txt-num">362.50</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">10</td>
+                      <td class="txt-num">0.22</td>
+                      <td class="txt-num"><span></span>1.99</td>
+                      <td class="txt-num">5.19</td>
+                      <td class="txt-num">365.00</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">15</td>
+                      <td class="txt-num">0.23</td>
+                      <td class="txt-num"><span></span>22.85</td>
+                      <td class="txt-num">22.85</td>
+                      <td class="txt-num">342.50</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">36</td>
+                      <td class="txt-num">0.20</td>
+                      <td class="txt-num"><span></span>5.15</td>
+                      <td class="txt-num">21.85</td>
+                      <td class="txt-num">345.00</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">276</td>
+                      <td class="txt-num">0.26</td>
+                      <td class="txt-num"><span></span>4.50</td>
+                      <td class="txt-num">19.60</td>
+                      <td class="txt-num">347.50</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">126</td>
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span></span>4.50</td>
+                      <td class="txt-num">17.00</td>
+                      <td class="txt-num">350.00</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">624</td>
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span></span>4.50</td>
+                      <td class="txt-num">15.40</td>
+                      <td class="txt-num">352.50</td>
+                    </tr>
+                    </tbody>
+                  </table>
+
+                  <!-- ####### 풋옵션 #######-->
+                  <table cellspacing="0" cellpadding="0" border="0" class="fiq-t fiq-t2">
+                    <thead>
+                    <tr>
+                      <th scope="col" colspan="4">풋옵션</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>현재가</td>
+                      <td>전일비</td>
+                      <td>내재변동</td>
+                      <td>약정수량</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.23</td>
+                      <td class="txt-num"><span></span>22.85</td>
+                      <td class="txt-num">22.85</td>
+                      <td class="txt-num">342.50</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.20</td>
+                      <td class="txt-num"><span></span>5.15</td>
+                      <td class="txt-num">21.85</td>
+                      <td class="txt-num">345.00</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.26</td>
+                      <td class="txt-num"><span></span>4.50</td>
+                      <td class="txt-num">19.60</td>
+                      <td class="txt-num">347.50</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span></span>4.50</td>
+                      <td class="txt-num">17.00</td>
+                      <td class="txt-num">350.00</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span></span>4.70</td>
+                      <td class="txt-num">15.40</td>
+                      <td class="txt-num">352.50</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span></span>3.68</td>
+                      <td class="txt-num">12.45</td>
+                      <td class="txt-num">355.00</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.24</td>
+                      <td class="txt-num"><span></span>3.38</td>
+                      <td class="txt-num">10.45</td>
+                      <td class="txt-num">357.50</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.23</td>
+                      <td class="txt-num"><span></span>2.77</td>
+                      <td class="txt-num">8.41</td>
+                      <td class="txt-num">360.00</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.23</td>
+                      <td class="txt-num"><span></span>2.44</td>
+                      <td class="txt-num">6.79</td>
+                      <td class="txt-num">362.50</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.22</td>
+                      <td class="txt-num"><span></span>1.99</td>
+                      <td class="txt-num">5.19</td>
+                      <td class="txt-num">365.00</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.23</td>
+                      <td class="txt-num"><span></span>22.85</td>
+                      <td class="txt-num">22.85</td>
+                      <td class="txt-num">342.50</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.20</td>
+                      <td class="txt-num"><span></span>5.15</td>
+                      <td class="txt-num">21.85</td>
+                      <td class="txt-num">345.00</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.26</td>
+                      <td class="txt-num"><span></span>4.50</td>
+                      <td class="txt-num">19.60</td>
+                      <td class="txt-num">347.50</td>
+                    </tr>
+                    <tr class="fiq-up">
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span></span>4.50</td>
+                      <td class="txt-num">17.00</td>
+                      <td class="txt-num">350.00</td>
+                    </tr>
+                    <tr class="fiq-down">
+                      <td class="txt-num">0.25</td>
+                      <td class="txt-num"><span></span>4.70</td>
+                      <td class="txt-num">15.40</td>
+                      <td class="txt-num">352.50</td>
+                    </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
               </div>
-              <div class="fiq-table">
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t1">
-                  <colgroup>
-                    <col width="20%">
-                    <col width="30%">
-                    <col width="20%">
-                    <col width="30%">
-                  </colgroup>
-                  <tbody>
-                  <tr>
-                    <td>시가</td>
-                    <td class="txt-num">2973.04</td>
-                    <td>거래량</td>
-                    <td class="txt-num">595,597</td>
-                  </tr>
-                  <tr>
-                    <td>고가</td>
-                    <td class="txt-num">2985.77</td>
-                    <td>거래대금</td>
-                    <td class="txt-num">119,013억원</td>
-                  </tr>
-                  <tr>
-                    <td>저가</td>
-                    <td class="txt-num">2,930.27</td>
-                    <td>52주최고</td>
-                    <td class="txt-num">3,316.08</td>
-                  </tr>
-                  <tr>
-                    <td>전일종가</td>
-                    <td class="txt-num">2,980.27</td>
-                    <td>52주최저</td>
-                    <td class="txt-num">2,591.34</td>
-                  </tr>
-                  </tbody>
-                </table>
-                <table cellpadding="0" cellspacing="0" border="0" class="fiq-t fiq-t2">
-                  <colgroup>
-                    <col width="28%">
-                    <col width="24%">
-                    <col width="24%">
-                    <col width="24%">
-                  </colgroup>
-                  <tbody>
-                  <!-- ####### td에 fiq-up클래스 들어가면 상승 빨간색 #######-->
-                  <!-- ####### td에 fiq-down클래스 들어가면 하락 파란색 #######-->
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">투자자별</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-down">-3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="2" class="fiq-td-t">프로그램</td>
-                    <td>외국인</td>
-                    <td>기관</td>
-                    <td>개인</td>
-                  </tr>
-                  <tr>
-                    <td class="fiq-down">-1,808</td>
-                    <td class="fiq-up">+3,710</td>
-                    <td class="fiq-up">+4,881</td>
-                  </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="fiq-graph">
-                <!-- ####### 그래프 들어가는 자리 img 삭제 #######-->
-                <img src="img/mo/graph1.png" alt="" style="display: block; width: 100%;height: 100%;">
-              </div>
-            </div>
-          </section>
-
-
-
-          <section class="fiq-section fiq-sec2">
-            <div class="fiq-tab-wrap fiq-tab-type-b fiq-tabs-6n fiq-tab-wrap2 fiq-tab-active1">
-              <a class="fiq-a fiq-tab fiq-tab1">종합</a>
-              <a class="fiq-a fiq-tab fiq-tab2">뉴스</a>
-              <a class="fiq-a fiq-tab fiq-tab3">종목</a>
-              <a class="fiq-a fiq-tab fiq-tab4">토론</a>
-            </div>
-
-            <!-- ####### 뉴스 탭 #######-->
-            <div class="fiq-cont fiq-cont1">
-              <table cellspacing="0" cellpadding="0" border="0" class="fiq-t">
-                <col width="45%">
-                <col width="35%">
-                <col width="20%">
-                <tbody>
-                <tr class="fiq-up">
-                  <td>삼성전자 <span class="txt-num">00532</span></td>
-                  <td>
-                    <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
-                  </td>
-                  <td><span>+0.48%</span></td>
-                </tr>
-                <tr class="fiq-up">
-                  <td>삼성전자 <span class="txt-num">00532</span></td>
-                  <td>
-                    <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
-                  </td>
-                  <td><span>+0.48%</span></td>
-                </tr>
-                <tr class="fiq-up">
-                  <td>삼성전자 <span class="txt-num">00532</span></td>
-                  <td>
-                    <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
-                  </td>
-                  <td><span>+0.48%</span></td>
-                </tr>
-                <tr class="fiq-up">
-                  <td>삼성전자 <span class="txt-num">00532</span></td>
-                  <td>
-                    <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
-                  </td>
-                  <td><span>+0.48%</span></td>
-                </tr>
-                <tr class="fiq-down">
-                  <td>삼성전자 <span class="txt-num">00532</span></td>
-                  <td>
-                    <div class="fiq-indi"><p class="txt-num">70,200</p><span></span><p class="txt-num">500</p></div>
-                  </td>
-                  <td><span>+0.48%</span></td>
-                </tr>
-                </tbody>
-              </table>
             </div>
           </section>
         </article>

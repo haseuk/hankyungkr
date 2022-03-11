@@ -113,14 +113,14 @@ if(inputFile)inputFile.addEventListener('change', function() {
   uploadName.value = fileName;
 });
 
-let findBtn = document.querySelectorAll('.fiq-find');
-let searchPop = document.querySelector('.fiq-search-popup');
+// let findBtn = document.querySelectorAll('.fiq-find');
+// let searchPop = document.querySelector('.fiq-search-popup');
 let listView = document.querySelector('.fiq-list-view');
-Array.prototype.forEach.call(findBtn, function(e) {
-  e.addEventListener('click',function() {
-    searchPop.classList.add('fiq-on');
-  });
-})
+// Array.prototype.forEach.call(findBtn, function(e) {
+//   e.addEventListener('click',function() {
+//     searchPop.classList.add('fiq-on');
+//   });
+// })
 if(listView)listView.addEventListener('click', function() {
   searchPop.classList.remove('fiq-on');
 });

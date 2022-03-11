@@ -4660,6 +4660,9 @@ input.fiq-input {
   background-size: contain;
   pointer-events: none;
 }
+.fiq-container .fiq-wrap.fiq-newly {
+  overflow: hidden;
+}
 .fiq-container .fiq-wrap.fiq-newly .fiq-article {
   padding-top: 0px;
   zoom: 1;
@@ -5565,6 +5568,660 @@ input.fiq-input {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page1s .fiq-section .fiq-tab-sibl .fiq-cont .fiq-t thead tr:after {
   display: none;
 }
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 {
+  padding-top: 39px;
+  position: relative;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1:after {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 680px;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  right: auto;
+  bottom: auto;
+  background-color: #F7F7F7;
+  margin-left: -50vw;
+  z-index: -1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-tit {
+  font-size: 34px;
+  margin-bottom: 28px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-tab-wrap .fiq-tab-btn {
+  font-size: 16px;
+  background-color: #fff;
+  width: 50%;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper {
+  width: 1180px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide {
+  width: 280px !important;
+  border: 1px solid #DDDDDD;
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(1):after {
+  content: '1';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(2):after {
+  content: '2';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(3):after {
+  content: '3';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(4):after {
+  content: '4';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(5):after {
+  content: '5';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(6):after {
+  content: '6';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(7):after {
+  content: '7';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(8):after {
+  content: '8';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(9):after {
+  content: '9';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide:nth-child(10):after {
+  content: '10';
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  right: auto;
+  bottom: auto;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-img span {
+  background-color: #F1F3F8;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top {
+  padding-top: 12px;
+  padding-right: 12px;
+  padding-bottom: 20px;
+  padding-left: 12px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul {
+  margin-top: 10px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li {
+  line-height: 27px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li p span {
+  color: #888;
+  display: inline-block;
+  width: 72px;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li p:nth-child(1) {
+  color: #DD872B;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li p:nth-child(2) {
+  color: #222 !important;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li p .fiq-s {
+  line-height: 18px;
+  color: #fff;
+  background-color: #888;
+  margin-left: 0px;
+  text-align: center;
+  padding-top: 2px;
+  padding-right: 17px;
+  padding-bottom: 2px;
+  padding-left: 17px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li p .fiq-indi {
+  width: 11px;
+  height: 4px;
+  background-color: #888;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p:nth-child(1) {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p .fiq-s {
+  background-color: #FF0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p .fiq-indi {
+  width: 0px;
+  height: 0px;
+  background: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #ff0000;
+  margin-bottom: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p:nth-child(1) {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p .fiq-s {
+  background-color: #2175FF;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p .fiq-indi {
+  width: 0px;
+  height: 0px;
+  background: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid #2175FF;
+  margin-bottom: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2:after {
+  display: none;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap {
+  margin-bottom: 0px;
+  height: 46px;
+  background-color: #fff;
+  border-radius: 0px;
+  padding-top: 4px;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap .fiq-tab-btn {
+  font-size: 16px;
+  color: #888;
+  width: 60px;
+  border-radius: 0px;
+  border: 0;
+  height: 42px;
+  border-bottom: 1px solid #222;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap.fiq-tab1-active .fiq-tab-btn1,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap.fiq-tab2-active .fiq-tab-btn2,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap.fiq-tab3-active .fiq-tab-btn3,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap.fiq-tab4-active .fiq-tab-btn4,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap.fiq-tab5-active .fiq-tab-btn5,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap.fiq-tab6-active .fiq-tab-btn6 {
+  color: #222;
+  border: 0;
+  border-bottom: 4px solid #222;
+  border-radius: 0px 0px 0 0;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont {
+  text-align: left;
+  background-color: #fff;
+  padding-top: 30px;
+  padding-right: 12px;
+  padding-bottom: 30px;
+  padding-left: 12px;
+  border: 0;
+  width: 1180px;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list {
+  margin-bottom: 9px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .fiq-tit {
+  font-size: 14px;
+  letter-spacing: -0.35px;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 79px;
+  text-align: left;
+  margin: 0px;
+  font-weight: 400;
+  border-top: 0;
+  padding-top: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .fiq-tit2 {
+  width: 130px;
+  margin-left: 45px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .fiq-date-wrap {
+  border: 1px solid #DDDDDD;
+  border-radius: 0px;
+  box-sizing: border-box;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  line-height: 40px;
+  width: 306px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .fiq-date-wrap input {
+  font-size: 14px;
+  width: 125px;
+  height: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  background: transparent;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .fiq-date-wrap span {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .select-style {
+  width: 130px;
+  top: 0px;
+  border-radius: 0px;
+  margin-left: 10px;
+  position: relative;
+  height: 40px;
+  background: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .select-style2 {
+  width: 446px;
+  margin-left: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .select-style3 {
+  width: 130px;
+  margin-left: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .select-style select {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  padding: 0 39px 0 15px ;
+  border: 1px solid #ddd;
+  line-height: 38px;
+  border-radius: 0;
+  background: transparent;
+  font-size: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .select-style select::-ms-expand {
+  opacity: 0;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .select-style select option {
+  font-size: 15px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .select-style::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 5px;
+  height: 5px;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  transform: rotate(45deg);
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list input {
+  font-size: 14px;
+  width: 446px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list2 {
+  margin-bottom: 28px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list2 .fiq-select {
+  width: 446px;
+  margin-left: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list3 .fiq-select {
+  margin-left: 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list3 input {
+  width: 790px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-right: 8px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list3 .fiq-find {
+  font-size: 14px;
+  letter-spacing: -0.35px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #2D3039;
+  text-align: center;
+  width: 210px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 0px;
+  margin: 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 {
+  position: relative;
+  padding: 0px;
+  border-top: 1px solid #222;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3:after {
+  display: none;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+  padding-left: 24px;
+  box-sizing: border-box;
+  width: 1180px;
+  height: 281px;
+  border: 1px solid #DDDDDD;
+  text-align: left;
+  margin-bottom: 0px;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-img,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r {
+  display: inline-block;
+  vertical-align: top;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r {
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  width: 790px;
+  border-right: 1px dotted #ddd;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top {
+  padding: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top p {
+  font-size: 20px;
+  line-height: 27px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top p span {
+  font-size: 14px;
+  color: #888;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top p + p {
+  vertical-align: middle;
+  width: 330px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.2em;
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li {
+  width: 250px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li p span {
+  font-size: 14px;
+  color: #888;
+  display: inline-block;
+  width: 72px;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li p:nth-child(1) {
+  color: #DD872B;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li p:nth-child(2) {
+  color: #222 !important;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li p .fiq-s {
+  color: #fff;
+  background-color: #888;
+  margin-left: -5px;
+  line-height: 17px;
+  text-align: center;
+  padding-top: 2px;
+  padding-right: 17px;
+  padding-bottom: 2px;
+  padding-left: 17px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li p .fiq-indi {
+  width: 11px;
+  height: 4px;
+  background-color: #888;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-up p .fiq-s {
+  background-color: #FF0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-up p .fiq-indi {
+  width: 0px;
+  height: 0px;
+  background: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #ff0000;
+  margin-bottom: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-down p .fiq-s {
+  background-color: #2175FF;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-down p .fiq-indi {
+  width: 0px;
+  height: 0px;
+  background: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 10px solid #2175FF;
+  margin-bottom: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-down {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 139px;
+  height: 100%;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-down a {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #F8F8F8;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-down a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/ico-download.svg');
+  background-size: contain;
+  pointer-events: none;
+}
 .fiq-container .fiq-wrap.fiq-newly select::-ms-expand {
   display: none;
 }
@@ -5753,7 +6410,7 @@ input.fiq-input {
   bottom: auto;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 10;
   display: none;
 }
 .fiq-container .fiq-search-popup .fiq-dim {
@@ -5784,13 +6441,13 @@ input.fiq-input {
   padding: 30px;
   box-sizing: border-box;
 }
-.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top {
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top-t {
   font-size: 0px;
   width: auto;
   height: auto;
 }
-.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top input,
-.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top .fiq-a {
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top-t input,
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top-t .fiq-a {
   font-size: 12px;
   color: #222;
   height: 40px;
@@ -5800,17 +6457,17 @@ input.fiq-input {
   display: inline-block;
   vertical-align: middle;
 }
-.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top input {
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top-t input {
   width: 455px;
   text-align: left;
   padding-left: 20px;
   box-sizing: border-box;
   margin-right: 3px;
 }
-.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top .fiq-a {
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top-t .fiq-a {
   width: 80px;
   border: 0;
-  background-color: #888;
+  background-color: #2D3039;
   text-align: center;
   color: #fff;
 }
@@ -5885,7 +6542,7 @@ input.fiq-input {
   line-height: 40px;
   text-align: center;
   border-radius: 4px;
-  background-color: #152B67;
+  background-color: #2D3039;
   display: block;
   margin-top: 68px;
   margin-left: auto;

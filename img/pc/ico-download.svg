@@ -1,9 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="26" viewBox="0 0 30 26">
-  <g id="그룹_876" data-name="그룹 876" transform="translate(-1612.468 290.225)">
-    <g id="그룹_875" data-name="그룹 875" transform="translate(1620.174 -279.905)">
-      <path id="패스_1" data-name="패스 1" d="M1641.864-273.82l-6.986,6.739a.456.456,0,0,1-.629,0l-6.972-6.726" transform="translate(-1627.276 273.82)" fill="none" stroke="#888" stroke-linecap="round" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 68 68">
+  <g id="btn_down" transform="translate(-1446 -1332)">
+    <circle id="타원_1" data-name="타원 1" cx="34" cy="34" r="34" transform="translate(1446 1332)" fill="#2d3039"/>
+    <g id="그룹_876" data-name="그룹 876" transform="translate(-147.468 1643.225)">
+      <g id="그룹_875" data-name="그룹 875" transform="translate(1620.174 -279.905)">
+        <path id="패스_1" data-name="패스 1" d="M1641.864-273.82l-6.986,6.739a.456.456,0,0,1-.629,0l-6.972-6.726" transform="translate(-1627.276 273.82)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <line id="선_3" data-name="선 3" y1="15.796" transform="translate(1627.468 -289.225)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <path id="패스_2" data-name="패스 2" d="M1613.468-263.82v7.883h28v-7.883" transform="translate(0 -9.288)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
     </g>
-    <line id="선_3" data-name="선 3" y1="15.796" transform="translate(1627.468 -289.225)" fill="none" stroke="#888" stroke-linecap="round" stroke-width="2"/>
-    <path id="패스_2" data-name="패스 2" d="M1613.468-263.82v7.883h28v-7.883" transform="translate(0 -9.288)" fill="none" stroke="#888" stroke-linecap="round" stroke-width="2"/>
   </g>
 </svg>

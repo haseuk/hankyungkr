@@ -3269,18 +3269,6 @@
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
   }
-  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr:after {
-    content: '';
-    display: block;
-    width: 0.39408867rem;
-    height: 100%;
-    background-color: #ddd;
-    position: absolute;
-    left: 0rem;
-    top: 0rem;
-    right: auto;
-    bottom: auto;
-  }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td {
     font-size: 1.18226601rem;
     color: #222;
@@ -3291,6 +3279,7 @@
     padding-right: 0.49261084rem;
     padding-bottom: 0rem;
     padding-left: 0.49261084rem;
+    position: relative;
   }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(1) {
     text-align: left;
@@ -3338,6 +3327,23 @@
     height: auto;
     line-height: normal;
   }
+  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td:nth-child(1):after {
+    content: '';
+    display: block;
+    width: 0.39408867rem;
+    height: 100%;
+    background-color: #ddd;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    right: auto;
+    bottom: auto;
+  }
+  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-up td:nth-child(1):after {
+    content: '';
+    display: block;
+    background-color: #ff0000;
+  }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-up:after {
     background-color: #ff0000;
   }
@@ -3351,6 +3357,11 @@
     background-color: #ff0000;
   }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-down:after {
+    background-color: #2175FF;
+  }
+  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-down td:nth-child(1):after {
+    content: '';
+    display: block;
     background-color: #2175FF;
   }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-down td:nth-child(2) span {
@@ -3770,6 +3781,20 @@
     border-right: 7px solid transparent;
     display: inline-block;
   }
+  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li p .fiq-indi.fiq-up {
+    border-bottom: 12px solid #FF0000;
+    width: 0rem;
+    height: 0rem;
+    margin-bottom: 0rem;
+    background: none;
+  }
+  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li p .fiq-indi.fiq-down {
+    border-top: 12px solid #2175FF;
+    width: 0rem;
+    height: 0rem;
+    margin-bottom: 0rem;
+    background: none;
+  }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p:nth-child(1) {
     color: #FF0000;
     font-weight: 700;
@@ -3780,13 +3805,6 @@
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p .fiq-s {
     background-color: #FF0000;
   }
-  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p .fiq-indi {
-    border-bottom: 12px solid #FF0000;
-    width: 0rem;
-    height: 0rem;
-    margin-bottom: 0rem;
-    background: none;
-  }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p:nth-child(1) {
     color: #2175FF;
     font-weight: 700;
@@ -3796,13 +3814,6 @@
   }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p .fiq-s {
     background-color: #2175FF;
-  }
-  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p .fiq-indi {
-    border-top: 12px solid #2175FF;
-    width: 0rem;
-    height: 0rem;
-    margin-bottom: 0rem;
-    background: none;
   }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont {
     padding-top: 0rem;
@@ -3992,6 +4003,20 @@
     border-right: 7px solid transparent;
     display: inline-block;
   }
+  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-indi.fiq-up {
+    border-bottom: 12px solid #FF0000;
+    width: 0rem;
+    height: 0rem;
+    margin-bottom: 0rem;
+    background: none;
+  }
+  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-indi.fiq-down {
+    border-top: 12px solid #2175FF;
+    width: 0rem;
+    height: 0rem;
+    margin-bottom: 0rem;
+    background: none;
+  }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) {
     color: #FF0000;
     font-weight: 700;
@@ -4002,13 +4027,6 @@
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p .fiq-s {
     background-color: #FF0000;
   }
-  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p .fiq-indi {
-    border-bottom: 12px solid #FF0000;
-    width: 0rem;
-    height: 0rem;
-    margin-bottom: 0rem;
-    background: none;
-  }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) {
     color: #2175FF;
     font-weight: 700;
@@ -4018,13 +4036,6 @@
   }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p .fiq-s {
     background-color: #2175FF;
-  }
-  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p .fiq-indi {
-    border-top: 12px solid #2175FF;
-    width: 0rem;
-    height: 0rem;
-    margin-bottom: 0rem;
-    background: none;
   }
   .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-download {
     width: 33.89162562rem;
@@ -4212,13 +4223,18 @@
     cursor: pointer;
     display: inline-block;
   }
-  .fiq-container .fiq-popup .fiq-inner ul.fiq-up li:nth-child(3) p + p,
-  .fiq-container .fiq-popup .fiq-inner ul.fiq-up li:nth-child(4) p + p {
+  .fiq-container .fiq-popup .fiq-inner ul li:nth-child(3) p + p.fiq-stay,
+  .fiq-container .fiq-popup .fiq-inner ul li:nth-child(4) p + p.fiq-stay {
+    color: #FF872B;
+    font-weight: 700;
+  }
+  .fiq-container .fiq-popup .fiq-inner ul li:nth-child(3) p + p.fiq-up,
+  .fiq-container .fiq-popup .fiq-inner ul li:nth-child(4) p + p.fiq-up {
     color: #FF0000;
     font-weight: 700;
   }
-  .fiq-container .fiq-popup .fiq-inner ul.fiq-down li:nth-child(3) p + p,
-  .fiq-container .fiq-popup .fiq-inner ul.fiq-down li:nth-child(4) p + p {
+  .fiq-container .fiq-popup .fiq-inner ul li:nth-child(3) p + p.fiq-down,
+  .fiq-container .fiq-popup .fiq-inner ul li:nth-child(4) p + p.fiq-down {
     color: #2175FF;
     font-weight: 700;
   }

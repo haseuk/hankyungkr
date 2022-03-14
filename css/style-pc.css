@@ -5802,14 +5802,7 @@ input.fiq-input {
   display: inline-block;
   margin-bottom: 2px;
 }
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p:nth-child(1) {
-  color: #FF0000;
-  font-weight: 700;
-}
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p .fiq-s {
-  background-color: #FF0000;
-}
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p .fiq-indi {
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li p .fiq-indi.fiq-up {
   width: 0px;
   height: 0px;
   background: none;
@@ -5818,14 +5811,7 @@ input.fiq-input {
   border-bottom: 10px solid #ff0000;
   margin-bottom: 0px;
 }
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p:nth-child(1) {
-  color: #2175FF;
-  font-weight: 700;
-}
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p .fiq-s {
-  background-color: #2175FF;
-}
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p .fiq-indi {
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li p .fiq-indi.fiq-down {
   width: 0px;
   height: 0px;
   background: none;
@@ -5833,6 +5819,20 @@ input.fiq-input {
   border-right: 6px solid transparent;
   border-top: 10px solid #2175FF;
   margin-bottom: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p:nth-child(1) {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-up p .fiq-s {
+  background-color: #FF0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p:nth-child(1) {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec1 .fiq-cont1 .fiq-swiper .fiq-slide .fiq-top ul li.fiq-down p .fiq-s {
+  background-color: #2175FF;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 {
   padding-bottom: 0px;
@@ -5919,11 +5919,13 @@ input.fiq-input {
   font-size: 14px;
   width: 125px;
   height: 40px;
+  line-height: 40px;
   box-sizing: border-box;
   display: inline-block;
   vertical-align: middle;
   border: 0;
   background: transparent;
+  padding: 0px;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .fiq-date-wrap span {
   font-size: 14px;
@@ -6110,7 +6112,7 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top p + p {
   vertical-align: middle;
-  width: 330px;
+  width: 590px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-inline-box;
@@ -6161,14 +6163,7 @@ input.fiq-input {
   display: inline-block;
   margin-bottom: 2px;
 }
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) {
-  color: #FF0000;
-  font-weight: 700;
-}
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-up p .fiq-s {
-  background-color: #FF0000;
-}
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-up p .fiq-indi {
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li p .fiq-indi.fiq-up {
   width: 0px;
   height: 0px;
   background: none;
@@ -6177,14 +6172,7 @@ input.fiq-input {
   border-bottom: 10px solid #ff0000;
   margin-bottom: 0px;
 }
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) {
-  color: #2175FF;
-  font-weight: 700;
-}
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-down p .fiq-s {
-  background-color: #2175FF;
-}
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-down p .fiq-indi {
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li p .fiq-indi.fiq-down {
   width: 0px;
   height: 0px;
   background: none;
@@ -6192,6 +6180,20 @@ input.fiq-input {
   border-right: 6px solid transparent;
   border-top: 10px solid #2175FF;
   margin-bottom: 0px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-up p .fiq-s {
+  background-color: #FF0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-r .fiq-top ul li.fiq-down p .fiq-s {
+  background-color: #2175FF;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec3 .fiq-box-wrap .fiq-down {
   display: inline-block;
@@ -6359,21 +6361,27 @@ input.fiq-input {
   display: inline-block;
   cursor: pointer;
 }
-.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr.fiq-stay td:nth-child(3) {
+.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr td:nth-child(3).fiq-stay {
   color: #FF872B;
   font-weight: 700;
 }
-.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr.fiq-stay td:nth-child(4) {
-  color: #666;
-  font-weight: 700;
-}
-.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr.fiq-up td:nth-child(3),
-.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr.fiq-up td:nth-child(4) {
+.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr td:nth-child(3).fiq-up {
   color: #FF0000;
   font-weight: 700;
 }
-.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr.fiq-up td:nth-child(3),
-.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr.fiq-up td:nth-child(4) {
+.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr td:nth-child(3).fiq-down {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr td:nth-child(4).fiq-stay {
+  color: #FF872B;
+  font-weight: 700;
+}
+.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr td:nth-child(4).fiq-up {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-popup .fiq-inner .fiq-pop-wrap .fiq-r .fiq-top .fiq-t tr td:nth-child(4).fiq-down {
   color: #2175FF;
   font-weight: 700;
 }

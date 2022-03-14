@@ -1185,8 +1185,7 @@
                 .fiq-t {
                   tr { .rel;
                     &:nth-child(even) { .bgc(#FAFCFE); .-t(#DDDDDD); .-b(#DDDDDD); }
-                    &:after { .cnt; .wh(8,100%); .bgc(#ddd); .abs; .lt; }
-                    td { .fs(24); color:#222; .h(92); .lh(92); .-box; .p(0,10);
+                    td { .fs(24); color:#222; .h(92); .lh(92); .-box; .p(0,10); .rel;
                       &:nth-child(1) { .tl; .pl(25);
                         span { .fs(20); color:#888; }
                       }
@@ -1201,8 +1200,10 @@
                       &:nth-child(3) { .tr;
                         span { .fs(18); color:#fff; .p(6,12); .-box; .tc; .regular; .br(4); .ib; height: auto; line-height: normal; }
                       }
+                      &:nth-child(1):after { .cnt; .wh(8,100%); .bgc(#ddd); .abs; .lt; }
                     }
                     &.fiq-up {
+                      td:nth-child(1):after { .cnt; .bgc(#ff0000); }
                       &:after { .bgc(#ff0000); }
                       td{
                         &:nth-child(2) {
@@ -1214,6 +1215,7 @@
                     }
                     &.fiq-down {
                       &:after { .bgc(#2175FF); }
+                      td:nth-child(1):after { .cnt; .bgc(#2175FF); }
                       td{
                         &:nth-child(2) {
                           span { border-top: 12px solid #2175FF; }
@@ -1332,7 +1334,10 @@
                             }
                             span { .w(90); color:#888; .mr(30); .ib; }
                             .fiq-s { .tc; color:#fff; .p(2,0,0); .br(6); .bgc(#888); }
-                            .fiq-indi { .wh(5,5); .bgc(#888); .mb(5); border-left: 7px solid transparent; border-right: 7px solid transparent; .ib; }
+                            .fiq-indi { .wh(5,5); .bgc(#888); .mb(5); border-left: 7px solid transparent; border-right: 7px solid transparent; .ib;
+                              &.fiq-up { border-bottom: 12px solid #FF0000; .wh(0,0); .mb(0); background: none; }
+                              &.fiq-down { border-top: 12px solid #2175FF;  .wh(0,0); .mb(0); background: none; }
+                            }
                           }
                           &.fiq-up {
                             p {
@@ -1340,7 +1345,6 @@
                                 span { .regular; }
                               }
                               .fiq-s { .bgc(#FF0000); }
-                              .fiq-indi { border-bottom: 12px solid #FF0000; .wh(0,0); .mb(0); background: none; }
                             }
                           }
                           &.fiq-down {
@@ -1349,7 +1353,6 @@
                                 span { .regular; }
                               }
                               .fiq-s { .bgc(#2175FF); }
-                              .fiq-indi { border-top: 12px solid #2175FF;  .wh(0,0); .mb(0); background: none; }
                             }
                           }
                         }
@@ -1407,7 +1410,10 @@
                                 }
                                 span { .w(90); color:#888; .mr(30); .ib; }
                                 .fiq-s { .tc; color:#fff; .p(2,0,0); .br(6); .bgc(#888); .lh(27); }
-                                .fiq-indi { .wh(5,5); .bgc(#888); .mb(5); border-left: 7px solid transparent; border-right: 7px solid transparent; .ib; }
+                                .fiq-indi { .wh(5,5); .bgc(#888); .mb(5); border-left: 7px solid transparent; border-right: 7px solid transparent; .ib;
+                                  &.fiq-up { border-bottom: 12px solid #FF0000; .wh(0,0); .mb(0); background: none; }
+                                  &.fiq-down { border-top: 12px solid #2175FF;  .wh(0,0); .mb(0); background: none; }
+                                }
                               }
                               &.fiq-up {
                                 p {
@@ -1415,7 +1421,6 @@
                                     span { .regular; }
                                   }
                                   .fiq-s { .bgc(#FF0000); }
-                                  .fiq-indi { border-bottom: 12px solid #FF0000; .wh(0,0); .mb(0); background: none; }
                                 }
                               }
                               &.fiq-down {
@@ -1424,7 +1429,6 @@
                                     span { .regular; }
                                   }
                                   .fiq-s { .bgc(#2175FF); }
-                                  .fiq-indi { border-top: 12px solid #2175FF;  .wh(0,0); .mb(0); background: none; }
                                 }
                               }
                             }
@@ -1470,15 +1474,10 @@
                 a { .contain('../img/pc/ico-download.svg'); .wh(28,24); .pointer; .ib; }
               }
             }
-          }
-          &.fiq-up {
-            li {
-              &:nth-child(3) p + p, &:nth-child(4) p + p { color:#FF0000; .bold; }
-            }
-          }
-          &.fiq-down {
-            li {
-              &:nth-child(3) p + p, &:nth-child(4) p + p { color:#2175FF; .bold; }
+            &:nth-child(3) p + p, &:nth-child(4) p + p {
+              &.fiq-stay { color:#FF872B; .bold; }
+              &.fiq-up { color:#FF0000; .bold; }
+              &.fiq-down { color:#2175FF; .bold; }
             }
           }
         }

@@ -1736,23 +1736,23 @@ select.fiq-se, input.fiq-input { outline: none; }
                   th:first-child, td:first-child { .tl; }
                   th:last-child, td:last-child { .tc; .p(0); }
                   th { .fs(14);color:#888; .ls(-0.102em); .bgc(#fff); .-a(#F3F3F3); .-b(#DDDDDD); .tr; .p(0,5,0,10); .-box; }
-                  td { .fs(15); .tr; .-a(#F3F3F3); .-b(#ddd); line-height: normal; .p(10,5,10,10); .-box;
+                  td { .fs(15); .tr; .-a(#F3F3F3); .-b(#ddd); line-height: normal; .p(10,5,10,10); .-box; .rel;
                     span.code { .fs(12); color:#888; .-a!important; height: auto; }
                     a.fiq-a { .wh(36,30); .lh(30); box-shadow: 2px 2px 5px rgba(0,0,0,0.15); .br(6); .bgc(#fff); .-a(#ddd); .ib;
                       img { .mt(9); }
                     }
                     span { .wh(0,0); border-left: 6px solid transparent; border-right: 6px solid transparent; vertical-align: middle; .ib; .mr(3); }
+                    &:first-child:after { .cnt; .wh(5,100%); .bgc(#ddd); .abs; .lt; }
                   }
-                  &:after { .cnt; .wh(5,100%); .bgc(#ddd); .abs; .lt; }
-                  &.fiq-up {
-                    &:after { .bgc(#FF4040); }
+                  &.fiq-up { .rel;
+                    td:first-child:after { .bgc(#FF4040); }
                     td { color:#222;
                       &:nth-child(3), &:nth-child(4) { color:#FF4040; }
                       span { border-bottom: 10px solid #ff0000; }
                     }
                   }
-                  &.fiq-down {
-                    &:after { .bgc(#2175FF); }
+                  &.fiq-down { .rel;
+                    td:first-child:after { .bgc(#2175FF); }
                     td { color:#222;
                       &:nth-child(3), &:nth-child(4) { color:#2175FF; }
                       span { border-top: 10px solid #2175FF; }

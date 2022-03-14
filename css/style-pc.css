@@ -5181,6 +5181,7 @@ input.fiq-input {
   padding-bottom: 10px;
   padding-left: 10px;
   box-sizing: border-box;
+  position: relative;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr td span.code {
   font-size: 12px;
@@ -5210,7 +5211,7 @@ input.fiq-input {
   display: inline-block;
   margin-right: 3px;
 }
-.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr:after {
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr td:first-child:after {
   content: '';
   display: block;
   width: 5px;
@@ -5222,7 +5223,10 @@ input.fiq-input {
   right: auto;
   bottom: auto;
 }
-.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr.fiq-up:after {
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr.fiq-up {
+  position: relative;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr.fiq-up td:first-child:after {
   background-color: #FF4040;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr.fiq-up td {
@@ -5235,7 +5239,10 @@ input.fiq-input {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr.fiq-up td span {
   border-bottom: 10px solid #ff0000;
 }
-.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr.fiq-down:after {
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr.fiq-down {
+  position: relative;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr.fiq-down td:first-child:after {
   background-color: #2175FF;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr.fiq-down td {

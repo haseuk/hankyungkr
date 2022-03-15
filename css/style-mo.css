@@ -4429,7 +4429,10 @@ table.fiq-t {
 .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-table-wrap .fiq-t tr td:nth-child(even) {
   text-align: right;
 }
-.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-list-view {
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-btns {
+  text-align: center;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-btns .fiq-a {
   font-size: 3.33333333vw;
   color: #fff;
   width: 13.19444444vw;
@@ -4438,10 +4441,11 @@ table.fiq-t {
   text-align: center;
   border-radius: 0.55555556vw;
   background-color: #2D3039;
-  display: block;
+  display: inline-block;
   margin-top: 2.08333333vw;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 0.69444444vw;
+  margin-bottom: 0vw;
+  margin-left: 0.69444444vw;
 }
 .fiq-container .fiq-search-popup.fiq-open {
   display: block;

@@ -821,7 +821,10 @@
               </table>
             </div>
           </div>
-          <a class="fiq-a fiq-list-view">입력</a>
+          <div class="fiq-btns">
+            <a class="fiq-a fiq-list-view">입력</a>
+            <a class="fiq-a fiq-cancel">취소</a>
+          </div>
         </div>
       </div>
     </div>
@@ -1038,6 +1041,10 @@
   function fiqSearchPopup() {
     searchPop.classList.add('fiq-on');
   }
+  let cancelPop = document.querySelector('.fiq-cancel');
+  cancelPop.addEventListener('click', function() {
+    searchPop.classList.remove('fiq-on');
+  });
 
 </script>
 </body>

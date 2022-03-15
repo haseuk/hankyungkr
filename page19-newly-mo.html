@@ -668,7 +668,10 @@
               </table>
             </div>
           </div>
-          <a class="fiq-a fiq-list-view">목록</a>
+          <div class="fiq-btns">
+            <a class="fiq-a fiq-list-view">입력</a>
+            <a class="fiq-a fiq-cancel">취소</a>
+          </div>
         </div>
       </div>
 
@@ -874,12 +877,15 @@
   });
   let searchPop = document.querySelector('.fiq-search-popup');
   let searchPopClose = document.querySelector('.fiq-list-view');
+  let btns = document.querySelectorAll('.fiq-btns .fiq-a');
   function fiqSearchPop() {
     searchPop.classList.add('fiq-open');
   }
-  searchPopClose.addEventListener('click', function() {
-    searchPop.classList.remove('fiq-open');
-  })
+  Array.prototype.forEach.call(btns, function(e) {
+    e.addEventListener('click', function() {
+      searchPop.classList.remove('fiq-open');
+    })
+  });
 </script>
 </body>
 </html>

@@ -4345,7 +4345,7 @@
   .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top .fiq-a {
     width: 25%;
     border: 0;
-    background-color: #888;
+    background-color: #2D3039;
     text-align: center;
     color: #fff;
   }
@@ -4412,7 +4412,10 @@
   .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-table-wrap .fiq-t tr td:nth-child(even) {
     text-align: right;
   }
-  .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-list-view {
+  .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-btns {
+    text-align: center;
+  }
+  .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-btns .fiq-a {
     font-size: 1.18226601rem;
     color: #fff;
     width: 4.67980296rem;
@@ -4420,11 +4423,12 @@
     line-height: 2.95566502rem;
     text-align: center;
     border-radius: 0.19704433rem;
-    background-color: #152B67;
-    display: block;
+    background-color: #2D3039;
+    display: inline-block;
     margin-top: 0.73891626rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 0.24630542rem;
+    margin-bottom: 0rem;
+    margin-left: 0.24630542rem;
   }
   .fiq-container .fiq-search-popup.fiq-open {
     display: block;

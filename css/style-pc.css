@@ -6549,7 +6549,10 @@ input.fiq-input {
 .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-table-wrap .fiq-t tr td:nth-child(even) {
   text-align: right;
 }
-.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-list-view {
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-btns {
+  text-align: center;
+}
+.fiq-container .fiq-search-popup .fiq-pop-inner .fiq-btns .fiq-a {
   font-size: 12px;
   color: #fff;
   width: 95px;
@@ -6558,10 +6561,11 @@ input.fiq-input {
   text-align: center;
   border-radius: 4px;
   background-color: #2D3039;
-  display: block;
+  display: inline-block;
   margin-top: 68px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-left: 5px;
 }
 .fiq-container .fiq-search-popup.fiq-on {
   display: block;

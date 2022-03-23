@@ -431,6 +431,7 @@ a.fiq-a {
   margin-right: 5px;
   text-align: center;
   line-height: 24px;
+  display: inline-block;
 }
 .fiq-container .inner .fiq-money .fiq-section.fiq-sec3 .fiq-inner .fiq-cont ul li p em {
   font-weight: 700;

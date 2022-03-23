@@ -24,6 +24,35 @@ function modifyNumber(time){
   }
 }
 
+
+let mainTabs = document.querySelectorAll('.fiq-m-tab');
+let mainTabWrap = document.querySelector('.fiq-main-tab-wrap');
+Array.prototype.forEach.call(mainTabs, function(e) {
+  e.addEventListener('click', function() {
+    mainTabWrap.classList.remove('fiq-main-tab-active1','fiq-main-tab-active2','fiq-main-tab-active3','fiq-main-tab-active4','fiq-main-tab-active5','fiq-main-tab-active6','fiq-main-tab-active7','fiq-main-tab-active8','fiq-main-tab-active9');
+    if (e.classList.contains('fiq-m-tab1')) {
+      mainTabWrap.classList.add('fiq-main-tab-active1');
+    } else if(e.classList.contains('fiq-m-tab2')) {
+      mainTabWrap.classList.add('fiq-main-tab-active2');
+    } else if(e.classList.contains('fiq-m-tab3')) {
+      mainTabWrap.classList.add('fiq-main-tab-active3');
+    } else if(e.classList.contains('fiq-m-tab4')) {
+      mainTabWrap.classList.add('fiq-main-tab-active4');
+    } else if(e.classList.contains('fiq-m-tab5')) {
+      mainTabWrap.classList.add('fiq-main-tab-active5');
+    } else if(e.classList.contains('fiq-m-tab6')) {
+      mainTabWrap.classList.add('fiq-main-tab-active6');
+    } else if(e.classList.contains('fiq-m-tab7')) {
+      mainTabWrap.classList.add('fiq-main-tab-active7');
+    } else if(e.classList.contains('fiq-m-tab8')) {
+      mainTabWrap.classList.add('fiq-main-tab-active8');
+    } else {
+      mainTabWrap.classList.add('fiq-main-tab-active9');
+    }
+  })
+});
+
+
 let star = document.querySelector('.fiq-star');
 if(star)star.addEventListener('click', function() {
   if(star.classList.contains('fiq-on')) {
@@ -134,7 +163,18 @@ Array.prototype.forEach.call(innerDepths, function(e) {
     }
   })
 });
-
+let innerTabWrap2 = document.querySelector('.fiq-inner-tab-wrap2');
+let innerTabs2 = innerTabWrap2.querySelectorAll('.fiq-inner-tab');
+Array.prototype.forEach.call(innerTabs2, function(e) {
+  e.addEventListener('click', function() {
+    innerTabWrap2.classList.remove('fiq-inner-active1', 'fiq-inner-active2');
+    if (e.classList.contains('fiq-inner-tab1')) {
+      innerTabWrap2.classList.add('fiq-inner-active1');
+    } else {
+      innerTabWrap2.classList.add('fiq-inner-active2');
+    }
+  })
+});
 let innerTabWrap3 = document.querySelector('.fiq-inner-tab-wrap3');
 let innerTabs3 = innerTabWrap3.querySelectorAll('.fiq-inner-tab');
 Array.prototype.forEach.call(innerTabs3, function(e) {

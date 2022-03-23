@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import "asset";
+
+body {
+  font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', '돋움', Dotum, '굴림', Gulim, Verdana, Arial, sans-serif;
+  letter-spacing: -0.075em;
+}
+a.fiq-a { .ib; .pointer; }
+
+.fiq-container {
+  .inner {
+    .fiq-money { .fs(0); .tc; color:#222;
+      .fiq-section { .p(50,0,60); .-box; .tl;
+        &:nth-child(odd) { .bgc(#F7F7F7); }
+        .fiq-inner { .w(1180); .mh-c;
+          h2 { .fs(34); .lh(32); .tl; .bold; .mb(28); }
+          .fiq-tit { .fs(20); .lh(27); .mb(29); .ls(-0.05em); .bold; }
+          .fiq-txt { .fs(14); color:#888; .lh(30); .mb(28);
+            em { color:#222; .block; .bold; }
+            &:last-of-type { .mb(0); }
+          }
+          .fiq-tab-wrap { .mb(28); .wf; .tc; .flex; flex-wrap: wrap;
+            .fiq-tab { .fs(16); .ls(-0.012em); .tc; .p(13,0); .-box; .pointer; .-a(#ddd); .-box; .ml(-1); }
+          }
+          [data-view="1"] [data-tab="1"],
+          [data-view="2"] [data-tab="2"],
+          [data-view="3"] [data-tab="3"],
+          [data-view="4"] [data-tab="4"],
+          [data-view="5"] [data-tab="5"],
+          [data-view="6"] [data-tab="6"],
+          [data-view="7"] [data-tab="7"],
+          [data-view="8"] [data-tab="8"],
+          [data-view="9"] [data-tab="9"],
+          [data-view="10"] [data-tab="10"],
+          [data-view="11"] [data-tab="11"],
+          [data-view="12"] [data-tab="12"] { .-a(#222); z-index: 1; .bold; }
+
+          .fiq-cont { .wf; .hide;
+            .fiq-cont-img { .tc; .wf; }
+          }
+
+          [data-view="1"] ~ .fiq-cont1,
+          [data-view="2"] ~ .fiq-cont2,
+          [data-view="3"] ~ .fiq-cont3,
+          [data-view="4"] ~ .fiq-cont4,
+          [data-view="5"] ~ .fiq-cont5,
+          [data-view="6"] ~ .fiq-cont6,
+          [data-view="7"] ~ .fiq-cont7,
+          [data-view="8"] ~ .fiq-cont8,
+          [data-view="9"] ~ .fiq-cont9,
+          [data-view="10"] ~ .fiq-cont10,
+          [data-view="11"] ~ .fiq-cont11,
+          [data-view="12"] ~ .fiq-cont12 { .ib; }
+        }
+
+        &.fiq-top {
+          .fiq-inner {
+            .fiq-down-wrap { .m(28,0); .wf; .tc; .flex; flex-wrap: nowrap;
+              .fiq-down { .fs(16); .ls(-0.012em); .tc; .lh(48); flex:1 1; .pointer; .rel; .bgc(#fff); .-a(#DDDDDD); .-box;
+                span { .wh(20,25); .ib; .contain('../img/money/ico_pdf_pc.png'); .vam; }
+                &:first-child { .br-lv(10); }
+                &:last-child { .br-rv(10); }
+                &:nth-child(2), &:nth-child(3) { .ml(-1); }
+                &:hover { .-a(#222); .bold; z-index: 1; }
+              }
+            }
+          }
+        }
+        &.fiq-sec1 {
+          .fiq-inner {
+            .fiq-tab-wrap {
+              .fiq-tab { flex: 1 1 20%;
+                &:nth-child(1), &:nth-child(6) { .ml(0); }
+                &:nth-child(n+6) { .mt(-1); }
+                &:nth-child(1) { border-top-left-radius: 10px; }
+                &:nth-child(5) { border-top-right-radius: 10px; }
+                &:nth-child(6) { border-bottom-left-radius: 10px; }
+                &:nth-child(10) { border-bottom-right-radius: 10px; }
+              }
+            }
+            .fiq-cont1 .fiq-cont-img { .wh(609,314); .contain('../img/money/2-1.jpg'); .mh-c; }
+            .fiq-cont2 .fiq-cont-img { .wh(609,250); .contain('../img/money/2-2.jpg'); .mh-c; }
+            .fiq-cont3 .fiq-cont-img { .wh(609,227); .contain('../img/money/2-3.jpg'); .mh-c; }
+            .fiq-cont4 .fiq-cont-img { .wh(609,272); .contain('../img/money/2-4.jpg'); .mh-c; }
+            .fiq-cont5 .fiq-cont-img { .wh(609,273); .contain('../img/money/2-5.jpg'); .mh-c; }
+            .fiq-cont6 .fiq-cont-img { .wh(609,325); .contain('../img/money/2-6.jpg'); .mh-c; }
+            .fiq-cont7 .fiq-cont-img { .wh(609,324); .contain('../img/money/2-7.jpg'); .mh-c; }
+            .fiq-cont8 .fiq-cont-img { .wh(609,195); .contain('../img/money/2-8.jpg'); .mh-c; }
+            .fiq-cont9 .fiq-cont-img { .wh(609,220); .contain('../img/money/2-9.jpg'); .mh-c; }
+          }
+        }
+        &.fiq-sec2 {
+          .fiq-inner {
+            .fiq-box { .mb(28);
+              ul { .flex; flex-wrap: nowrap; flex-direction: row; justify-content: space-between;
+                li { .tc; .p(25,0,30); .-box; .br(10); .-a(#ddd); .bgc(#fff); .w(380);
+                  &:last-child { .mr(0); }
+                  .fiq-b-tit { .fs(20); .ls(-0.05em); .mb(10); .bold; }
+                  .fiq-b-txt { .fs(14); .lh(20); color:#888; .mb(18); }
+                  .fiq-btn { .fs(14); .ls(-0.035em); .tc; .wh(210,40); .lh(38); .-a(#222); .-box; .ib; .bgc(#222); color:#fff; .bold; .br(5); .pointer; }
+                  &:hover { .bgc(#253180);
+                    .fiq-b-tit, .fiq-b-txt { color:#fff; }
+                    .fiq-btn { border:1px solid rgba(255,255,255,0.5); .bgc(#253180); }
+                  }
+                }
+              }
+            }
+            .fiq-call {
+              span { .pl(15); .-box; .ib; .rel;
+                i { .ib; }
+                &:nth-of-type(1) i:after { .cnt; .wh(9.5,14); .contain('../img/money/ico_phone.svg'); .abs; .lt(0,10); }
+                &:nth-of-type(2) { .w(60); .pl(0); .tc; }
+                &:nth-of-type(3) { .ml(5);
+                  i:after { .cnt; .wh(15.5,12); .contain('../img/money/ico_mail.svg'); .abs; .lt(-5,10); }
+                }
+              }
+            }
+          }
+        }
+        &.fiq-sec3 {
+          .fiq-inner {
+            .fiq-tab-wrap {
+              .fiq-tab { flex: 1 1 16.667%;
+                &:nth-child(1), &:nth-child(7) { .ml(0); }
+                &:nth-child(n+7) { .mt(-1); }
+                &:nth-child(1) { border-top-left-radius: 10px; }
+                &:nth-child(6) { border-top-right-radius: 10px; }
+                &:nth-child(7) { border-bottom-left-radius: 10px; }
+                &:nth-child(12) { border-bottom-right-radius: 10px; }
+
+                &:nth-child(2) { .p(2,0); }
+              }
+            }
+            .fiq-cont {
+              .fiq-cont-img { .mh-c; .mt(46); .mb(46); }
+              ul {
+                li { .mb(28);
+                  &:last-child { .mb(0); }
+                  p { .fs(14); .lh(30);
+                    span { color:#fff; .bold; .wh(24,24); .bgc(#E27B00); .br(50%); .mr(5); .tc; .lh(24); }
+                    em { .bold; }
+                  }
+                }
+              }
+              &.fiq-cont1 .fiq-cont-img { .wh(630,151); .contain('../img/money/3-1.png'); }
+              &.fiq-cont2 {
+                .fiq-cont-img1 { .wh(630,287); .contain('../img/money/3-2.png'); }
+                .fiq-cont-img2 { .wh(630,399); .contain('../img/money/3-2-2.png'); }
+              }
+              &.fiq-cont3 .fiq-cont-img { .wh(630,308); .contain('../img/money/3-3.png'); }
+              &.fiq-cont4 .fiq-cont-img { .wh(630,315); .contain('../img/money/3-4.png'); }
+              &.fiq-cont5 .fiq-cont-img { .wh(630,433); .contain('../img/money/3-5.png'); }
+              &.fiq-cont6 {
+                .fiq-cont-img1 { .wh(630,357); .contain('../img/money/3-6.png'); }
+                .fiq-cont-img2 { .wh(630,341); .contain('../img/money/3-6-2.png'); }
+              }
+              &.fiq-cont7 .fiq-cont-img { .wh(630,247); .contain('../img/money/3-7.png'); }
+              &.fiq-cont8 .fiq-cont-img { .wh(630,295); .contain('../img/money/3-8.png'); }
+              &.fiq-cont9 .fiq-cont-img { .wh(630,227); .contain('../img/money/3-9.png'); }
+              &.fiq-cont10 .fiq-cont-img { .wh(630,379); .contain('../img/money/3-10.png'); }
+              &.fiq-cont11 .fiq-cont-img { .wh(630,478); .contain('../img/money/3-11.png'); }
+              &.fiq-cont12 {
+                .fiq-cont-img { .wh(630,311); .contain('../img/money/3-12.png'); }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

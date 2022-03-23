@@ -1,0 +1,11 @@
+<svg id="ico_mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.591" height="12" viewBox="0 0 15.591 12">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_913" data-name="사각형 913" width="15.591" height="12" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1990" data-name="그룹 1990" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="패스_14" data-name="패스 14" d="M2.6.167,8.016,6.314a1.623,1.623,0,0,0,2.435,0L15.775.274a.57.57,0,0,1,.151-.119A1.831,1.831,0,0,0,15.189,0H3.278a1.841,1.841,0,0,0-.707.141C2.58.15,2.59.157,2.6.167" transform="translate(-1.438 0)" fill="#253180"/>
+    <path id="패스_15" data-name="패스 15" d="M15.308,1.957a.567.567,0,0,1-.1.175L9.88,8.173a2.779,2.779,0,0,1-4.169,0L.293,2.026C.282,2.013.275,2,.265,1.987A1.826,1.826,0,0,0,0,2.934v8.32a1.84,1.84,0,0,0,1.84,1.84H13.751a1.84,1.84,0,0,0,1.84-1.84V2.934a1.827,1.827,0,0,0-.283-.977" transform="translate(0 -1.095)" fill="#253180"/>
+  </g>
+</svg>

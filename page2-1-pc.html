@@ -328,9 +328,18 @@
     <!-- [D] 파이낸셜아이큐 클래스 : .fiq-* 사용 -->
   <div id="container" class="fiq-container">
     <div class="inner">
-      <div class="fiq-wrap">
+
+
+<!-- ####### 3.16 수정 fiq-wrap클래스에 fiq-newly 추가#######-->
+      <div class="fiq-wrap fiq-newly">
         <article class="fiq-article fiq-page1s">
           <section class="fiq-section">
+<!-- ####### 3.16 수정 끝 #######-->
+
+            <div class="fiq-top-title">
+              <h2 class="fiq-h2">업종등락</h2>
+            </div>
+
             <div class="fiq-tabs-wrap fiq-tabs-wrap1 fiq-tabs-wrap-7n fiq-top-active1">
               <a class="fiq-a fiq-top-tab fiq-top-tab1" data-tab-cl="1">업종등락</a>
               <a class="fiq-a fiq-top-tab fiq-top-tab2" data-tab-cl="2">시가총액</a>
@@ -343,15 +352,10 @@
 
             <!-- ####### 업종등락 탭 #######-->
             <div class="fiq-tab-sibl fiq-tab-sibl1">
-              <div class="fiq-top-wrap">
-                <h3 class="fiq-h3-2">업종등락</h3>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
 
-              <div class="fiq-tab-wrap fiq-tab-wrap1 fiq-tab2n fiq-tab1-active">
+
+<!-- ####### 3.16 수정 fiq-tab-wrap클래스에 fiq-tab-type-b 추가#######-->
+              <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap1 fiq-tab2n fiq-tab1-active">
                 <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">코스피</a>
                 <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">코스닥</a>
               </div>
@@ -419,7 +423,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
+                        <tr class="fiq-down">
                           <td>대성에너지</td>
                           <td class="txt-num">11.050</td>
                           <td class="txt-num">450</td>
@@ -770,7 +774,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
+                        <tr class="fiq-up">
                           <td>대성에너지</td>
                           <td class="txt-num">11.050</td>
                           <td class="txt-num">450</td>
@@ -1068,15 +1072,10 @@
 
             <!-- ####### 시가총액 탭 #######-->
             <div class="fiq-tab-sibl fiq-tab-sibl2">
-              <div class="fiq-top-wrap">
-                <h3 class="fiq-h3-2">시가총액</h3>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
 
-              <div class="fiq-tab-wrap fiq-tab-wrap2 fiq-tab2n fiq-tab1-active">
+
+<!-- ####### 3.16 수정 fiq-tab-wrap클래스에 fiq-tab-type-b 추가#######-->
+              <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap2 fiq-tab2n fiq-tab1-active">
                 <a class="fiq-a fiq-tab2-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">코스피</a>
                 <a class="fiq-a fiq-tab2-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">코스닥</a>
               </div>
@@ -1793,15 +1792,10 @@
 
             <!-- ####### 거래량 탭 #######-->
             <div class="fiq-tab-sibl fiq-tab-sibl3">
-              <div class="fiq-top-wrap">
-                <h3 class="fiq-h3-2">거래량</h3>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
 
-              <div class="fiq-tab-wrap fiq-tab-wrap3 fiq-tab2n fiq-tab1-active">
+
+<!-- ####### 3.16 수정 fiq-tab-wrap클래스에 fiq-tab-type-b 추가#######-->
+              <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap3 fiq-tab2n fiq-tab1-active">
                 <a class="fiq-a fiq-tab3-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">코스피</a>
                 <a class="fiq-a fiq-tab3-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">코스닥</a>
               </div>
@@ -2518,15 +2512,10 @@
 
             <!-- ####### 상승종목 탭 #######-->
             <div class="fiq-tab-sibl fiq-tab-sibl4">
-              <div class="fiq-top-wrap">
-                <h3 class="fiq-h3-2">상승종목</h3>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
 
-              <div class="fiq-tab-wrap fiq-tab-wrap4 fiq-tab2n fiq-tab1-active">
+
+<!-- ####### 3.16 수정 fiq-tab-wrap클래스에 fiq-tab-type-b 추가#######-->
+              <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap4 fiq-tab2n fiq-tab1-active">
                 <a class="fiq-a fiq-tab4-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">코스피</a>
                 <a class="fiq-a fiq-tab4-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">코스닥</a>
               </div>
@@ -3243,15 +3232,10 @@
 
             <!-- ####### 하락종목 탭 #######-->
             <div class="fiq-tab-sibl fiq-tab-sibl5">
-              <div class="fiq-top-wrap">
-                <h3 class="fiq-h3-2">하락종목</h3>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
 
-              <div class="fiq-tab-wrap fiq-tab-wrap5 fiq-tab2n fiq-tab1-active">
+
+<!-- ####### 3.16 수정 fiq-tab-wrap클래스에 fiq-tab-type-b 추가#######-->
+              <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap5 fiq-tab2n fiq-tab1-active">
                 <a class="fiq-a fiq-tab5-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">코스피</a>
                 <a class="fiq-a fiq-tab5-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">코스닥</a>
               </div>
@@ -3968,15 +3952,10 @@
 
             <!-- ####### 신규상장 탭 #######-->
             <div class="fiq-tab-sibl fiq-tab-sibl6">
-              <div class="fiq-top-wrap">
-                <h3 class="fiq-h3-2">신규상장</h3>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
 
-              <div class="fiq-tab-wrap fiq-tab-wrap6 fiq-tab2n fiq-tab1-active">
+
+<!-- ####### 3.16 수정 fiq-tab-wrap클래스에 fiq-tab-type-b 추가#######-->
+              <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap6 fiq-tab2n fiq-tab1-active">
                 <a class="fiq-a fiq-tab6-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">코스피</a>
                 <a class="fiq-a fiq-tab6-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">코스닥</a>
               </div>
@@ -4693,15 +4672,10 @@
 
             <!-- ####### 관리종목 탭 #######-->
             <div class="fiq-tab-sibl fiq-tab-sibl7">
-              <div class="fiq-top-wrap">
-                <h3 class="fiq-h3-2">관리종목</h3>
-                <div class="fiq-date">
-                  <p class="fiq-date-time txt-num"></p>
-                  <p>20분 지연</p>
-                </div>
-              </div>
 
-              <div class="fiq-tab-wrap fiq-tab-wrap7 fiq-tab2n fiq-tab1-active">
+
+<!-- ####### 3.16 수정 fiq-tab-wrap클래스에 fiq-tab-type-b 추가#######-->
+              <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap7 fiq-tab2n fiq-tab1-active">
                 <a class="fiq-a fiq-tab7-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">코스피</a>
                 <a class="fiq-a fiq-tab7-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">코스닥</a>
               </div>

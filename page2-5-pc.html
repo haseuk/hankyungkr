@@ -328,18 +328,26 @@
     <!-- [D] 파이낸셜아이큐 클래스 : .fiq-* 사용 -->
   <div id="container" class="fiq-container">
     <div class="inner">
-      <div class="fiq-wrap">
-        <article class="fiq-article fiq-page1s">
-          <section class="fiq-section">
-            <div class="fiq-top-wrap">
-              <h3 class="fiq-h3-2">프로그램 매매 동향</h3>
-              <div class="fiq-date">
-                <p class="fiq-date-time txt-num"></p>
-                <p>20분 지연</p>
-              </div>
-            </div>
 
-            <div class="fiq-tab-wrap fiq-tab-wrap1 fiq-tab2n fiq-tab1-active">
+
+
+<!-- ####### 3.16 수정 fiq-wrap클래스에 fiq-newly 추가#######-->
+      <div class="fiq-wrap fiq-newly">
+        <article class="fiq-article fiq-page1s">
+          <section class="fiq-section" style="margin-top: 50px;">
+<!-- ####### 3.16 수정 끝 #######-->
+
+
+
+
+<!-- ####### 3.16 수정 fiq-tab-wrap클래스에 fiq-tab-type-b 추가#######-->
+            <div class="fiq-tab-wrap fiq-tab-type-b fiq-tab-wrap1 fiq-tab2n fiq-tab1-active" STYLE="text-align: left;">
+<!-- ####### 3.16 수정 끝 #######-->
+
+
+
+
+
               <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn1" data-tab="1">코스피</a>
               <a class="fiq-a fiq-tab1-btn fiq-tab-btn fiq-tab-btn2" data-tab="2">코스닥</a>
             </div>
@@ -379,9 +387,11 @@
                 </thead>
                 <!-- ####### td에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### td에 fiq-down클래스 들어가면 하락 파란색 #######-->
+
+<!-- ####### 3.16 수정 tr태그에 fiq-up fiq-down 추가#######-->
                 <tbody>
-                <tr>
-                  <td>2021-11-15</td>
+                <tr class="fiq-up">
+                  <td class="txt-num">2021-11-15</td>
                   <td class="fiq-up txt-num">76,302</td>
                   <td class="fiq-up txt-num">60,707</td>
                   <td class="fiq-up txt-num">15,959</td>
@@ -392,7 +402,7 @@
                   <td class="fiq-up txt-num">2,070,563</td>
                   <td class="fiq-up txt-num">271,166</td>
                 </tr>
-                <tr>
+                <tr class="fiq-down">
                   <td class="fiq-up txt-num">2021-11-12</td>
                   <td class="fiq-up txt-num">76,302</td>
                   <td class="fiq-up txt-num">60,707</td>
@@ -404,7 +414,7 @@
                   <td class="fiq-up txt-num">2,070,563</td>
                   <td class="fiq-up txt-num">271,166</td>
                 </tr>
-                <tr>
+                <tr class="fiq-down">
                   <td class="fiq-down txt-num">2021-11-11</td>
                   <td class="fiq-down txt-num">-76,302</td>
                   <td class="fiq-down txt-num">-60,707</td>
@@ -416,7 +426,7 @@
                   <td class="fiq-down txt-num">-2,070,563</td>
                   <td class="fiq-down txt-num">-271,166</td>
                 </tr>
-                <tr>
+                <tr class="fiq-down">
                   <td class="fiq-up txt-num">2021-11-10</td>
                   <td class="fiq-up txt-num">76,302</td>
                   <td class="fiq-down txt-num">-60,707</td>
@@ -428,7 +438,7 @@
                   <td class="fiq-up txt-num">2,070,563</td>
                   <td class="fiq-up txt-num">271,166</td>
                 </tr>
-                <tr>
+                <tr class="fiq-down">
                   <td class="fiq-down txt-num">2021-11-09</td>
                   <td class="fiq-down txt-num">-76,302</td>
                   <td class="fiq-down txt-num">-60,707</td>
@@ -478,32 +488,34 @@
                 </thead>
                 <!-- ####### td에 fiq-up클래스 들어가면 상승 빨간색 #######-->
                 <!-- ####### td에 fiq-down클래스 들어가면 하락 파란색 #######-->
+
+                <!-- ####### 3.16 수정 tr태그에 fiq-up fiq-down 추가#######-->
                 <tbody>
-                <tr>
-                  <td>2021-11-15</td>
+                <tr class="fiq-up">
+                  <td class="txt-num">2021-11-15</td>
                   <td class="fiq-up txt-num">76,302</td>
-                  <td class="fiq-down txt-num">-60,707</td>
-                  <td class="fiq-down txt-num">-15,959</td>
-                  <td class="fiq-down txt-num">-2,265,377</td>
-                  <td class="fiq-down txt-num">-2,265,377</td>
-                  <td class="fiq-down txt-num">-255,521</td>
-                  <td class="fiq-down txt-num">-2,341,679</td>
+                  <td class="fiq-up txt-num">60,707</td>
+                  <td class="fiq-up txt-num">15,959</td>
+                  <td class="fiq-up txt-num">2,265,377</td>
+                  <td class="fiq-up txt-num">2,265,377</td>
+                  <td class="fiq-up txt-num">255,521</td>
+                  <td class="fiq-up txt-num">2,341,679</td>
                   <td class="fiq-up txt-num">2,070,563</td>
                   <td class="fiq-up txt-num">271,166</td>
                 </tr>
-                <tr>
+                <tr class="">
                   <td class="fiq-up txt-num">2021-11-12</td>
                   <td class="fiq-up txt-num">76,302</td>
                   <td class="fiq-up txt-num">60,707</td>
                   <td class="fiq-down txt-num">-15,959</td>
                   <td class="fiq-down txt-num">-2,265,377</td>
                   <td class="fiq-up txt-num">2,265,377</td>
-                  <td class="fiq-down txt-num">-255,521</td>
-                  <td class="fiq-down txt-num">-2,341,679</td>
-                  <td class="fiq-down txt-num">-2,070,563</td>
-                  <td class="fiq-down txt-num">-271,166</td>
+                  <td class="fiq-up txt-num">255,521</td>
+                  <td class="fiq-up txt-num">2,341,679</td>
+                  <td class="fiq-up txt-num">2,070,563</td>
+                  <td class="fiq-up txt-num">271,166</td>
                 </tr>
-                <tr>
+                <tr class="fiq-down">
                   <td class="fiq-down txt-num">2021-11-11</td>
                   <td class="fiq-down txt-num">-76,302</td>
                   <td class="fiq-down txt-num">-60,707</td>
@@ -515,7 +527,7 @@
                   <td class="fiq-down txt-num">-2,070,563</td>
                   <td class="fiq-down txt-num">-271,166</td>
                 </tr>
-                <tr>
+                <tr class="fiq-down">
                   <td class="fiq-up txt-num">2021-11-10</td>
                   <td class="fiq-up txt-num">76,302</td>
                   <td class="fiq-down txt-num">-60,707</td>
@@ -527,17 +539,17 @@
                   <td class="fiq-up txt-num">2,070,563</td>
                   <td class="fiq-up txt-num">271,166</td>
                 </tr>
-                <tr>
+                <tr class="fiq-down">
                   <td class="fiq-down txt-num">2021-11-09</td>
                   <td class="fiq-down txt-num">-76,302</td>
                   <td class="fiq-down txt-num">-60,707</td>
                   <td class="fiq-down txt-num">-15,959</td>
                   <td class="fiq-down txt-num">-2,265,377</td>
                   <td class="fiq-down txt-num">-2,265,377</td>
-                  <td class="fiq-up txt-num">255,521</td>
-                  <td class="fiq-up txt-num">2,341,679</td>
-                  <td class="fiq-up txt-num">2,070,563</td>
-                  <td class="fiq-up txt-num">271,166</td>
+                  <td class="fiq-down txt-num">-255,521</td>
+                  <td class="fiq-down txt-num">-2,341,679</td>
+                  <td class="fiq-down txt-num">-2,070,563</td>
+                  <td class="fiq-down txt-num">-271,166</td>
                 </tr>
                 </tbody>
               </table>

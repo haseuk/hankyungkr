@@ -207,9 +207,12 @@ table.fiq-t {
   padding-left: 1.66666667vw;
   line-height: 5.41666667vw;
 }
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tbody tr:nth-child(even) {
+  background-color: #FAFCFE;
+}
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr th,
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr td {
-  font-size: 2.5vw;
+  font-size: 2.77777778vw;
   color: #888;
   height: 8.05555556vw;
   line-height: 8.05555556vw;
@@ -218,6 +221,7 @@ table.fiq-t {
   padding-bottom: 0vw;
   padding-left: 1.66666667vw;
   box-sizing: border-box;
+  border: 1px solid #ddd;
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr td.fiq-up {
   color: #FF0000;
@@ -360,7 +364,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap .fiq-inner-tab {
   font-size: 2.77777778vw;
-  color: #222;
   text-align: center;
   height: 7.5vw;
   line-height: 7.5vw;
@@ -383,7 +386,6 @@ table.fiq-t {
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap.fiq-inner-active1 .fiq-inner-tab1,
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-tab-wrap.fiq-inner-active2 .fiq-inner-tab2 {
   border: 1px solid #222;
-  color: #222;
   font-weight: 700;
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-cont-inner-wrap {
@@ -433,7 +435,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-inner-depth-wrap span {
   font-size: 1.94444444vw;
-  color: #222;
   float: right;
   display: inline-block;
   margin-top: 0.69444444vw;
@@ -607,7 +608,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section.fiq-sec2 .fiq-cont.fiq-cont1 ul li .fiq-txt-wrap .fiq-tit {
   font-size: 2.77777778vw;
-  color: #000;
   font-weight: 700;
   margin-bottom: 1.11111111vw;
 }
@@ -660,6 +660,20 @@ table.fiq-t {
   padding-bottom: 2.77777778vw;
   padding-left: 2.22222222vw;
   box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-inner-tab-wrap .fiq-inner-tab {
+  font-size: 3.33333333vw;
+  color: #888;
+  width: 25vw;
+  height: 10vw;
+  border: 0;
+  border-bottom: 1px solid #222;
+  border-radius: 0vw;
+  line-height: 10vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-inner-tab-wrap.fiq-inner-active1 .fiq-inner-tab1,
+.fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-inner-tab-wrap.fiq-inner-active2 .fiq-inner-tab2 {
+  border-bottom: 4px solid #222;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m9 .fiq-section .fiq-cont .fiq-ul1 li {
   cursor: pointer;
@@ -726,10 +740,14 @@ table.fiq-t {
   width: 102.3%;
   overflow: auto;
   position: relative;
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table {
-  border-top: 1px solid #ddd;
-  width: 236.11111111vw;
+  width: 250vw;
   margin-right: 2.77777778vw;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr th {
@@ -741,15 +759,22 @@ table.fiq-t {
   border-bottom: 1px solid #ddd;
   border-right: 1px solid #ddd;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr:nth-child(1) th:last-child {
-  border-right: 0;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr:nth-child(5n) {
-  border-bottom: 1px solid #ddd;
-}
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr td {
   text-align: center;
-  color: #222;
+  position: relative;
+  line-height: normal;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr td:first-child:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 0.69444444vw;
+  height: 100%;
+  background-color: #ddd;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr td.fiq-up {
   color: #FF0000;
@@ -757,8 +782,42 @@ table.fiq-t {
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr td.fiq-down {
   color: #2175FF;
 }
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr.fiq-up td:first-child:after {
+  background-color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-cont-inner-wrap .fiq-depth-table tr.fiq-down td:first-child:after {
+  background-color: #2175FF;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont1 .fiq-inner-depth-wrap {
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont2 .fiq-cont-inner-wrap {
+  width: 102.3%;
+  overflow: auto;
+  position: relative;
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont2 .fiq-cont-inner-wrap .fiq-depth-table {
+  width: 250vw;
+  margin-right: 2.77777778vw;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table {
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+}
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell {
-  width: 46.38888889vw;
+  width: 45.69444444vw;
   margin-right: 2.77777778vw;
   display: inline-block;
   vertical-align: middle;
@@ -773,10 +832,28 @@ table.fiq-t {
   font-weight: 400;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell .fiq-t tr td {
-  color: #222;
+  position: relative;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell .fiq-t tr td:nth-child(even) {
   text-align: right;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell .fiq-t tr td:first-child:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 0.69444444vw;
+  height: 100%;
+  background-color: #ddd;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell .fiq-t tr.fiq-up td:first-child:after {
+  background-color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell .fiq-t tr.fiq-down td:first-child:after {
+  background-color: #2175FF;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont3 .fiq-dep-table .fiq-cell + .fiq-cell {
   margin-right: 0vw;
@@ -790,6 +867,33 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-ul-wrap {
   display: none;
+  padding-top: 0vw;
+  padding-right: 2.77777778vw;
+  padding-bottom: 0vw;
+  padding-left: 2.77777778vw;
+  box-sizing: border-box;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-ul-wrap ul li {
+  position: relative;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-ul-wrap ul li:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 0.69444444vw;
+  height: 100%;
+  background-color: #ddd;
+  visibility: visible;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-ul-wrap ul li.fiq-up:after {
+  background-color: #ff0000;
+}
+.fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-ul-wrap ul li.fiq-down:after {
+  background-color: #2175FF;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-inner-active1 ~ .fiq-ul-wrap1,
 .fiq-container .fiq-wrap .fiq-article.fiq-m10 .fiq-section .fiq-cont4 .fiq-inner-active2 ~ .fiq-ul-wrap2 {
@@ -878,9 +982,6 @@ table.fiq-t {
   display: inline-block;
   float: right;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-m14 .fiq-section .fiq-tab-wrap {
-  display: none;
-}
 .fiq-container .fiq-wrap .fiq-article.fiq-m14 .fiq-section .fiq-cont .fiq-select {
   width: 100%;
   height: 8.88888889vw;
@@ -892,6 +993,7 @@ table.fiq-t {
   padding-left: 1.66666667vw;
   box-sizing: border-box;
   margin-bottom: 4.16666667vw;
+  display: inline-block;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m14 .fiq-section .fiq-cont .fiq-select select {
   font-size: 2.77777778vw;
@@ -920,7 +1022,6 @@ table.fiq-t {
   font-size: 4.44444444vw;
   line-height: 5.97222222vw;
   text-align: left;
-  color: #000;
   display: inline-block;
   margin-bottom: 2.77777778vw;
 }
@@ -987,6 +1088,7 @@ table.fiq-t {
   padding-bottom: 0vw;
   padding-left: 1.38888889vw;
   box-sizing: border-box;
+  width: 100%;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds {
   padding-top: 0vw;
@@ -1045,16 +1147,16 @@ table.fiq-t {
   margin-right: 1.38888889vw;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices:nth-child(1) .fiq-nm:after {
-  background-color: #E970B5;
+  background-color: #5e67ba;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices:nth-child(2) .fiq-nm:after {
-  background-color: #F7C790;
+  background-color: #739ac0;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices:nth-child(3) .fiq-nm:after {
-  background-color: #3646B0;
+  background-color: #c092ad;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-funds .fiq-indices:nth-child(4) .fiq-nm:after {
-  background-color: #3C9FDB;
+  background-color: #b8a58f;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper {
   background-color: #F9F9F9;
@@ -1100,7 +1202,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .fiq-slide .fiq-indices .fiq-indices-span > p {
   font-size: 3.33333333vw;
-  color: #000;
   display: inline-block;
   vertical-align: middle;
   font-weight: 700;
@@ -1211,7 +1312,7 @@ table.fiq-t {
   text-align: center;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t tr td {
-  font-size: 3.05555556vw;
+  font-size: 2.5vw;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-cell .fiq-cell-inner .fiq-cont .fiq-t tr td:nth-child(1) {
   text-align: left;
@@ -1235,7 +1336,6 @@ table.fiq-t {
   vertical-align: middle;
   border: 1px solid #ddd;
   border-right: 0;
-  color: #222;
   box-sizing: border-box;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap .fiq-tab:first-child {
@@ -1355,7 +1455,6 @@ table.fiq-t {
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li div p {
   font-size: 3.33333333vw;
   line-height: 3.75vw;
-  color: #222;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li div > span {
   font-size: 2.77777778vw;
@@ -1388,7 +1487,6 @@ table.fiq-t {
   padding-left: 1.66666667vw;
   border-radius: 0.83333333vw;
   font-weight: 400;
-  margin-left: 2.77777778vw;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-cont ul li .fiq-indices.fiq-up .fiq-indices-span span ~ p {
   color: #ff0000;
@@ -1444,7 +1542,6 @@ table.fiq-t {
   letter-spacing: -0.33333333vw;
   line-height: 4.72222222vw;
   height: 9.44444444vw;
-  color: #222;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-sec .fiq-ul-style li .fiq-news-item .fiq-date {
   font-size: 2.5vw;
@@ -1833,7 +1930,6 @@ table.fiq-t {
 .fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li div p {
   font-size: 3.33333333vw;
   line-height: 3.75vw;
-  color: #222;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page16 section .fiq-ul li div > span {
   font-size: 2.77777778vw;
@@ -2160,7 +2256,6 @@ table.fiq-t {
   border: 1px solid #222;
   border-radius: 1.11111111vw;
   box-sizing: border-box;
-  color: #222;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-cell-type.fiq-cell-type1 .fiq-img {
   width: 28.05555556vw;
@@ -2243,7 +2338,6 @@ table.fiq-t {
 .fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active8 .fiq-tab8,
 .fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active9 .fiq-tab9 {
   border: 1px solid #222;
-  color: #222;
   font-weight: 700;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page18 section .fiq-block .fiq-tab-active1 ~ .fiq-cont1,
@@ -2582,7 +2676,6 @@ table.fiq-t {
 .fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-tab-wrap .fiq-tab {
   font-size: 2.77777778vw;
   padding: 0vw;
-  color: #222;
   width: 47.77777778vw;
   height: 7.5vw;
   line-height: 7.5vw;
@@ -2605,7 +2698,6 @@ table.fiq-t {
 .fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-tab-wrap.fiq-tab-active2 .fiq-tab2 {
   border: 1px solid #222;
   background-color: #fff;
-  color: #222;
   font-weight: 700;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper {
@@ -2715,7 +2807,6 @@ table.fiq-t {
 .fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap.fiq-tab-active5 .fiq-tab5,
 .fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-tab-wrap.fiq-tab-active6 .fiq-tab6 {
   border: 1px solid #222;
-  color: #222;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont {
   padding-top: 4.16666667vw;
@@ -3011,7 +3102,9 @@ table.fiq-t {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active1 .fiq-tab1,
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active2 .fiq-tab2,
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active3 .fiq-tab3,
-.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active4 .fiq-tab4 {
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active4 .fiq-tab4,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active5 .fiq-tab5,
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-wrap.fiq-tab-type-b.fiq-tab-active6 .fiq-tab6 {
   border-bottom: 5px solid #222 !important;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 {
@@ -3051,7 +3144,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t tr td:nth-child(odd) {
   font-weight: 700;
-  color: #222;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont .fiq-table .fiq-t tr td:nth-child(even) {
   font-weight: 400;
@@ -3162,15 +3254,11 @@ table.fiq-t {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont6 .fiq-table-wrap .fiq-table .fiq-t tr th {
   font-size: 2.77777778vw;
   width: 18.05555556vw;
-  color: #222;
   font-weight: 400;
   border-right: 1px solid #ddd;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #F3F3F3;
   background-color: #F9F9F9;
-}
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont6 .fiq-table-wrap .fiq-table .fiq-t tr th:last-child {
-  border-right: 0;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec1 .fiq-cont6 .fiq-table-wrap .fiq-table .fiq-t tr td {
   font-size: 2.77777778vw;
@@ -3183,7 +3271,6 @@ table.fiq-t {
   padding-left: 2.08333333vw;
   box-sizing: border-box;
   background-color: #fff;
-  border-right: 1px solid #F3F3F3;
   position: relative;
   height: auto;
   line-height: normal;
@@ -3277,7 +3364,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr td {
   font-size: 3.33333333vw;
-  color: #222;
   height: 12.77777778vw;
   line-height: 12.77777778vw;
   box-sizing: border-box;
@@ -3397,8 +3483,71 @@ table.fiq-t {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont .fiq-t tr.fiq-down td:nth-child(3) span {
   background-color: #2175FF;
 }
-.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont2 {
-  padding: 2.77777778vw;
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont1 {
+  padding-bottom: 2.77777778vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont1 .fiq-news-list li {
+  font-size: 4.44444444vw;
+  min-height: 22.22222222vw;
+  line-height: 5.97222222vw;
+  text-align: left;
+  padding-top: 4.72222222vw;
+  padding-right: 0vw;
+  padding-bottom: 2.77777778vw;
+  padding-left: 0vw;
+  box-sizing: border-box;
+  border-bottom: 1px solid #DDDDDD;
+  zoom: 1;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont1 .fiq-news-list li:after {
+  content: '';
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont1 .fiq-news-list li img {
+  width: 22.22222222vw;
+  height: 14.02777778vw;
+  float: right;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont1 .fiq-news-list li span {
+  font-size: 2.22222222vw;
+  line-height: 2.91666667vw;
+  color: #888;
+  margin-top: 2.77777778vw;
+  display: block;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont1 .fiq-more-btn {
+  font-size: 4.16666667vw;
+  font-weight: 700;
+  border-radius: 1.38888889vw;
+  width: 100%;
+  height: 14.72222222vw;
+  line-height: 14.72222222vw;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #DDDDDD;
+  position: relative;
+  margin-top: 4.16666667vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont1 .fiq-more-btn:after {
+  content: '';
+  display: block;
+  width: 2.63888889vw;
+  height: 1.38888889vw;
+  position: absolute;
+  left: 50%;
+  top: 6.25vw;
+  right: auto;
+  bottom: auto;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/arrow_down_g.svg');
+  background-size: contain;
+  margin-left: 6.25vw;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont2 .fiq-news-list li {
   font-size: 4.44444444vw;
@@ -3463,6 +3612,182 @@ table.fiq-t {
   background-size: contain;
   margin-left: 6.25vw;
 }
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li {
+  padding-top: 4.16666667vw;
+  padding-right: 3.33333333vw;
+  padding-bottom: 9.72222222vw;
+  padding-left: 3.33333333vw;
+  box-sizing: border-box;
+  margin-bottom: 0vw;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li:nth-child(even) {
+  border-top: 1px solid #DDDDDD;
+  margin-top: 4.16666667vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-img {
+  width: 31.25vw;
+  height: 37.77777778vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3.88888889vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-img span {
+  width: 100%;
+  height: 100%;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li:nth-child(1) {
+  padding-top: 0vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r {
+  display: inline-block;
+  vertical-align: top;
+  width: 52.77777778vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top .fiq-pop-on {
+  font-size: 3.33333333vw;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+  width: 52.77777778vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.4em;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top .fiq-pop-on .fiq-code {
+  font-size: 2.77777778vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top .fiq-pop-on .fiq-code + a {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul {
+  margin-top: 3.33333333vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li {
+  padding: 0vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p {
+  font-size: 2.77777778vw;
+  margin-bottom: 0.69444444vw;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p:nth-child(2) {
+  font-weight: 700;
+  position: relative;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p:nth-child(2) span {
+  font-weight: 400;
+  color: #888;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p span {
+  width: 12.5vw;
+  color: #888;
+  margin-right: 4.16666667vw;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-s {
+  text-align: center;
+  color: #fff;
+  padding-top: 0.27777778vw;
+  padding-right: 0vw;
+  padding-bottom: 0vw;
+  padding-left: 0vw;
+  border-radius: 0.83333333vw;
+  background-color: #888;
+  line-height: 3.75vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-indi {
+  width: 0.69444444vw;
+  height: 0.69444444vw;
+  background-color: #888;
+  margin-bottom: 0.69444444vw;
+  border-left: 1vw solid transparent;
+  border-right: 1vw solid transparent;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-indi.fiq-up {
+  border-bottom: 1.7vw solid #FF0000;
+  width: 0vw;
+  height: 0vw;
+  margin-bottom: 0vw;
+  background: none;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-indi.fiq-down {
+  border-top: 1.7vw solid #2175FF;
+  width: 0vw;
+  height: 0vw;
+  margin-bottom: 0vw;
+  background: none;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p .fiq-s {
+  background-color: #FF0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p .fiq-s {
+  background-color: #2175FF;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-download {
+  width: 95.55555556vw;
+  height: 6.94444444vw;
+  background-color: #2D3039;
+  display: inline-block;
+  position: absolute;
+  left: 0vw;
+  bottom: 0vw;
+  right: auto;
+  top: auto;
+  border-top: 0;
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-bo-sec ul li .fiq-download:after {
+  content: '';
+  display: block;
+  width: 4.16666667vw;
+  height: 3.61111111vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/mo/btn_down.svg');
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 1.38888889vw;
+  right: auto;
+  bottom: auto;
+  margin-left: -2.08333333vw;
+  pointer-events: none;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m2 .fiq-sec2 .fiq-cont4 .fiq-more {
+  font-size: 3.33333333vw;
+  color: #888;
+  width: 100%;
+  height: 8.88888889vw;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 8.88888889vw;
+  border-radius: 0.55555556vw;
+  display: inline-block;
+  cursor: pointer;
+}
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 {
   overflow: hidden;
 }
@@ -3492,7 +3817,6 @@ table.fiq-t {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-tab-wrap.fiq-tab-active3 .fiq-tab3,
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-tab-wrap.fiq-tab-active4 .fiq-tab4 {
   border: 1px solid #222;
-  color: #222;
   font-weight: 700;
   background-color: #fff;
 }
@@ -3508,7 +3832,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont .fiq-inner-tab-wrap.fiq-inner-active1 .fiq-inner-tab1,
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont .fiq-inner-tab-wrap.fiq-inner-active2 .fiq-inner-tab2 {
-  color: #222;
   border-bottom: 4px solid #222;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont .fiq-cont-inner {
@@ -3524,7 +3847,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont .fiq-cont-inner .fiq-t tr td {
   font-size: 3.33333333vw;
-  color: #222;
   height: auto;
   line-height: 4.44444444vw;
   padding-top: 4.16666667vw;
@@ -3620,6 +3942,34 @@ table.fiq-t {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont .fiq-inner-active3 ~ .fiq-cont-inner3,
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont .fiq-inner-active4 ~ .fiq-cont-inner4 {
   display: block;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont2 .fiq-cont-inner-wrap .fiq-depth-table {
+  display: inline-block;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont2 .fiq-cont-inner-wrap .fiq-depth-table .fiq-t tr th {
+  background-color: #F8F8F8;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont2 .fiq-cont-inner-wrap .fiq-depth-table .fiq-t tr td {
+  position: relative;
+  text-align: center;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont2 .fiq-cont-inner-wrap .fiq-depth-table .fiq-t tr td:first-child:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  right: auto;
+  bottom: auto;
+  width: 0.69444444vw;
+  height: 100%;
+  background-color: #ddd;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont2 .fiq-cont-inner-wrap .fiq-depth-table .fiq-t tr.fiq-up td:first-child:after {
+  background-color: #ff0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-m10 .fiq-sec1 .fiq-cont2 .fiq-cont-inner-wrap .fiq-depth-table .fiq-t tr.fiq-down td:first-child:after {
+  background-color: #2175FF;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec1 {
   background-color: #F7F7F7;
@@ -3766,7 +4116,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li p:nth-child(2) {
   font-weight: 700;
-  color: #222;
   position: relative;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section .fiq-cont .fiq-swiper .fiq-slide .fiq-top ul li p:nth-child(2) span {
@@ -3987,7 +4336,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p:nth-child(2) {
   font-weight: 700;
-  color: #222;
   position: relative;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p:nth-child(2) span {
@@ -4112,6 +4460,274 @@ table.fiq-t {
   margin-bottom: 3.88888889vw;
   margin-left: 0vw;
 }
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 > .fiq-cont1 {
+  display: inline-block;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 > .fiq-cont1 .fiq-top-h .fiq-h2 .fiq-code {
+  font-size: 3.33333333vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont4 {
+  padding-top: 0vw;
+  padding-right: 2.22222222vw;
+  padding-bottom: 0vw;
+  padding-left: 2.22222222vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont5 .fiq-more-btn {
+  font-size: 4.16666667vw;
+  font-weight: 700;
+  border-radius: 1.38888889vw;
+  width: 100%;
+  height: 14.72222222vw;
+  line-height: 14.72222222vw;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #DDDDDD;
+  position: relative;
+  margin-top: 4.16666667vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont5 .fiq-more-btn:after {
+  content: '';
+  display: block;
+  width: 2.63888889vw;
+  height: 1.38888889vw;
+  position: absolute;
+  left: 50%;
+  top: 6.25vw;
+  right: auto;
+  bottom: auto;
+  background-repeat: no-repeat;
+  background-image: url('../img/pc/arrow_down_g.svg');
+  background-size: contain;
+  margin-left: 6.25vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li {
+  padding-top: 4.16666667vw;
+  padding-right: 3.33333333vw;
+  padding-bottom: 9.72222222vw;
+  padding-left: 3.33333333vw;
+  box-sizing: border-box;
+  margin-bottom: 0vw;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li:nth-child(even) {
+  border-top: 1px solid #DDDDDD;
+  margin-top: 4.16666667vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-img {
+  width: 31.25vw;
+  height: 37.77777778vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3.88888889vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-img span {
+  width: 100%;
+  height: 100%;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li:nth-child(1) {
+  padding-top: 0vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r {
+  display: inline-block;
+  vertical-align: top;
+  width: 52.77777778vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top .fiq-pop-on {
+  font-size: 3.33333333vw;
+  font-weight: 700;
+  display: inline-block;
+  vertical-align: middle;
+  width: 52.77777778vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-inline-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.4em;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top .fiq-pop-on .fiq-code {
+  font-size: 2.77777778vw;
+  color: #888;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top .fiq-pop-on .fiq-code + a {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul {
+  margin-top: 3.33333333vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li {
+  padding: 0vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p {
+  font-size: 2.77777778vw;
+  margin-bottom: 0.69444444vw;
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p:nth-child(2) {
+  font-weight: 700;
+  position: relative;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p:nth-child(2) span {
+  font-weight: 400;
+  color: #888;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p span {
+  width: 12.5vw;
+  color: #888;
+  margin-right: 4.16666667vw;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-s {
+  text-align: center;
+  color: #fff;
+  padding-top: 0.27777778vw;
+  padding-right: 0vw;
+  padding-bottom: 0vw;
+  padding-left: 0vw;
+  border-radius: 0.83333333vw;
+  background-color: #888;
+  line-height: 3.75vw;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-indi {
+  width: 0.69444444vw;
+  height: 0.69444444vw;
+  background-color: #888;
+  margin-bottom: 0.69444444vw;
+  border-left: 1vw solid transparent;
+  border-right: 1vw solid transparent;
+  display: inline-block;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-indi.fiq-up {
+  border-bottom: 1.7vw solid #FF0000;
+  width: 0vw;
+  height: 0vw;
+  margin-bottom: 0vw;
+  background: none;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li p .fiq-indi.fiq-down {
+  border-top: 1.7vw solid #2175FF;
+  width: 0vw;
+  height: 0vw;
+  margin-bottom: 0vw;
+  background: none;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) {
+  color: #FF0000;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p:nth-child(1) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-up p .fiq-s {
+  background-color: #FF0000;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) {
+  color: #2175FF;
+  font-weight: 700;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p:nth-child(1) span {
+  font-weight: 400;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-r .fiq-top ul li.fiq-down p .fiq-s {
+  background-color: #2175FF;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-download {
+  width: 95.55555556vw;
+  height: 6.94444444vw;
+  background-color: #2D3039;
+  display: inline-block;
+  position: absolute;
+  left: 0vw;
+  bottom: 0vw;
+  right: auto;
+  top: auto;
+  border-top: 0;
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-bo-sec ul li .fiq-download:after {
+  content: '';
+  display: block;
+  width: 4.16666667vw;
+  height: 3.61111111vw;
+  background-repeat: no-repeat;
+  background-image: url('../img/mo/btn_down.svg');
+  background-size: contain;
+  position: absolute;
+  left: 50%;
+  top: 1.38888889vw;
+  right: auto;
+  bottom: auto;
+  margin-left: -2.08333333vw;
+  pointer-events: none;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-new-m2 .fiq-sec1 .fiq-sec2 .fiq-cont6 .fiq-more {
+  font-size: 3.33333333vw;
+  color: #888;
+  width: 100%;
+  height: 8.88888889vw;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 8.88888889vw;
+  border-radius: 0.55555556vw;
+  display: inline-block;
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap .fiq-main-tab-wrap {
+  overflow: auto;
+}
+.fiq-container .fiq-wrap .fiq-main-tab-wrap .fiq-main-tab {
+  width: 166.66666667vw;
+  border-bottom: 1px solid #D2D2D2;
+}
+.fiq-container .fiq-wrap .fiq-main-tab-wrap .fiq-main-tab .fiq-m-tab {
+  font-size: 3.33333333vw;
+  color: #888888;
+  text-align: center;
+  padding-top: 0vw;
+  padding-right: 3.33333333vw;
+  padding-bottom: 0vw;
+  padding-left: 3.33333333vw;
+  box-sizing: border-box;
+  height: 10vw;
+  line-height: 10vw;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.fiq-container .fiq-wrap .fiq-main-tab-active1 .fiq-main-tab .fiq-m-tab1,
+.fiq-container .fiq-wrap .fiq-main-tab-active2 .fiq-main-tab .fiq-m-tab2,
+.fiq-container .fiq-wrap .fiq-main-tab-active3 .fiq-main-tab .fiq-m-tab3,
+.fiq-container .fiq-wrap .fiq-main-tab-active4 .fiq-main-tab .fiq-m-tab4,
+.fiq-container .fiq-wrap .fiq-main-tab-active5 .fiq-main-tab .fiq-m-tab5,
+.fiq-container .fiq-wrap .fiq-main-tab-active6 .fiq-main-tab .fiq-m-tab6,
+.fiq-container .fiq-wrap .fiq-main-tab-active7 .fiq-main-tab .fiq-m-tab7,
+.fiq-container .fiq-wrap .fiq-main-tab-active8 .fiq-main-tab .fiq-m-tab8,
+.fiq-container .fiq-wrap .fiq-main-tab-active9 .fiq-main-tab .fiq-m-tab9 {
+  color: #253081;
+  font-weight: 700;
+  border-bottom: 1px solid #253081;
+}
+.fiq-container .fiq-wrap .fiq-main-cont {
+  display: none;
+}
+.fiq-container .fiq-wrap .fiq-main-tab-active1 ~ .fiq-main-cont1,
+.fiq-container .fiq-wrap .fiq-main-tab-active2 ~ .fiq-main-cont2,
+.fiq-container .fiq-wrap .fiq-main-tab-active3 ~ .fiq-main-cont3,
+.fiq-container .fiq-wrap .fiq-main-tab-active4 ~ .fiq-main-cont4,
+.fiq-container .fiq-wrap .fiq-main-tab-active5 ~ .fiq-main-cont5,
+.fiq-container .fiq-wrap .fiq-main-tab-active6 ~ .fiq-main-cont6,
+.fiq-container .fiq-wrap .fiq-main-tab-active7 ~ .fiq-main-cont7,
+.fiq-container .fiq-wrap .fiq-main-tab-active8 ~ .fiq-main-cont8,
+.fiq-container .fiq-wrap .fiq-main-tab-active9 ~ .fiq-main-cont9 {
+  display: block;
+}
 .fiq-container .fiq-popup {
   position: absolute;
   left: 0vw;
@@ -4228,7 +4844,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-popup .fiq-inner ul li p:nth-child(2) {
   font-size: 2.77777778vw;
-  color: #222;
   float: right;
 }
 .fiq-container .fiq-popup .fiq-inner ul li p:nth-child(2) a {
@@ -4239,6 +4854,7 @@ table.fiq-t {
   height: 3.33333333vw;
   cursor: pointer;
   display: inline-block;
+  vertical-align: middle;
 }
 .fiq-container .fiq-popup .fiq-inner ul li:nth-child(3) p + p.fiq-stay,
 .fiq-container .fiq-popup .fiq-inner ul li:nth-child(4) p + p.fiq-stay {
@@ -4344,7 +4960,6 @@ table.fiq-t {
 .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top input,
 .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-top .fiq-a {
   font-size: 3.33333333vw;
-  color: #222;
   height: 8.33333333vw;
   line-height: 8.33333333vw;
   border: 1px solid #DDDDDF;
@@ -4391,7 +5006,6 @@ table.fiq-t {
 .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-h p {
   font-size: 2.77777778vw;
   font-weight: 700;
-  color: #222;
   width: 50%;
   height: 8.33333333vw;
   line-height: 8.33333333vw;
@@ -4416,7 +5030,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-search-popup .fiq-pop-inner .fiq-search-cont .fiq-table-wrap .fiq-t tr td {
   font-size: 2.77777778vw;
-  color: #222;
   height: 5.27777778vw;
   line-height: 5.27777778vw;
   padding-top: 0vw;
@@ -4451,8 +5064,70 @@ table.fiq-t {
   display: block;
 }
 @media (prefers-color-scheme: dark) {
+  body,
+  button,
+  input,
+  select,
+  option,
+  textarea,
+  table,
+  th,
+  td,
+  a {
+    color: #888;
+  }
+  body,
+  a {
+    color: #888 !important;
+  }
   h2.fiq-h2 {
     color: #888;
+  }
+  h4 {
+    color: #888 !important;
+  }
+  .fiq-a {
+    color: #888 !important;
+  }
+  .fiq-tab {
+    border: 1px solid #888 !important;
+  }
+  .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active1 .fiq-tab1,
+  .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active1 .fiq-tab1,
+  .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active1 .fiq-tab1,
+  .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active1 .fiq-tab1,
+  .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active1 .fiq-tab1,
+  .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active2 .fiq-tab2,
+  .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active2 .fiq-tab2,
+  .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active2 .fiq-tab2,
+  .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active2 .fiq-tab2,
+  .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active2 .fiq-tab2,
+  .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active3 .fiq-tab3,
+  .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active3 .fiq-tab3,
+  .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active3 .fiq-tab3,
+  .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active3 .fiq-tab3,
+  .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active3 .fiq-tab3,
+  .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active4 .fiq-tab4,
+  .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active4 .fiq-tab4,
+  .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active4 .fiq-tab4,
+  .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active4 .fiq-tab4,
+  .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active4 .fiq-tab4,
+  .fiq-tab-wrap.fiq-tab-wrap1.fiq-tab-active5 .fiq-tab5,
+  .fiq-tab-wrap.fiq-tab-wrap2.fiq-tab-active5 .fiq-tab5,
+  .fiq-tab-wrap.fiq-tab-wrap3.fiq-tab-active5 .fiq-tab5,
+  .fiq-tab-wrap.fiq-tab-wrap4.fiq-tab-active5 .fiq-tab5,
+  .fiq-tab-wrap.fiq-tab-wrap5.fiq-tab-active5 .fiq-tab5 {
+    border: 1px solid #fff !important;
+  }
+  .fiq-inner-tab-wrap .fiq-inner-tab {
+    border-bottom: 1px solid #888 !important;
+  }
+  .fiq-inner-tab-wrap.fiq-inner-active1 .fiq-inner-tab1,
+  .fiq-inner-tab-wrap.fiq-inner-active2 .fiq-inner-tab2 {
+    border-bottom: 4px solid #888 !important;
+  }
+  .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page19 .fiq-section.fiq-sec2 .fiq-cont {
+    background-color: #1c1c1e;
   }
   span.fiq-s-line {
     width: 100%;

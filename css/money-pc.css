@@ -166,6 +166,17 @@ a.fiq-a {
   font-weight: 700;
   z-index: 1;
 }
+.fiq-container .inner .fiq-money .fiq-section.fiq-top .fiq-inner .fiq-top-img {
+  width: 522px;
+  height: 544px;
+  background-repeat: no-repeat;
+  background-image: url('../img/money/1.png');
+  background-size: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
 .fiq-container .inner .fiq-money .fiq-section.fiq-sec1 .fiq-inner .fiq-tab-wrap .fiq-tab {
   flex: 1 1 20%;
 }

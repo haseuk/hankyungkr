@@ -12,7 +12,6 @@ a.fiq-a {
 h2.fiq-h2 {
   font-size: 3.88888889vw;
   line-height: 4.44444444vw;
-  color: #222222;
   letter-spacing: -0.09722222vw;
 }
 span.fiq-s-line {
@@ -324,7 +323,6 @@ table.fiq-t {
   font-size: 3.33333333vw;
   font-weight: 700;
   line-height: 4.44444444vw;
-  color: #222222;
   margin-right: 1.66666667vw;
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-r .fiq-indices-span p + p {
@@ -560,7 +558,6 @@ table.fiq-t {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t1 tr td:nth-child(even) {
   font-size: 2.77777778vw;
-  color: #222222;
   text-align: right;
   font-weight: 700;
 }
@@ -1716,7 +1713,7 @@ table.fiq-t {
   height: 0;
   visibility: hidden;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell ul li p {
+.fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell ul li h3 {
   font-size: 2.77777778vw;
   line-height: 3.75vw;
   text-align: left;
@@ -5163,6 +5160,56 @@ table.fiq-t {
   }
   .fiq-icon-search {
     filter: invert(1);
+  }
+  .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper {
+    filter: invert(1);
+  }
+  .fiq-indices.fiq-up .fiq-price,
+  .fiq-indices.fiq-up .fiq-indices-span {
+    color: #ff4040;
+  }
+  .fiq-indices.fiq-up .fiq-indices-span span {
+    border-bottom: 10px solid #ff4040;
+  }
+  .fiq-indices.fiq-down .fiq-price,
+  .fiq-indices.fiq-down .fiq-indices-span {
+    color: #5692f6;
+  }
+  .fiq-indices.fiq-down .fiq-indices-span span {
+    border-top: 10px solid #5692f6;
+  }
+  .fiq-t tbody tr:nth-child(even) {
+    background-color: #FAFCFE;
+  }
+  .fiq-t tr td.fiq-up {
+    color: #ff4040;
+  }
+  .fiq-t tr td.fiq-down {
+    color: #5692f6;
+  }
+  .fiq-t tr td.fiq-up span {
+    border-bottom: 1.38vw solid #ff4040;
+  }
+  .fiq-t tr td.fiq-down span {
+    border-top: 1.38vw solid #5692f6;
+  }
+  .fiq-t:nth-of-type(3) {
+    border-bottom: 1px solid #ddd;
+  }
+  .fiq-t:nth-of-type(3) tr td {
+    text-align: center;
+  }
+  .fiq-depth-table tr.fiq-up td:first-child:after {
+    background-color: #ff4040;
+  }
+  .fiq-depth-table tr.fiq-down td:first-child:after {
+    background-color: #5692f6;
+  }
+  .fiq-ul-wrap ul li.fiq-up:after {
+    background-color: #ff4040;
+  }
+  .fiq-ul-wrap ul li.fiq-down:after {
+    background-color: #5692f6;
   }
 }
 /*# sourceMappingURL=style-mo.css.map */

@@ -16,7 +16,6 @@
   h2.fiq-h2 {
     font-size: 1.37931034rem;
     line-height: 1.57635468rem;
-    color: #222222;
     letter-spacing: -0.03448276rem;
   }
   span.fiq-s-line {
@@ -335,7 +334,6 @@
     font-size: 1.18226601rem;
     font-weight: 700;
     line-height: 1.57635468rem;
-    color: #222222;
     margin-right: 0.591133rem;
   }
   .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-cont .fiq-ul1 li .fiq-r .fiq-indices-span p + p {
@@ -575,7 +573,6 @@
   }
   .fiq-container .fiq-wrap .fiq-article.fiq-m2 .fiq-section .fiq-table .fiq-t1 tr td:nth-child(even) {
     font-size: 0.98522167rem;
-    color: #222222;
     text-align: right;
     font-weight: 700;
   }
@@ -1711,7 +1708,7 @@
     height: 0;
     visibility: hidden;
   }
-  .fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell ul li p {
+  .fiq-container .fiq-wrap .fiq-article.fiq-page15 section .fiq-cell ul li h3 {
     font-size: 0.98522167rem;
     line-height: 1.33004926rem;
     text-align: left;

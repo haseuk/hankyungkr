@@ -16,7 +16,6 @@ a.fiq-a {
 .fiq-container .inner .fiq-money {
   font-size: 0vw;
   text-align: center;
-  color: #222;
 }
 .fiq-container .inner .fiq-money .fiq-section {
   padding-top: 5.55555556vw;
@@ -49,7 +48,6 @@ a.fiq-a {
   margin-bottom: 4.16666667vw;
 }
 .fiq-container .inner .fiq-money .fiq-section .fiq-inner .fiq-txt em {
-  color: #222;
   display: block;
   font-weight: 700;
 }
@@ -375,5 +373,39 @@ a.fiq-a {
   padding-left: 0vw;
   text-align: center;
   display: inline-block;
+}
+@media (prefers-color-scheme: dark) {
+  body,
+  button,
+  input,
+  select,
+  option,
+  textarea,
+  table,
+  th,
+  td,
+  a {
+    color: #888;
+  }
+  body,
+  a {
+    color: #888 !important;
+  }
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="1"] [data-tab="1"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="2"] [data-tab="2"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="3"] [data-tab="3"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="4"] [data-tab="4"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="5"] [data-tab="5"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="6"] [data-tab="6"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="7"] [data-tab="7"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="8"] [data-tab="8"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="9"] [data-tab="9"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="10"] [data-tab="10"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="11"] [data-tab="11"],
+  .fiq-container .inner .fiq-money .fiq-section .fiq-inner [data-view="12"] [data-tab="12"] {
+    border: 1px solid #888;
+    z-index: 1;
+    font-weight: 700;
+  }
 }
 /*# sourceMappingURL=money-mo.css.map */

@@ -16,17 +16,17 @@ a.fiq-a {
 h2.fiq-h2 {
   font-size: 34px;
   color: #222;
-  line-height: 32px;
-  letter-spacing: -0.85px;
+  line-height: 45px;
   text-align: left;
   margin-bottom: 15px;
   font-weight: 700;
+  letter-spacing: -3px;
+  display: inline-block;
 }
 h3.fiq-h3-2 {
   font-size: 28px;
   color: #222;
   line-height: 32px;
-  letter-spacing: -0.7px;
   margin: 0px;
   padding: 0px;
   font-weight: 700;
@@ -41,7 +41,6 @@ h3.fiq-h3 {
   font-size: 24px;
   color: #222;
   line-height: 32px;
-  letter-spacing: -1.8px;
   text-align: left;
   margin-bottom: 30px;
   padding-bottom: 15px;
@@ -101,7 +100,6 @@ input.fiq-input {
   font-size: 20px;
   text-align: left;
   line-height: 27px;
-  letter-spacing: -0.5px;
   color: #222;
   margin-bottom: 12px;
   font-weight: 700;
@@ -152,7 +150,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-indices .fiq-price {
   font-size: 28px;
   line-height: 37px;
-  letter-spacing: -0.56px;
   font-weight: 700;
   display: inline-block;
   vertical-align: middle;
@@ -161,7 +158,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-indices .fiq-indices-span {
   font-size: 16px;
   line-height: 21px;
-  letter-spacing: -0.32px;
   display: inline-block;
   vertical-align: bottom;
 }
@@ -217,7 +213,6 @@ input.fiq-input {
   vertical-align: middle;
   border: 1px solid #ddd;
   border-right: 0;
-  letter-spacing: -1.2px;
   color: #222;
   box-sizing: border-box;
 }
@@ -347,7 +342,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-date p {
   font-size: 16px;
-  letter-spacing: -0.32px;
   line-height: 21px;
   color: #888;
   display: inline-block;
@@ -358,6 +352,9 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t thead tr {
   background-color: #fff !important;
+}
+.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t thead tr:last-child {
+  border-bottom: 1px solid #ddd;
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tbody tr:hover {
   background-color: #E5EAF4;
@@ -373,21 +370,20 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr th {
   color: #888;
-  border: 1px solid #F3F3F3;
-  line-height: 46px;
-  text-align: right;
-  padding-top: 0px;
-  padding-right: 12px;
-  padding-bottom: 0px;
-  padding-left: 12px;
+  border-left: 1px solid #F3F3F3;
+  border-right: 1px solid #F3F3F3;
+  border-top: 1px solid #F3F3F3;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-bottom: 12px;
+  padding-left: 10px;
   box-sizing: border-box;
-}
-.fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr th:nth-child(1) {
-  text-align: left;
 }
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-t tr td {
   color: #000;
-  border: 1px solid #F3F3F3;
+  border-left: 1px solid #F3F3F3;
+  border-right: 1px solid #F3F3F3;
+  border-top: 1px solid #DDDDDD;
   border-bottom: 1px solid #DDDDDD;
   padding-top: 0px;
   padding-right: 12px;
@@ -564,7 +560,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article .fiq-section.fiq-sec3 .fiq-cell .fiq-news ul li {
   font-size: 16px;
   color: #222;
-  letter-spacing: -0.4px;
   text-align: left;
   padding-top: 0px;
   padding-right: 12px;
@@ -606,7 +601,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article .fiq-section.fiq-sec6 .fiq-cont .fiq-inner .fiq-t tr th {
   font-size: 16px;
   line-height: 46px;
-  letter-spacing: -0.4px;
   color: #888;
   background-color: #F8F8F8;
   text-align: center;
@@ -669,7 +663,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top .fiq-cell .fiq-tit {
   font-size: 28px;
   line-height: 37px;
-  letter-spacing: -0.7px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -713,7 +706,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article .fiq-section .fiq-top .fiq-cell .fiq-t tr td {
   font-size: 16px;
   line-height: 40px;
-  letter-spacing: -0.32px;
   color: #222;
   padding-top: 0px;
   padding-right: 12px;
@@ -743,7 +735,6 @@ input.fiq-input {
   font-size: 16px;
   line-height: 48px;
   color: #222;
-  letter-spacing: -1.2px;
   margin-right: 30px;
   display: inline-block;
   vertical-align: middle;
@@ -843,7 +834,6 @@ input.fiq-input {
   font-size: 16px;
   font-weight: 400;
   text-align: center;
-  line-height: 46px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1 section.fiq-sec2 .fiq-cont .fiq-t tr td:not(:first-child) {
   text-align: right;
@@ -946,7 +936,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1 section.fiq-sec2 .fiq-report .fiq-list .fiq-tit {
   font-size: 14px;
-  letter-spacing: -0.35px;
   line-height: 40px;
   display: inline-block;
   vertical-align: middle;
@@ -1047,7 +1036,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1 section.fiq-sec2 .fiq-report .fiq-list3 form input[type=submit] {
   font-size: 14px;
-  letter-spacing: -0.35px;
   color: #fff;
   background-color: #253081;
   text-align: center;
@@ -1072,9 +1060,7 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .select-style5 {
   right: 0px !important;
-  top: 100px !important;
-  left: auto !important;
-  bottom: auto !important;
+  left: auto!important;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .select-style select {
   position: relative;
@@ -1116,8 +1102,7 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-top-wrap {
   text-align: left;
   zoom: 1;
-  border-bottom: 2px solid #222;
-  padding-bottom: 20px;
+  border-bottom: 1px solid #222;
   margin-bottom: 30px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-top-wrap:after {
@@ -1131,7 +1116,7 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-top-wrap .fiq-date {
   font-weight: 400;
   float: right;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont .fiq-t {
   width: 100%;
@@ -1329,34 +1314,23 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page5 .fiq-t tr.fiq-down td:nth-child(5) {
   color: #222;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-1 .fiq-t tr:hover {
-  background-color: #fff !important;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-1 .fiq-t tr:nth-child(even) {
-  background-color: #fff;
-}
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-1 .fiq-t tr th {
   font-size: 14px;
-  border: 1px solid #F3F3F3;
+  border-bottom: 1px solid #ddd;
   text-align: right;
-  padding-top: 0px;
-  padding-right: 12px;
-  padding-bottom: 0px;
-  padding-left: 12px;
+  padding-top: 12px;
+  padding-right: 10px;
+  padding-bottom: 12px;
+  padding-left: 10px;
   box-sizing: border-box;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-1 .fiq-t tr th:nth-child(1) {
   text-align: left;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-1 .fiq-t tr th:last-child {
-  text-align: center;
-  padding: 0px;
-}
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-1 .fiq-t tr td {
   font-size: 15px;
   text-align: right;
   color: #222;
-  border: 1px solid #F3F3F3;
   position: relative;
   height: 59px;
 }
@@ -1577,18 +1551,8 @@ input.fiq-input {
   height: 100%;
   background-color: #ddd;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr:nth-child(1) th {
-  border-right: 1px solid #ddd;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr:nth-child(1) th:last-child {
-  border-right: 0;
-}
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr th {
   text-align: center;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr th:nth-child(3),
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr th:nth-child(6) {
-  border-right: 1px solid #ddd;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr td {
   text-align: right;
@@ -1597,39 +1561,17 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr td:nth-child(1) {
   text-align: center;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr td:nth-child(1),
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr td:nth-child(4),
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr td:nth-child(7) {
-  border-right: 1px solid #ddd;
-}
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr.fiq-up td:first-child:after {
   background-color: #FF4040;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-5 .fiq-t tr.fiq-down td:first-child:after {
   background-color: #2175FF;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr:nth-child(1) th {
-  border-right: 1px solid #ddd;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr:nth-child(1) th:last-child {
-  border-right: 0;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr th:nth-child(2),
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr th:nth-child(4),
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr th:nth-child(6) {
-  border-right: 1px solid #ddd;
-}
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr td {
   text-align: right;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr td:nth-child(1) {
   text-align: center;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr td:nth-child(1),
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr td:nth-child(3),
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr td:nth-child(5),
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-6 .fiq-t tr td:nth-child(7) {
-  border-right: 1px solid #ddd;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-7 .fiq-t tr td {
   text-align: right;
@@ -1641,9 +1583,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-7 .fiq-t tr td:nth-child(2),
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-7 .fiq-t tr td:nth-child(3) {
   color: #777;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-7 .fiq-t tr td:last-child {
-  text-align: center;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-7 .fiq-t tr.fiq-up td:nth-child(2),
 .fiq-container .fiq-wrap .fiq-article.fiq-page1s .fiq-cont.fiq-page2-7 .fiq-t tr.fiq-up td:nth-child(3) {
@@ -1708,7 +1647,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page3s .fiq-section.fiq-sec1 .fiq-top .fiq-cell .fiq-t tr td:nth-child(odd) {
   font-weight: 700;
-  letter-spacing: -0.12em;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page3s .fiq-section.fiq-sec1 .fiq-top .fiq-cell .fiq-t tr td:nth-child(even) {
   padding-right: 60px;
@@ -1942,7 +1880,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-page3s .fiq-section.fiq-sec2 .fiq-cont5 .fiq-t {
   width: 100%;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page3s .fiq-section.fiq-sec2 .fiq-cont5 .fiq-t tr th:last-child,
 .fiq-container .fiq-wrap .fiq-article.fiq-page3s .fiq-section.fiq-sec2 .fiq-cont5 .fiq-t tr td:last-child {
   text-align: right !important;
   padding-right: 5px !important;
@@ -1953,7 +1890,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page3s .fiq-section.fiq-sec2 .fiq-cont6 .fiq-list .fiq-tit {
   font-size: 14px;
-  letter-spacing: -0.35px;
   line-height: 40px;
   display: inline-block;
   vertical-align: middle;
@@ -2112,7 +2048,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page3s .fiq-section.fiq-sec2 .fiq-cont6 .fiq-list3 .fiq-find {
   font-size: 14px;
-  letter-spacing: -0.35px;
   color: #fff;
   font-weight: 700;
   background-color: #2D3039;
@@ -2365,9 +2300,6 @@ input.fiq-input {
   padding-right: 0px;
   padding-left: 20px;
   box-sizing: border-box;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-page4 .fiq-section {
-  text-align: left;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page4 .fiq-section .fiq-tab-wrap {
   display: inline-block;
@@ -3028,14 +2960,12 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page10 .fiq-section .fiq-plus-wrap .fiq-small-view p {
   font-size: 16px;
-  letter-spacing: -0.32px;
   line-height: 18px;
   display: inline-block;
   vertical-align: middle;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page10 .fiq-section .fiq-plus-wrap .fiq-small-view p span {
   font-size: 14px;
-  letter-spacing: -0.28px;
   line-height: 18px;
   display: inline-block;
   vertical-align: middle;
@@ -3062,7 +2992,6 @@ input.fiq-input {
   font-weight: 700;
   display: inline-block;
   vertical-align: middle;
-  letter-spacing: -0.5px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page10 .fiq-section .fiq-plus-wrap .fiq-small-view .fiq-indices .fiq-indices-span span {
   border-left: 4px solid transparent;
@@ -3226,7 +3155,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .select-wrap .fiq-bottom li span {
   font-size: 12px;
-  letter-spacing: -0.3px;
   line-height: 32px;
   color: #888;
 }
@@ -3249,6 +3177,8 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .select-wrap .fiq-bottom li .fiq-select select {
   font-size: 14px;
+  height: 38px;
+  background: none;
   line-height: 38px;
   border: 0;
   width: 100%;
@@ -3271,9 +3201,6 @@ input.fiq-input {
   font-size: 14px;
   color: #888;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .fiq-table-wrap .fiq-t tr th.fiq-r {
-  border-right: 1px solid #dedede;
-}
 .fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .fiq-table-wrap .fiq-t tr td {
   font-size: 14px;
 }
@@ -3288,13 +3215,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .fiq-table-wrap .fiq-t tr td:nth-child(1) {
   font-size: 16px;
-}
-.fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .fiq-table-wrap .fiq-t tr td:nth-child(4),
-.fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .fiq-table-wrap .fiq-t tr td:nth-child(8),
-.fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .fiq-table-wrap .fiq-t tr td:nth-child(14),
-.fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .fiq-table-wrap .fiq-t tr td:nth-child(18),
-.fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .fiq-table-wrap .fiq-t tr td:nth-child(19) {
-  border-right: 1px solid #dedede;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page11 .fiq-section .fiq-table-wrap .fiq-t tr td.fiq-up {
   color: #FF0000;
@@ -3326,7 +3246,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-top-wrap .fiq-source p {
   font-size: 16px;
-  letter-spacing: -0.32px;
   margin-right: 5px;
   color: #888;
 }
@@ -3355,7 +3274,6 @@ input.fiq-input {
   line-height: 32px;
   color: #888;
   font-weight: 400;
-  letter-spacing: -1.05px;
   text-align: right;
   border-bottom: 1px solid #DDDDDD;
 }
@@ -3364,7 +3282,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-conin-top .fiq-cell-box table tr td {
   font-size: 15px;
-  letter-spacing: -1.13px;
   line-height: 46px;
   text-align: right;
 }
@@ -3412,7 +3329,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-bott-cont .fiq-cell-box .fiq-tit {
   font-size: 20px;
-  letter-spacing: -0.5px;
   line-height: 32px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-bott-cont .fiq-cell-box ul li {
@@ -3438,7 +3354,8 @@ input.fiq-input {
   display: inline-block;
   vertical-align: top;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-bott-cont .fiq-cell-box ul li .fiq-txt-box p {
+.fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-bott-cont .fiq-cell-box ul li .fiq-txt-box p,
+.fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-bott-cont .fiq-cell-box ul li .fiq-txt-box h3 {
   font-size: 20px;
   line-height: 27px;
   font-weight: 700;
@@ -3501,6 +3418,7 @@ input.fiq-input {
   margin-left: 4px;
   border: 1px solid #D2D2D2;
   position: relative;
+  cursor: pointer;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-bott-cont .fiq-cell-box + .fiq-cell-box .fiq-tit-box .fiq-pagination a.fiq-prev:after {
   content: '';
@@ -3560,7 +3478,7 @@ input.fiq-input {
   color: #888;
   margin-bottom: 8px;
 }
-.fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-bott-cont .fiq-cell-box + .fiq-cell-box ul li .fiq-l p {
+.fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-bott-cont .fiq-cell-box + .fiq-cell-box ul li .fiq-l h4 {
   font-size: 16px;
   line-height: 24px;
 }
@@ -3603,7 +3521,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-bott-cont .fiq-cell-box + .fiq-cell-box .fiq-cell ul li p {
   font-size: 15px;
-  letter-spacing: -1.13px;
   display: inline-block;
   color: #888;
 }
@@ -3751,7 +3668,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page12 .fiq-section .fiq-learn .fiq-swiper .fiq-swiper .fiq-slide .fiq-coin-cont .fiq-tit {
   font-size: 20px;
-  letter-spacing: -1.5px;
   text-align: center;
   margin-bottom: 28px;
   line-height: 32px;
@@ -3826,7 +3742,6 @@ input.fiq-input {
   color: #888;
   text-align: left;
   line-height: 21px;
-  letter-spacing: 0px;
   word-break: keep-all;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 {
@@ -3857,7 +3772,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section h4 {
   font-size: 20px;
-  letter-spacing: -2px;
   line-height: 32px;
   color: #222;
   margin-top: 0px;
@@ -4003,7 +3917,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-graph .fiq-legend ul li p {
   font-size: 14px;
   color: #fff;
-  letter-spacing: -1.4px;
   line-height: 32px;
   opacity: 0.3;
 }
@@ -4073,7 +3986,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-block p {
   font-size: 20px;
   font-weight: 700;
-  letter-spacing: -2px;
   line-height: 32px;
   color: #fff;
 }
@@ -4113,7 +4025,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-block table tr td {
   font-size: 16px;
   line-height: 32px;
-  letter-spacing: -1.6px;
   color: #fff;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-visual .fiq-block table tr td:nth-child(even) {
@@ -4194,14 +4105,13 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper h4 span {
   font-size: 12px;
   color: #888;
-  letter-spacing: -0.9px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper {
   height: 190px;
   padding-top: 10px;
-  padding-right: 25px;
+  padding-right: 35px;
   padding-bottom: 0px;
-  padding-left: 30px;
+  padding-left: 35px;
   box-sizing: border-box;
   position: relative;
 }
@@ -4243,6 +4153,7 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .swiper-slide .fiq-indices .fiq-indices-span > p {
   color: #222;
+  font-weight: 700;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .swiper-slide .fiq-indices .fiq-indices-span p {
   font-size: 16px;
@@ -4250,10 +4161,9 @@ input.fiq-input {
   margin-right: 10px;
   margin-bottom: 5px;
   margin-left: 0px;
-  letter-spacing: -1.2px;
-  font-weight: 700;
   display: inline-block;
   vertical-align: middle;
+  font-weight: 400;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper .swiper-slide .fiq-indices .fiq-indices-span span {
   display: inline-block;
@@ -4295,14 +4205,12 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper2 .fiq-slide > p,
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper3 .fiq-slide > p {
   font-size: 16px;
-  letter-spacing: -1.2px;
   font-weight: 700;
   margin-bottom: 13px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper2 .fiq-slide .fiq-indices .fiq-price,
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper3 .fiq-slide .fiq-indices .fiq-price {
   font-size: 24px;
-  font-weight: 700;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper2 .fiq-slide .fiq-indices .fiq-indices-span,
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper .fiq-swiper3 .fiq-slide .fiq-indices .fiq-indices-span {
@@ -4382,7 +4290,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-inner-noti {
   font-size: 12px;
   color: #888;
-  letter-spacing: -0.9px;
   text-align: center;
   margin-top: 20px;
 }
@@ -4399,7 +4306,6 @@ input.fiq-input {
   vertical-align: middle;
   border: 1px solid #ddd;
   border-right: 0;
-  letter-spacing: -1.2px;
   color: #222;
   box-sizing: border-box;
 }
@@ -4433,7 +4339,7 @@ input.fiq-input {
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-tab-wrap.fiq-tab5n {
   display: block;
   float: none;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 25px;
   margin-left: 0px;
@@ -4499,7 +4405,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-ul-style li .fiq-news-item .fiq-tit {
   font-size: 24px;
-  letter-spacing: -2.4px;
   color: #222;
   line-height: 33px;
   margin-bottom: 15px;
@@ -4608,31 +4513,33 @@ input.fiq-input {
   width: 543px;
   padding-top: 20px;
   box-sizing: border-box;
+  text-align: right;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-coin-news li {
   font-size: 24px;
   color: #222;
   line-height: 34px;
-  letter-spacing: -1.8px;
   padding: 30px;
   box-sizing: border-box;
   border: 1px solid #ddd;
+  min-height: 200px;
   width: 258px;
   display: inline-block;
   vertical-align: top;
+  text-align: left;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-coin-news li:nth-child(1) {
   border-top-left-radius: 10px;
-  margin-right: 27px;
-  margin-bottom: 27px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-coin-news li:nth-child(2) {
   border-top-right-radius: 10px;
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-coin-news li:nth-child(3) {
   border-bottom-left-radius: 10px;
-  margin-right: 27px;
+  margin-right: 20px;
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section .fiq-coin-news li:nth-child(4) {
   border-bottom-right-radius: 10px;
@@ -4692,7 +4599,6 @@ input.fiq-input {
   color: #888;
   text-align: left;
   line-height: 22px;
-  letter-spacing: -1.05px;
   padding-top: 25px;
   padding-right: 0px;
   padding-bottom: 25px;
@@ -4912,6 +4818,11 @@ input.fiq-input {
   background-size: contain;
   pointer-events: none;
 }
+.fiq-container .fiq-wrap .fiq-article.fiq-page13 .fiq-section h2.fiq-h2 {
+  font-size: 34px;
+  line-height: 45px;
+  letter-spacing: -3px;
+}
 .fiq-container .fiq-wrap .fiq-article.fiq-page13 .fiq-section .fiq-cont {
   position: relative;
 }
@@ -5034,7 +4945,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .fiq-tit {
   font-size: 14px;
-  letter-spacing: -0.35px;
   line-height: 40px;
   display: inline-block;
   vertical-align: middle;
@@ -5148,7 +5058,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list3 .fiq-find {
   font-size: 14px;
-  letter-spacing: -0.35px;
   color: #fff;
   background-color: #253081;
   text-align: center;
@@ -5457,7 +5366,6 @@ input.fiq-input {
   vertical-align: middle;
   border: 1px solid #ddd;
   border-right: 0;
-  letter-spacing: -1.2px;
   color: #222;
   box-sizing: border-box;
   border-radius: 0px;
@@ -5489,11 +5397,14 @@ input.fiq-input {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-type-b {
   border-radius: 0px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
+}
+.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-type-b.fiq-tab-2below .fiq-tab-btn {
+  width: 120px;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-type-b .fiq-tab-btn {
   width: auto;
-  min-width: 60px;
+  min-width: 80px;
   line-height: normal;
   border: 0 !important;
   color: #888;
@@ -5501,7 +5412,7 @@ input.fiq-input {
   border-radius: 0px;
   padding-top: 0px;
   padding-right: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   padding-left: 5px;
   box-sizing: border-box;
   border-bottom: 1px solid #222 !important;
@@ -5590,7 +5501,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-sibl1 .fiq-cell .fiq-t tr td:nth-child(odd) {
   font-weight: 700;
-  letter-spacing: -0.12em;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section .fiq-tab-sibl1 .fiq-cell .fiq-t tr td:nth-child(even) {
   padding-right: 60px;
@@ -5789,7 +5699,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-tit {
   font-size: 20px;
   font-weight: 700;
-  letter-spacing: -0.15em;
   text-align: left;
   box-sizing: border-box;
   margin-bottom: 20px;
@@ -5806,10 +5715,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr:nth-child(even) {
   background-color: #FAFCFE;
 }
-.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr th:first-child,
-.fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr td:first-child {
-  text-align: left;
-}
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr th:last-child,
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr td:last-child {
   text-align: center;
@@ -5818,20 +5723,17 @@ input.fiq-input {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr th {
   font-size: 14px;
   color: #888;
-  letter-spacing: -0.102em;
   background-color: #fff;
   border: 1px solid #F3F3F3;
   border-bottom: 1px solid #DDDDDD;
-  text-align: right;
-  padding-top: 0px;
+  padding-top: 12px;
   padding-right: 5px;
-  padding-bottom: 0px;
+  padding-bottom: 12px;
   padding-left: 10px;
   box-sizing: border-box;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-t tr td {
   font-size: 15px;
-  text-align: right;
   border: 1px solid #F3F3F3;
   border-bottom: 1px solid #ddd;
   line-height: normal;
@@ -5923,7 +5825,7 @@ input.fiq-input {
   border-radius: 10px;
   display: inline-block;
   vertical-align: middle;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   box-sizing: border-box;
   margin-top: 0px;
@@ -5936,7 +5838,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont .fiq-graph-cell li > p {
   font-size: 16px;
-  letter-spacing: -0.12em;
   font-weight: 700;
   text-align: left;
   margin-bottom: 23px;
@@ -5991,7 +5892,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont1 .fiq-cont2-inner .fiq-news-tit {
   font-size: 20px;
-  letter-spacing: -0.15em;
   font-weight: 700;
   display: inline-block;
   vertical-align: top;
@@ -6036,7 +5936,6 @@ input.fiq-input {
   color: #888;
   text-align: left;
   zoom: 1;
-  letter-spacing: 0px;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont1 .fiq-cont2-inner .fiq-news-list li .fiq-txt:after {
   content: '';
@@ -6053,14 +5952,16 @@ input.fiq-input {
   margin-bottom: 20px;
   border-top: 0;
   padding-top: 0px;
-  letter-spacing: 0px;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont1 .fiq-cont2-inner .fiq-news-list li .fiq-txt img {
-  width: 180px;
-  height: 114px;
+  width: 110px;
+  height: 69px;
   display: inline-block;
   float: right;
   margin-left: 30px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article .fiq-section.fiq-sec2 .fiq-cont1 .fiq-cont2-inner .fiq-more-btn {
   font-size: 16px;
@@ -6136,7 +6037,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page1 .fiq-sec1 .fiq-tab-sibl1 .fiq-sec2 .fiq-cont.fiq-cont4 .fiq-list .fiq-tit {
   font-size: 14px;
-  letter-spacing: -0.35px;
   line-height: 40px;
   display: inline-block;
   vertical-align: middle;
@@ -6295,7 +6195,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page1 .fiq-sec1 .fiq-tab-sibl1 .fiq-sec2 .fiq-cont.fiq-cont4 .fiq-list3 .fiq-find {
   font-size: 14px;
-  letter-spacing: -0.35px;
   color: #fff;
   font-weight: 700;
   background-color: #2D3039;
@@ -6489,7 +6388,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page1s .fiq-top-title .fiq-h2-span {
   font-size: 12px;
-  letter-spacing: -0.09em;
   text-align: right;
   color: #888;
   position: absolute;
@@ -6503,7 +6401,6 @@ input.fiq-input {
   margin-bottom: 30px;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page1s .fiq-section .fiq-tab-sibl .fiq-tab-type-b {
-  text-align: left;
   margin-bottom: 25px;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page1s .fiq-section .fiq-tab-sibl .fiq-cont .fiq-t {
@@ -6530,7 +6427,6 @@ input.fiq-input {
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page1s .fiq-section .fiq-tab-sibl .fiq-cont .fiq-t > tr th {
   font-size: 14px;
   color: #888;
-  letter-spacing: -0.102em;
   background-color: #fff;
   border: 1px solid #F3F3F3;
   border-bottom: 1px solid #DDDDDD;
@@ -6898,14 +6794,20 @@ input.fiq-input {
   box-sizing: border-box;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap .fiq-tab-btn {
-  font-size: 16px;
-  color: #888;
-  width: 60px;
-  border-radius: 0px;
+  width: auto;
+  min-width: 80px;
+  line-height: normal;
   border: 0;
-  height: 42px;
+  color: #888;
+  height: auto;
+  border-radius: 0px;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  box-sizing: border-box;
   border-bottom: 1px solid #222;
-  font-weight: 400;
+  position: relative;
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap.fiq-tab1-active .fiq-tab-btn1,
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-tab-wrap.fiq-tab2-active .fiq-tab-btn2,
@@ -6934,7 +6836,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list .fiq-tit {
   font-size: 14px;
-  letter-spacing: -0.35px;
   line-height: 40px;
   display: inline-block;
   vertical-align: middle;
@@ -7088,7 +6989,6 @@ input.fiq-input {
 }
 .fiq-container .fiq-wrap.fiq-newly .fiq-article.fiq-page13 .fiq-sec2 .fiq-cont .fiq-list3 .fiq-find {
   font-size: 14px;
-  letter-spacing: -0.35px;
   color: #fff;
   font-weight: 700;
   background-color: #2D3039;
@@ -7288,6 +7188,13 @@ input.fiq-input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+.fiq-container .fiq-wrap.fiq-edit-new .fiq-page10 .fiq-section .fiq-plus-wrap .fiq-view-r .fiq-table .fiq-t th {
+  padding-top: 12px;
+  padding-right: 0px;
+  padding-bottom: 12px;
+  padding-left: 0px;
+  text-align: center;
 }
 .fiq-container .fiq-popup {
   position: fixed;

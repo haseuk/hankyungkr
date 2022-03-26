@@ -5,7 +5,7 @@
 @c2: #222222;
 
 a.fiq-a { .ib; .pointer; }
-h2.fiq-h2 { .fs(28); .lh(32); color:@c2; .ls(-0.7); }
+h2.fiq-h2 { .fs(28); .lh(32); .ls(-0.7); }
 span.fiq-s-line { .wh(100%,2px); .bgc(@c2); .m(20,0); .ib; }
 span.fiq-d-line { .wh(100%,2px); .bgc(@c2); .m(30,0); .ib; .rel;
   &:after { .cnt; .wh(100%,1px); .bgc(@c2); .abs; .lb(0,-3); }
@@ -108,7 +108,7 @@ table.fiq-t { .t-fix; .coll; }
               }
               .fiq-r { .fr; .mt(11);
                 .fiq-price, .fiq-indices-span { .ib; .vam; }
-                .fiq-price { .fs(24); .bold; .lh(32); color:@c2; .mr(12); }
+                .fiq-price { .fs(24); .bold; .lh(32); .mr(12); }
                 .fiq-indices-span {
                   p + p { .fs(18); color:#fff; .wh(85,36); .tc; .lh(36); .br(4); .ml(10); }
                 }
@@ -209,7 +209,7 @@ table.fiq-t { .t-fix; .coll; }
               tr {
                 td {
                   &:nth-child(odd) { .tl; }
-                  &:nth-child(even) { .fs(20); color:@c2; .tr; .bold; }
+                  &:nth-child(even) { .fs(20); .tr; .bold; }
                 }
               }
             }
@@ -642,7 +642,7 @@ table.fiq-t { .t-fix; .coll; }
             }
             ul { .m(40,0);
               li { .clear; .mb(30);
-                p { .fs(20); .lh(27); .tl; .w(420); overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; word-wrap:break-word; line-height: 1.2em; height: 1.2em; .ib; }
+                h3 { .fs(20); .lh(27); .tl; .w(420); overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; word-wrap:break-word; line-height: 1.2em; height: 1.2em; .ib; }
                 span { .fs(18); color:#888; .fr; }
               }
             }
@@ -1779,4 +1779,53 @@ table.fiq-t { .t-fix; .coll; }
   }
   .fiq-contents {border-width:.5px; border-color:#323235}
   .fiq-icon-search {filter:invert(1);}
+  .fiq-container .fiq-wrap .fiq-article.fiq-main-v2 section.fiq-swiper { filter:invert(1); }
+  .fiq-indices {
+    &.fiq-up {
+      .fiq-price, .fiq-indices-span { color:#ff4040; }
+      .fiq-indices-span span { border-bottom: 10px solid #ff4040; }
+    }
+    &.fiq-down {
+      .fiq-price, .fiq-indices-span { color:#5692f6; }
+      .fiq-indices-span span { border-top: 10px solid #5692f6; }
+    }
+  }
+  .fiq-t {
+    tbody tr:nth-child(even) { .bgc(#FAFCFE);}
+    tr {
+      td {
+        &.fiq-up { color:#ff4040; }
+        &.fiq-down { color:#5692f6; }
+      }
+    }
+  }
+  .fiq-t {
+    tr {
+      td {
+        &.fiq-up span { border-bottom: 1.38vw solid #ff4040; }
+        &.fiq-down span { border-top: 1.38vw solid #5692f6; }
+      }
+    }
+    &:nth-of-type(3) { .-b(#ddd);
+      tr td { .tc; }
+    }
+  }
+  .fiq-depth-table {
+    tr {
+      &.fiq-up {
+        td:first-child:after { .bgc(#ff4040); }
+      }
+      &.fiq-down {
+        td:first-child:after { .bgc(#5692f6); }
+      }
+    }
+  }
+  .fiq-ul-wrap {
+    ul {
+      li {
+        &.fiq-up:after { .bgc(#ff4040); }
+        &.fiq-down:after { .bgc(#5692f6); }
+      }
+    }
+  }
 }

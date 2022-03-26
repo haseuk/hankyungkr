@@ -6,11 +6,11 @@ body {
   letter-spacing: -0.075em;
 }
 a.fiq-a { .ib; .pointer; }
-h2.fiq-h2 { .fs(34); color:#222; .lh(32); .ls(-0.85); .tl; .mb(15); .bold; }
-h3.fiq-h3-2 { .fs(28); color:#222; .lh(32); .ls(-0.7); .m(0); .p(0); .bold; .ib; .vam; .-b;
+h2.fiq-h2 { .fs(34); color:#222; .lh(45); .tl; .mb(15); .bold; .ls(-3px); .ib; }
+h3.fiq-h3-2 { .fs(28); color:#222; .lh(32); .m(0); .p(0); .bold; .ib; .vam; .-b;
   &:after { .hide; }
 }
-h3.fiq-h3 { .fs(24); color:#222; .lh(32); .ls(-1.8); .tl; .mb(30); .pb(15); .bold; .-b(#222,2px); .rel; }
+h3.fiq-h3 { .fs(24); color:#222; .lh(32); .tl; .mb(30); .pb(15); .bold; .-b(#222,2px); .rel; }
 .fiq-box { .p(30,20); .-a(#ddd); .br(8); .-box; .bgc(#fff); }
 table.fiq-t { .t-fix; .coll; }
 select.fiq-se, input.fiq-input { outline: none; }
@@ -26,7 +26,7 @@ select.fiq-se, input.fiq-input { outline: none; }
 
       .fiq-section { .mb(60);
         .fiq-graph { .wf; }
-        .fiq-tit { .fs(20); .tl; .lh(27); .ls(-0.5); color:#222; .mb(12); .bold; }
+        .fiq-tit { .fs(20); .tl; .lh(27); color:#222; .mb(12); .bold; }
         .fiq-box {
           .fiq-legend { .tl; .mb(15);
             p { .fs(14); .tl; .lh(18); color:#888; .pl(12); .rel; .ib; .vam; .mr(12);
@@ -40,8 +40,8 @@ select.fiq-se, input.fiq-input { outline: none; }
         }
 
         .fiq-indices { .tl; .mb(28);
-          .fiq-price { .fs(28); .lh(37); .ls(-0.56); .bold; .ib; .vam; .mr(20); }
-          .fiq-indices-span { .fs(16); .lh(21); .ls(-0.32); .ib; .vab;
+          .fiq-price { .fs(28); .lh(37); .bold; .ib; .vam; .mr(20); }
+          .fiq-indices-span { .fs(16); .lh(21); .ib; .vab;
             span { .wh(0,0); border-left: 6px solid transparent; border-right: 6px solid transparent; vertical-align: middle; .ib; .mr(3); }
             p { .mr(20); .ib; .vam; }
           }
@@ -59,7 +59,7 @@ select.fiq-se, input.fiq-input { outline: none; }
         .fiq-cell580 + .fiq-cell580 { .mr(0); }
 
         .fiq-tab-wrap { .br(8); .-box; .tl; .mb(30);
-          .fiq-tab-btn { .fs(16); .h(48); .lh(48); .tc; .ib; .vam; .-a(#ddd); .-r(); .ls(-1.2); color:#222; .-box;
+          .fiq-tab-btn { .fs(16); .h(48); .lh(48); .tc; .ib; .vam; .-a(#ddd); .-r();  color:#222; .-box;
             &:first-child { border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
             &:last-child { border-top-right-radius: 8px; border-bottom-right-radius: 8px; .-r(#ddd); }
           }
@@ -110,21 +110,24 @@ select.fiq-se, input.fiq-input { outline: none; }
         .fiq-tab7-active ~ .fiq-cont7 { .ib; }
 
         .fiq-date {
-          p { .fs(16); .ls(-0.32); .lh(21); color:#888; .ib; .vam;
+          p { .fs(16); .lh(21); color:#888; .ib; .vam;
             &.fiq-date-time { .w(170); }
           }
         }
 
         .fiq-t {
-          thead tr { .bgc(#fff)!important; }
-          tbody tr:hover {.bgc(#E5EAF4); }
+          thead tr { .bgc(#fff)!important;
+            &:last-child { .-b(#ddd); }
+          }
+          tbody tr {
+            &:hover {.bgc(#E5EAF4); }
+          }
+
           tr {
             &:nth-child(even) {.bgc(#FAFCFE); }
             th, td { .fs(16); .regular; .tc; }
-            th { color:#888; .-a(#F3F3F3); .-box; .lh(46); .tr; .p(0,12); .-box;
-              &:nth-child(1) { .tl; }
-            }
-            td { color:#000; .-a(#F3F3F3); .-b(#DDDDDD); .p(0,12); .-box; }
+            th { color:#888; .-l(#F3F3F3); .-r(#F3F3F3); .-t(#F3F3F3); .-box; .p(12,10); .-box; }
+            td { color:#000; .-l(#F3F3F3); .-r(#F3F3F3); .-t(#DDDDDD); .-b(#DDDDDD); .p(0,12); .-box; }
           }
         }
 
@@ -181,7 +184,7 @@ select.fiq-se, input.fiq-input { outline: none; }
         &.fiq-sec3 {
           .fiq-cell { .mr(20); .ib; .vat; .w(558);
             .fiq-tit { .mb(0); .pb(12); .-b(#ddd); }
-            .fiq-news ul li { .fs(16); color:#222; .ls(-0.4); .tl; .p(0,12); .-box;
+            .fiq-news ul li { .fs(16); color:#222;  .tl; .p(0,12); .-box;
               p, span { .ib; .vam; .h(46); .lh(46); }
               p { .w(370); overflow: hidden; }
               span { .fr; }
@@ -199,7 +202,7 @@ select.fiq-se, input.fiq-input { outline: none; }
             .fiq-inner { .w(580); .ib; .vat; .mr(20);
               .fiq-t { .t-fix; .coll;
                 tr {
-                  th { .fs(16); .lh(46); .ls(-0.4); color:#888; .bgc(#F8F8F8); .tc; .-b(#ddd); .-box;
+                  th { .fs(16); .lh(46);  color:#888; .bgc(#F8F8F8); .tc; .-b(#ddd); .-box;
                     &:nth-child(even) { .bold; }
                   }
                   td { .p(0,12); .-box;
@@ -219,7 +222,7 @@ select.fiq-se, input.fiq-input { outline: none; }
             table tr:hover { background: none; }
           }
           .fiq-cell { .w(50%); .ib; .vat; .tl; .mb(20);
-            .fiq-tit { .fs(28); .lh(37); .ls(-0.7); .bold; .mb(20);
+            .fiq-tit { .fs(28); .lh(37); .bold; .mb(20);
               .fiq-favorite { .wh(22,21); .contain('../img/pc/star-off.svg'); .ib; .vam; .mb(5);
                 &.fiq-on { .contain('../img/pc/star-on.svg'); }
               }
@@ -228,7 +231,7 @@ select.fiq-se, input.fiq-input { outline: none; }
             .fiq-indices { .lh(45); }
             .fiq-t { .t-fix; .coll;
               tr {
-                td { .fs(16); .lh(40); .ls(-0.32); color:#222; .p(0,12); .-box;
+                td { .fs(16); .lh(40); color:#222; .p(0,12); .-box;
                   &:nth-child(odd) { .tl; }
                   &:nth-child(even) { .tr; }
                 }
@@ -237,7 +240,7 @@ select.fiq-se, input.fiq-input { outline: none; }
           }
           .fiq-summary { .-t(#ddd); .-b(#ddd); .bgc(#F8F8F8); .mb(20);
             div { .w(25%); .ib; .vam; .tc;
-              p { .fs(16); .lh(48); color:#222; .ls(-1.2); .mr(30); .ib; .vam; }
+              p { .fs(16); .lh(48); color:#222;  .mr(30); .ib; .vam; }
               .fiq-indices { .tc; .mb(0); width: auto;
                 .fiq-indices-span { width: auto;
                   span { border-left: 4px solid transparent; border-right: 4px solid transparent; .mb(3); }
@@ -290,7 +293,7 @@ select.fiq-se, input.fiq-input { outline: none; }
           .fiq-cont {
             .fiq-t {
               tr {
-                th, td { .fs(16); .regular; .tc; .lh(46); }
+                th, td { .fs(16); .regular; .tc; }
                 td:not(:first-child) { .tr; }
                 .fiq-up { color:#ff0000; }
                 .fiq-down { color:#2175FF; }
@@ -318,7 +321,7 @@ select.fiq-se, input.fiq-input { outline: none; }
             }
 
             .fiq-list { .mb(9);
-              .fiq-tit { .fs(14); .ls(-0.35); .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; }
+              .fiq-tit { .fs(14);  .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; }
               .fiq-date-wrap { .ib; .-a(#DDDDDD); .br(10); .-box; .p(0,10); .lh(40); .wh(306,40);
                 input { .fs(14); .wh(125,40); .-box; .ib; .vam; .-a; background: transparent; }
                 span { .fs(14); .ib; .m(0,10); .lh(40); .vam; }
@@ -335,7 +338,7 @@ select.fiq-se, input.fiq-input { outline: none; }
               .fiq-select { .ml(0); .ib; .vam; }
               form { .ib; .vam;
                 input { .wh(790,40); .-a(#ddd); .br(10); .p(0,10); .-box; .m(0,8); .ib; .vam; }
-                input[type=submit] { .fs(14); .ls(-0.35); color:#fff; .bgc(#253081); .tc; .wh(210,40); .lh(40); .br(10); .m(0); .ib; .vam; }
+                input[type=submit] { .fs(14);  color:#fff; .bgc(#253081); .tc; .wh(210,40); .lh(40); .br(10); .m(0); .ib; .vam; }
               }
             }
           }
@@ -343,13 +346,13 @@ select.fiq-se, input.fiq-input { outline: none; }
       }
       &.fiq-page1s { .rel;
         .select-style { .w(240); .ib; .abs; height:50px; background:#fff; box-sizing:border-box}
-        .select-style5 { .rt(0,100)!important; }
+        .select-style5 { .r(0)!important; left:auto!important; }
         .select-style select {position:relative; z-index:2; width:100%; height:100%; padding: 0 39px 0 15px ;border:1px solid #ddd; border-radius:5px; background:transparent; font-size:15px; line-height:48px; vertical-align:middle; cursor:pointer; appearance:none; -webkit-appearance:none; -moz-appearance:none; -o-appearance:none; outline:none; box-sizing:border-box}
         .select-style select::-ms-expand {opacity:0}
         .select-style select option {font-size:15px}
         .select-style::after {content:''; position:absolute; top:17px; right:15px; width:10px; height:10px; border-right:1px solid #222; border-bottom:1px solid #222; transform:rotate(45deg)}
-        .fiq-top-wrap { .tl; .clear; .-b(#222,2px); .pb(20); .mb(30);
-          .fiq-date { .regular; .fr; .mt(10); }
+        .fiq-top-wrap { .tl; .clear; .-b(#222); .mb(30);
+          .fiq-date { .regular; .fr; .mt(25); }
         }
         .fiq-cont {
           .fiq-t { .wf;
@@ -478,13 +481,10 @@ select.fiq-se, input.fiq-input { outline: none; }
           &.fiq-page2-1 {
             .fiq-t {
               tr {
-                &:hover { .bgc(#fff)!important; }
-                &:nth-child(even) { .bgc(#fff); }
-                th { .fs(14); .-a(#F3F3F3); .tr; .p(0,12); .-box;
+                th { .fs(14); .-b(#ddd); .tr; .p(12,10); .-box;
                   &:nth-child(1) { .tl; }
-                  &:last-child { .tc; .p(0); }
                 }
-                td { .fs(15); .tr; color:#222; .-a(#F3F3F3); .rel; .h(59);
+                td { .fs(15); .tr; color:#222;  .rel; .h(59);
                   .fiq-code { .fs(12); color:#888; .-a; .m(0);
                     &:after { .hide; }
                   }
@@ -599,15 +599,9 @@ select.fiq-se, input.fiq-input { outline: none; }
             .fiq-t {
               tr {
                 td:first-child:after { .cnt; .abs; .lt; .wh(5,100%); .bgc(#ddd); }
-                &:nth-child(1) th { .-r(#ddd);
-                  &:last-child { .-r; }
-                }
-                th { .tc;
-                  &:nth-child(3), &:nth-child(6) { .-r(#ddd); }
-                }
+                th { .tc; }
                 td { .tr; .rel;
                   &:nth-child(1){ .tc; }
-                  &:nth-child(1), &:nth-child(4), &:nth-child(7) { .-r(#ddd); }
                 }
                 &.fiq-up {
                   td:first-child:after { .bgc(#FF4040); }
@@ -621,15 +615,10 @@ select.fiq-se, input.fiq-input { outline: none; }
           &.fiq-page2-6 {
             .fiq-t {
               tr {
-                &:nth-child(1) th { .-r(#ddd);
-                  &:last-child { .-r; }
-                }
                 th {
-                  &:nth-child(2), &:nth-child(4), &:nth-child(6) { .-r(#ddd); }
                 }
                 td { .tr;
                   &:nth-child(1){ .tc; }
-                  &:nth-child(1), &:nth-child(3), &:nth-child(5), &:nth-child(7) { .-r(#ddd); }
                 }
               }
             }
@@ -640,7 +629,6 @@ select.fiq-se, input.fiq-input { outline: none; }
                 td { .tr; color:#222;
                   &:nth-child(1) { .tl; }
                   &:nth-child(2), &:nth-child(3) { color:#777; }
-                  &:last-child { .tc; }
                 }
                 &.fiq-up {
                   td {
@@ -671,7 +659,7 @@ select.fiq-se, input.fiq-input { outline: none; }
                 .fiq-t {
                   tr { background: none!important;
                     td { .fs(16); .p(0); .-box; .-a;
-                      &:nth-child(odd) { .bold; .ls(-0.12em); }
+                      &:nth-child(odd) { .bold; }
                       &:nth-child(even) { .pr(60); .light; }
                       &:last-child { .pr(0); }
                       &.fiq-up { color:#FF4040; }
@@ -772,13 +760,13 @@ select.fiq-se, input.fiq-input { outline: none; }
             .fiq-cont5 {
               .fiq-t { .wf;
                 tr {
-                  th:last-child, td:last-child { .tr!important; .pr(5)!important; .-box; }
+                  td:last-child { .tr!important; .pr(5)!important; .-box; }
                 }
               }
             }
             .fiq-cont6 {
               .fiq-list { .mb(9);
-                .fiq-tit { .fs(14); .ls(-0.35); .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; .-t; .pt(0); }
+                .fiq-tit { .fs(14);  .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; .-t; .pt(0); }
                 .fiq-tit2 { .w(130); .ml(45); }
                 .fiq-date-wrap { .ib; .-a(#DDDDDD); .br(0); .-box; .p(0,10); .lh(40); .wh(306,40); .ib; .vam;
                   input { .fs(14); .wh(125,40); .lh(40); .-box; .ib; .vam; .-a; background: transparent; .p(0); }
@@ -799,7 +787,7 @@ select.fiq-se, input.fiq-input { outline: none; }
               .fiq-list3 { .pb(40); .-b(#222); .-box;
                 .fiq-select { .ml(0); .ib; .vam; }
                 input { .wh(790,40); .-a(#ddd); .br(0); .p(0,10); .-box; .m(0,8); .ib; .vam; }
-                .fiq-find { .fs(14); .ls(-0.35); color:#fff; .bold; .bgc(#2D3039); .tc; .wh(210,40); .lh(40); .br(0); .m(0); .ib; .vam; .pointer; }
+                .fiq-find { .fs(14);  color:#fff; .bold; .bgc(#2D3039); .tc; .wh(210,40); .lh(40); .br(0); .m(0); .ib; .vam; .pointer; }
               }
               .fiq-box-wrap { .bgc(#fff); .p(30,0,30,24); .-box; .wh(1180,281); .tl; .mb(0); .-a; .-b(#ddd);
                 .fiq-img, .fiq-r { .ib; .vat; }
@@ -870,7 +858,7 @@ select.fiq-se, input.fiq-input { outline: none; }
         }
       }
       &.fiq-page4 {
-        .fiq-section { .tl;
+        .fiq-section {
           .fiq-tab-wrap { .ib; }
           .fiq-select { .fr; .mt(16); .w(153); }
           .fiq-cont {
@@ -1090,12 +1078,12 @@ select.fiq-se, input.fiq-input { outline: none; }
         .fiq-section {
           .fiq-plus-wrap { .pb(25); .-box; .-b(#ddd); .mb(40);
             .fiq-small-view { .w(240); .ib; .vat; .tl; .mr(27);
-              p { .fs(16); .ls(-0.32); .lh(18); .ib; .vam;
-                span { .fs(14); .ls(-0.28); .lh(18); .ib; .vam; color:#888; }
+              p { .fs(16); .lh(18); .ib; .vam;
+                span { .fs(14); .lh(18); .ib; .vam; color:#888; }
               }
               .fiq-indices { .m(10,0,15);
                 .fiq-price { .fs(18); .lh(24); .ib; .vam; .mr(0); .w(113); color:#222; }
-                .fiq-indices-span { .fs(16); .lh(21); .bold; .ib; .vam; .ls(-0.5);
+                .fiq-indices-span { .fs(16); .lh(21); .bold; .ib; .vam; 
                   span { border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 7px solid; }
                   p { .mr(0); .w(54); }
                 }
@@ -1144,10 +1132,10 @@ select.fiq-se, input.fiq-input { outline: none; }
           .select-wrap { .mb(30);
             .fiq-bottom {
               li { .ib; .tl; .mr(10);
-                span { .fs(12); .ls(-0.3); .lh(32); color:#888; }
+                span { .fs(12);  .lh(32); color:#888; }
                 .fiq-select { .wh(180,40); .rel; .-a(#ddd); .-box; .br(2); .p(0,8); .block; .ml(0);
                   &:before { .hide; }
-                  select { .fs(14); .lh(38); .-a; .wf; outline: none; }
+                  select { .fs(14); .h(38); background:none; .lh(38); .-a; .wf; outline: none; }
                 }
                 &:last-child { .mr(0); }
                 &:nth-child(3) .fiq-select, &:nth-child(4) .fiq-select { .w(298); }
@@ -1157,18 +1145,11 @@ select.fiq-se, input.fiq-input { outline: none; }
           .fiq-table-wrap { overflow: auto;
             .fiq-t { .w(1704);
               tr {
-                th { .fs(14); color:#888;
-                  &.fiq-r { .-r(#dedede); }
-                }
+                th { .fs(14); color:#888; }
                 td { .fs(14);
                   .fiq-code { .fs(14); color:#888; }
                   .fiq-indi {  border-left: 5px solid transparent; border-right: 5px solid transparent; .ib; }
                   &:nth-child(1) { .fs(16); }
-                  &:nth-child(4),
-                  &:nth-child(8),
-                  &:nth-child(14),
-                  &:nth-child(18),
-                  &:nth-child(19) { .-r(#dedede); }
                   &.fiq-up { color:#FF0000;
                     .fiq-indi { border-bottom: 7px solid #ff0000; }
                   }
@@ -1185,7 +1166,7 @@ select.fiq-se, input.fiq-input { outline: none; }
         .fiq-section {
           .fiq-top-wrap { .clear;
             .fiq-source { .ib; .fr; .mt(10);
-              p { .fs(16); .ls(-0.32); .mr(5); color:#888;
+              p { .fs(16); .mr(5); color:#888;
                 span { .wh(94,17); .contain('../img/pc/investing.png'); .ib; .vam; }
               }
             }
@@ -1195,10 +1176,10 @@ select.fiq-se, input.fiq-input { outline: none; }
               &:last-child { .mr(0); }
               table {
                 tr {
-                  th { .fs(14); .lh(32); color:#888; .regular; .ls(-1.05); .tr; .-b(#DDDDDD);
+                  th { .fs(14); .lh(32); color:#888; .regular;  .tr; .-b(#DDDDDD);
                     &:nth-child(1) { .tl; }
                   }
-                  td { .fs(15); .ls(-1.13); .lh(46); .tr;
+                  td { .fs(15);  .lh(46); .tr;
                     .fiq-logo { .wh(20,20); .ib; .vam; .contain('../img/pc/ico-coin-logo.png'); .mr(5); }
                     &:nth-child(1) { .tl; }
                     .fiq-indi {  border-left: 5px solid transparent; border-right: 5px solid transparent; .ib; }
@@ -1222,13 +1203,13 @@ select.fiq-se, input.fiq-input { outline: none; }
           .fiq-bott-cont {
             .fiq-cell-box { .ib; .vat; .tl; .w(730); .mr(50);
               &:last-child { .mr(0); }
-              .fiq-tit { .fs(20); .ls(-0.5); .lh(32); }
+              .fiq-tit { .fs(20); .lh(32); }
               ul {
                 li { .-b(#DDDDDD); .pb(20); .-box; .mb(20);
                   &:last-child { .-b; }
                   .fiq-img { .wh(158,99); .ib; .vat; .contain('../img/pc/img1.png'); .mr(20); }
                   .fiq-txt-box { .ib; .vat;
-                    p { .fs(20); .lh(27); .bold; .w(448); .keep-all; }
+                    p, h3 { .fs(20); .lh(27); .bold; .w(448); .keep-all; }
                     .fiq-txt { .fs(14); .lh(24); .mt(16); color:#888; .regular; }
                   }
                 }
@@ -1243,7 +1224,7 @@ select.fiq-se, input.fiq-input { outline: none; }
                     &.fiq-active { color:#222; .bold; }
                     &:last-of-type { .mr(8); }
                   }
-                  a { .wh(20,20); .ib; .vam; .ml(4); .-a(#D2D2D2); .rel;
+                  a { .wh(20,20); .ib; .vam; .ml(4); .-a(#D2D2D2); .rel; .pointer;
                     &.fiq-prev:after { .cnt; .wh(12,12); .contain('../img/pc/ico-arrow-left.svg'); .abs; .lt(50%,50%); transform: translate(-50%,-50%) }
                     &.fiq-next:after { .cnt; .wh(12,12); .contain('../img/pc/ico-arrow-right.svg'); .abs; .lt(50%,50%); transform: translate(-50%,-50%) }
                   }
@@ -1253,7 +1234,7 @@ select.fiq-se, input.fiq-input { outline: none; }
                 li { .mt(20); .h(64); .clear; .p(0); .-b;
                   .fiq-l { .ib; .vam; .tl; .pt(5); .-box;
                     span { .fs(12); .lh(24); color:#888; .mb(8); }
-                    p { .fs(16); .lh(24); }
+                    h4 { .fs(16); .lh(24); }
                   }
                   .fiq-img { .wh(102,64); .ib; .fr; .m(0); }
                 }
@@ -1262,7 +1243,7 @@ select.fiq-se, input.fiq-input { outline: none; }
                 .fiq-tit { .fs(12); color:#888; .lh(24); .bold; .mb(0); }
                 ul {
                   li { .m(0); .clear; .lh(40); .h(40);
-                    p { .fs(15); .ls(-1.13); .ib; color:#888; }
+                    p { .fs(15);  .ib; color:#888; }
                     span { .fs(15); .tr; .fr; .bold; }
                   }
                 }
@@ -1297,7 +1278,7 @@ select.fiq-se, input.fiq-input { outline: none; }
                   p { .fs(16); .ib; }
                   &.swiper-slide-active { .bold; .-b; }
                   .fiq-coin-cont { .p(40,42,56); .-box; .abs; .lt(0,56); .wh(1180,249); .hide;
-                    .fiq-tit { .fs(20); .ls(-1.5); .tc; .mb(28); .lh(32);
+                    .fiq-tit { .fs(20);  .tc; .mb(28); .lh(32);
                       span { .wh(32,32); .contain('../img/pc/ico-coin-logo.png'); .mr(10); .ib; .vam; }
                     }
                     .fiq-txt { .fs(16); .tl; .lh(24); .regular; .h(95); overflow: auto; }
@@ -1316,7 +1297,7 @@ select.fiq-se, input.fiq-input { outline: none; }
               }
             }
             .fiq-noti { .mt(16); .w(1125);
-              p { .fs(14); color:#888; .tl; .lh(21); .ls(0); .keep-all; }
+              p { .fs(14); color:#888; .tl; .lh(21);  .keep-all; }
             }
           }
         }
@@ -1324,7 +1305,7 @@ select.fiq-se, input.fiq-input { outline: none; }
       &.fiq-main-v2 { width: auto; overflow: hidden;
         section { .p(30,0); .-box; .tl; .clear;
           .fiq-sec-inner { .w(1180); .mh-c; }
-          h4 { .fs(20); .ls(-2); .lh(32); color:#222; .m(0,20,15,0); .ib; .vam; }
+          h4 { .fs(20);  .lh(32); color:#222; .m(0,20,15,0); .ib; .vam; }
           .fiq-main-date { .fs(12); color:#fff; opacity: 0.3; .ib; .vam; .mb(10);
             p { .ib; .vam; }
             &.fiq-main-date1 { color:#888; }
@@ -1379,7 +1360,7 @@ select.fiq-se, input.fiq-input { outline: none; }
               .fiq-legend { .tc; .mt(22);
                 ul {
                   li { .rel; .ib; .vam; .mr(50);
-                    p { .fs(14); color:#fff; .ls(-1.4); .lh(32); opacity: 0.3; }
+                    p { .fs(14); color:#fff; .lh(32); opacity: 0.3; }
                     &:after { .cnt; .wh(12,12); .abs; .lt(-22,50%); .mt(-6); }
                     &:nth-child(1):after { background:rgb(94,103,186); }
                     &:nth-child(2):after { background:rgb(115,154,192); }
@@ -1392,7 +1373,7 @@ select.fiq-se, input.fiq-input { outline: none; }
             hr { .bgc(#fff); opacity: 0.1; .wh(100%,1); .m(35,0,40); .block; .-a; }
             .fiq-block { .wh(335,200); .ib; .vat; .tl; .p(0,9,9); .-box; .mr(70); .rel;
               &:after { .cnt; .wh(1,100%); .abs; .rt(-35,0); .bgc(#fff); opacity: 0.1; }
-              p { .fs(20); .bold; .ls(-2); .lh(32); color:#fff; }
+              p { .fs(20); .bold;  .lh(32); color:#fff; }
               .fiq-indices { .mb(20);
                 .fiq-price { .fs(24); .mr(25); }
                 .fiq-indices-span {
@@ -1412,7 +1393,7 @@ select.fiq-se, input.fiq-input { outline: none; }
               }
               table { .wf; table-layout: fixed; border-collapse: collapse;
                 tr {
-                  td { .fs(16); .lh(32); .ls(-1.6); color:#fff;
+                  td { .fs(16); .lh(32);  color:#fff;
                     &:nth-child(even) { .tr; }
                     &:nth-child(2) { .pr(25); .-box; }
                     &.fiq-up { color:#ff0000; }
@@ -1442,16 +1423,16 @@ select.fiq-se, input.fiq-input { outline: none; }
           &.fiq-swiper { background: rgb(247,247,247);
             .fiq-sec-inner { .w(1230); }
             h4 { .pl(25); .-box; .mb(0);
-              span { .fs(12); color:#888; .ls(-0.9); }
+              span { .fs(12); color:#888;  }
             }
-            .fiq-swiper { .h(190); .p(10,25,0,30); .-box; .rel;
+            .fiq-swiper { .h(190); .p(10,35,0,35); .-box; .rel;
               &:before { .cnt; .lt(0,0); .wh(25,100%);  background: rgb(247,247,247); .abs; z-index: 2; }
               &:after { .cnt; .rt(0,0); .wh(25,100%);  background: rgb(247,247,247); .abs; z-index: 1; }
               .swiper-slide { .wh(180,170); .bgc(#fff); .br(10); box-shadow: 0px 0px 10px rgba(0,0,0,0.1); .p(15); .-box; .tl;
                 .fiq-indices {
                   .fiq-indices-span {
-                    > p { color:#222; }
-                    p { .fs(16); .m(0,10,5,0); .ls(-1.2); .bold; .ib; .vam; }
+                    > p { color:#222; .bold; }
+                    p { .fs(16); .m(0,10,5,0); .ib; .vam; .regular; }
                     span { .ib; .vam; .mb(5); }
                   }
                 }
@@ -1465,9 +1446,9 @@ select.fiq-se, input.fiq-input { outline: none; }
             }
             .fiq-swiper2, .fiq-swiper3 { .h(150);
               .fiq-slide { .wh(180,130);
-                > p { .fs(16); .ls(-1.2); .bold; .mb(13); }
+                > p { .fs(16); .bold; .mb(13); }
                 .fiq-indices {
-                  .fiq-price { .fs(24); .bold; }
+                  .fiq-price { .fs(24);  }
                   .fiq-indices-span { .fs(16); .mt(5); }
                   &.fiq-up .fiq-indices-span p { color:#ff0000; }
                   &.fiq-down .fiq-indices-span p { color:#2175FF; }
@@ -1491,9 +1472,9 @@ select.fiq-se, input.fiq-input { outline: none; }
               h4 { .ib; .vam; }
             }
           }
-          .fiq-inner-noti { .fs(12); color:#888; .ls(-0.9); .tc; .mt(20); }
+          .fiq-inner-noti { .fs(12); color:#888;  .tc; .mt(20); }
           .fiq-tab-wrap { .fr;
-            .fiq-tab-btn { .fs(16); .wh(130,35); .lh(33); .tc; .ib; .vam; .-a(#ddd); .-r; .ls(-1.2); color:#222; .-box;
+            .fiq-tab-btn { .fs(16); .wh(130,35); .lh(33); .tc; .ib; .vam; .-a(#ddd); .-r;  color:#222; .-box;
               &:first-child { border-top-left-radius: 8px; border-bottom-left-radius: 8px; }
               &:last-child { border-top-right-radius: 8px; border-bottom-right-radius: 8px; .-r(#ddd); }
             }
@@ -1506,7 +1487,7 @@ select.fiq-se, input.fiq-input { outline: none; }
               &.fiq-tab4-active .fiq-tab-btn4,
               &.fiq-tab5-active .fiq-tab-btn5 { .bold; .-a(#222); }
             }
-            &.fiq-tab5n { .block; float: none; .m(30,0,25);
+            &.fiq-tab5n { .block; float: none; .m(0,0,25);
               .fiq-tab-btn { .wh(236,50); .lh(48); }
             }
           }
@@ -1525,7 +1506,7 @@ select.fiq-se, input.fiq-input { outline: none; }
               }
               .fiq-news-item { .clear;
                 .fiq-news-img { .fr; .ml(45); }
-                .fiq-tit { .fs(24); .ls(-2.4); color:#222; .lh(33); .mb(15); }
+                .fiq-tit { .fs(24);  color:#222; .lh(33); .mb(15); }
                 .fiq-date { .fs(12); color:#888; }
               }
             }
@@ -1552,11 +1533,11 @@ select.fiq-se, input.fiq-input { outline: none; }
               }
             }
           }
-          .fiq-coin-news { .ib; .vat; .w(543); .pt(20); .-box;
-            li { .fs(24); color:#222; .lh(34); .ls(-1.8); .p(30); .-box; .-a(#ddd); .w(258); .ib; .vat;
-              &:nth-child(1) { border-top-left-radius: 10px; .mr(27); .mb(27); }
-              &:nth-child(2) { border-top-right-radius: 10px; .mb(27); }
-              &:nth-child(3) { border-bottom-left-radius: 10px; .mr(27); }
+          .fiq-coin-news { .ib; .vat; .w(543); .pt(20); .-box; .tr;
+            li { .fs(24); color:#222; .lh(34); .p(30); .-box; .-a(#ddd); .min-h(200); .w(258); .ib; .vat; .tl;
+              &:nth-child(1) { border-top-left-radius: 10px; .mr(20); .mb(20); }
+              &:nth-child(2) { border-top-right-radius: 10px; .mb(20); }
+              &:nth-child(3) { border-bottom-left-radius: 10px; .mr(20); }
               &:nth-child(4) { border-bottom-right-radius: 10px; }
             }
           }
@@ -1573,7 +1554,7 @@ select.fiq-se, input.fiq-input { outline: none; }
           .fiq-bottom + .fiq-table { .ib; .vat; .mr(52); }
         }
         .fiq-bott-notice { .w(1180); .mh-c; .-t(#ddd);
-          p { .fs(14); color:#888; .tl; .lh(22); .ls(-1.05); .p(25,0); .-box;}
+          p { .fs(14); color:#888; .tl; .lh(22);  .p(25,0); .-box;}
         }
       }
       &.fiq-edit {
@@ -1646,6 +1627,7 @@ select.fiq-se, input.fiq-input { outline: none; }
       }
       &.fiq-page13 {
         .fiq-section {
+          h2.fiq-h2 { .fs(34); .lh(45); .ls(-3px); }
           .fiq-cont { .rel;
             .fiq-swiper { .w(1180);
               .fiq-slide { .w(280)!important; .-a(#DDDDDD); .-box; .br(10); overflow: hidden;
@@ -1694,7 +1676,7 @@ select.fiq-se, input.fiq-input { outline: none; }
           }
           .fiq-cont { .tl; .bgc(#fff); .p(40,12); .-a(#ddd); .w(1180); .-box;
             .fiq-list { .mb(9);
-              .fiq-tit { .fs(14); .ls(-0.35); .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; }
+              .fiq-tit { .fs(14);  .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; }
               .fiq-tit2 { .w(130); .ml(45); }
               .fiq-date-wrap { .ib; .-a(#DDDDDD); .br(10); .-box; .p(0,10); .lh(40); .wh(306,40);
                 input { .fs(14); .wh(125,40); .-box; .ib; .vam; .-a; background: transparent; }
@@ -1712,7 +1694,7 @@ select.fiq-se, input.fiq-input { outline: none; }
             .fiq-list3 {
               .fiq-select { .ml(0); .ib; .vam; }
               input { .wh(790,40); .-a(#ddd); .br(10); .p(0,10); .-box; .m(0,8); .ib; .vam; }
-              .fiq-find { .fs(14); .ls(-0.35); color:#fff; .bgc(#253081); .tc; .wh(210,40); .lh(40); .br(10); .m(0); .ib; .vam; }
+              .fiq-find { .fs(14);  color:#fff; .bgc(#253081); .tc; .wh(210,40); .lh(40); .br(10); .m(0); .ib; .vam; }
             }
           }
         }
@@ -1779,7 +1761,7 @@ select.fiq-se, input.fiq-input { outline: none; }
         }
         .fiq-section {
           .fiq-tabs-wrap { .w(1180); .fs(0); .h(50); .-b; .mb(30); .flex; flex-direction: row; justify-content: flex-start;
-            .fiq-top-tab { .fs(16); .h(50); .lh(48); .tc; .ib; .vam; .-a(#ddd); .-r; .ls(-1.2); color:#222; .-box; .br(0); .mt(0); .bgc(#fff); flex: 1 1;
+            .fiq-top-tab { .fs(16); .h(50); .lh(48); .tc; .ib; .vam; .-a(#ddd); .-r;  color:#222; .-box; .br(0); .mt(0); .bgc(#fff); flex: 1 1;
               &:first-child { border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
               &:last-child { border-top-right-radius: 10px; border-bottom-right-radius: 10px; .-r(#ddd); }
             }
@@ -1793,8 +1775,11 @@ select.fiq-se, input.fiq-input { outline: none; }
             &.fiq-top-active8 .fiq-top-tab8,
             &.fiq-top-active9 .fiq-top-tab9 { .-a(#222); .bold; }
           }
-          .fiq-tab-type-b { .br(0); .tc; .mb(40);
-            .fiq-tab-btn { width:auto; .min-w(60); line-height: normal; .-a!important; color:#888; height:auto; .br(0); .p(0,5,10,5); .-box; .-b(#222)!important; .rel; }
+          .fiq-tab-type-b { .br(0); .tc; .mb(25);
+            &.fiq-tab-2below {
+              .fiq-tab-btn {.w(120); }
+            }
+            .fiq-tab-btn { width:auto; .min-w(80); line-height: normal; .-a!important; color:#888; height:auto; .br(0); .p(0,5,15,5); .-box; .-b(#222)!important; .rel; }
             &.fiq-tab1-active .fiq-tab-btn1,
             &.fiq-tab2-active .fiq-tab-btn2,
             &.fiq-tab3-active .fiq-tab-btn3,
@@ -1828,7 +1813,7 @@ select.fiq-se, input.fiq-input { outline: none; }
               .fiq-t {
                 tr {
                   td { .fs(16); .p(0); .-box;
-                    &:nth-child(odd) { .bold; .ls(-0.12em); }
+                    &:nth-child(odd) { .bold; }
                     &:nth-child(even) { .pr(60); .light; }
                     &:last-child { .pr(0); }
                     &.fiq-up { color:#FF4040; }
@@ -1920,15 +1905,14 @@ select.fiq-se, input.fiq-input { outline: none; }
           &.fiq-sec2 {
             &:after { .hide; }
             .fiq-cont { .pt(40); .-t(#ddd);
-              .fiq-tit { .fs(20); .bold; .ls(-0.15em); .tl; .-box; .mb(20);  }
+              .fiq-tit { .fs(20); .bold;  .tl; .-box; .mb(20);  }
               .fiq-t { .mb(40);
                 tr { .rel;
                   &:hover { .bgc(#E5EAF4)!important; }
                   &:nth-child(even) { .bgc(#FAFCFE); }
-                  th:first-child, td:first-child { .tl; }
                   th:last-child, td:last-child { .tc; .p(0); }
-                  th { .fs(14);color:#888; .ls(-0.102em); .bgc(#fff); .-a(#F3F3F3); .-b(#DDDDDD); .tr; .p(0,5,0,10); .-box; }
-                  td { .fs(15); .tr; .-a(#F3F3F3); .-b(#ddd); line-height: normal; .p(10,5,10,10); .-box; .rel;
+                  th { .fs(14);color:#888;  .bgc(#fff); .-a(#F3F3F3); .-b(#DDDDDD);  .p(12,5,12,10); .-box; }
+                  td { .fs(15);  .-a(#F3F3F3); .-b(#ddd); line-height: normal; .p(10,5,10,10); .-box; .rel;
                     span.code { .fs(12); color:#888; .-a!important; height: auto; }
                     a.fiq-a { .wh(36,30); .lh(30); box-shadow: 2px 2px 5px rgba(0,0,0,0.15); .br(6); .bgc(#fff); .-a(#ddd); .ib;
                       img { .mt(9); }
@@ -1954,9 +1938,9 @@ select.fiq-se, input.fiq-input { outline: none; }
                 thead tr:after { .hide; }
               }
               .fiq-graph-cell {
-                li { .wh(280,140); .br(10); .ib; .vam; box-shadow: 2px 2px 5px rgba(0,0,0,0.15); .p(20); .-box; .m(0,20,20,0);
+                li { .wh(280,140); .br(10); .ib; .vam; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); .p(20); .-box; .m(0,20,20,0);
                   &:nth-child(4n) { .mr(0); }
-                  > p { .fs(16); .ls(-0.12em); .bold; .tl; .mb(23);
+                  > p { .fs(16); .bold; .tl; .mb(23);
                     span { .fs(12); .mr(7); color:#888; .regular; }
                   }
                   .fiq-cell {
@@ -1983,14 +1967,14 @@ select.fiq-se, input.fiq-input { outline: none; }
             }
             .fiq-cont1 { .tl;
               .fiq-cont2-inner {
-                .fiq-news-tit { .fs(20); .ls(-0.15em); .bold; .ib; .vat; .mr(27); }
+                .fiq-news-tit { .fs(20);  .bold; .ib; .vat; .mr(27); }
                 .fiq-news-list { .w(1114); .ib; .vat; .pl(20); .-box; .-l(#DDDDDD); .mb(50);
                   li { .pb(50); .-box; .rel;
                     &:after { .cnt; .wh(11,11); .br(50%); .bgc(#E5E5E5); .abs; .lt(-26,0); }
                     .fiq-source { .fs(16); color:#888; .lh(21); .mb(3); }
-                    .fiq-txt { .fs(16); .lh(24); color:#888; .tl; .clear; .ls(0);
-                      .fiq-tit { .fs(24); .lh(32); .regular; .mb(20); .-t; .pt(0); .ls(0); }
-                      img { .wh(180,114); .ib; .fr; .ml(30); }
+                    .fiq-txt { .fs(16); .lh(24); color:#888; .tl; .clear; 
+                      .fiq-tit { .fs(24); .lh(32); .regular; .mb(20); .-t; .pt(0);  }
+                      img { .wh(110,69); .ib; .fr; .ml(30); .br(8); border:1px solid rgba(0,0,0,0.5); .-box; }
                     }
                   }
                 }
@@ -2025,7 +2009,7 @@ select.fiq-se, input.fiq-input { outline: none; }
                   }
                   &.fiq-cont4 {
                     .fiq-list { .mb(9);
-                      .fiq-tit { .fs(14); .ls(-0.35); .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; .-t; .pt(0); }
+                      .fiq-tit { .fs(14);  .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; .-t; .pt(0); }
                       .fiq-tit2 { .w(130); .ml(45); }
                       .fiq-date-wrap { .ib; .-a(#DDDDDD); .br(0); .-box; .p(0,10); .lh(40); .wh(306,40); .ib; .vam;
                         input { .fs(14); .wh(125,40); .lh(40); .-box; .ib; .vam; .-a; background: transparent; .p(0); }
@@ -2046,7 +2030,7 @@ select.fiq-se, input.fiq-input { outline: none; }
                     .fiq-list3 { .pb(40); .-b(#222); .-box;
                       .fiq-select { .ml(0); .ib; .vam; }
                       input { .wh(790,40); .-a(#ddd); .br(0); .p(0,10); .-box; .m(0,8); .ib; .vam; }
-                      .fiq-find { .fs(14); .ls(-0.35); color:#fff; .bold; .bgc(#2D3039); .tc; .wh(210,40); .lh(40); .br(0); .m(0); .ib; .vam; .pointer; }
+                      .fiq-find { .fs(14);  color:#fff; .bold; .bgc(#2D3039); .tc; .wh(210,40); .lh(40); .br(0); .m(0); .ib; .vam; .pointer; }
                     }
                     .fiq-box-wrap { .bgc(#fff); .p(30,0,30,24); .-box; .wh(1180,281); .tl; .mb(0); .-a; .-b(#ddd);
                       .fiq-img, .fiq-r { .ib; .vat; }
@@ -2107,12 +2091,12 @@ select.fiq-se, input.fiq-input { outline: none; }
         &.fiq-page1s {
           .fiq-top-title{
             &:after { .hide; }
-            .fiq-h2-span { .fs(12); .ls(-0.09em); .tr; color:#888; .abs; .rt(0,67);  }
+            .fiq-h2-span { .fs(12);  .tr; color:#888; .abs; .rt(0,67);  }
           }
           .fiq-section {
             .fiq-tabs-wrap { background: none; .mb(30); }
             .fiq-tab-sibl {
-              .fiq-tab-type-b { .tl; .mb(25); }
+              .fiq-tab-type-b { .mb(25); }
               .fiq-cont {
                 .fiq-t { .mb(40);
                   > tr { .rel;
@@ -2120,7 +2104,7 @@ select.fiq-se, input.fiq-input { outline: none; }
                     &:nth-child(even) { .bgc(#FAFCFE); }
                     th:first-child, td:first-child { .tl; }
                     th:last-child, td:last-child { .tc; .p(0); }
-                    th { .fs(14);color:#888; .ls(-0.102em); .bgc(#fff); .-a(#F3F3F3); .-b(#DDDDDD); .tr; .p(0,5,0,10); .-box; }
+                    th { .fs(14);color:#888;  .bgc(#fff); .-a(#F3F3F3); .-b(#DDDDDD); .tr; .p(0,5,0,10); .-box; }
                     td { .fs(15); .tr; .-a(#F3F3F3); .-b(#ddd); line-height: normal; .p(10,5,10,10); .-box; .rel;
                       span.code { .fs(12); color:#888; .-a!important; height: auto; }
                       a.fiq-a { .wh(36,30); .lh(30); box-shadow: 2px 2px 5px rgba(0,0,0,0.15); .br(6); .bgc(#fff); .-a(#ddd); .ib;
@@ -2207,7 +2191,7 @@ select.fiq-se, input.fiq-input { outline: none; }
           .fiq-sec2 { .pb(0); .mb(0);
             &:after { .hide; }
             .fiq-tab-wrap { .mb(0); .h(46); .bgc(#fff); .br(0); .pt(4); .-box;
-              .fiq-tab-btn { .fs(16); color:#888; .w(60); .br(0); .-a; .h(42); .-b(#222); .regular; }
+              .fiq-tab-btn { width:auto; .min-w(80); line-height: normal; .-a; color:#888; height:auto; .br(0); .p(0,5,15,5); .-box; .-b(#222); .rel; }
               &.fiq-tab1-active .fiq-tab-btn1,
               &.fiq-tab2-active .fiq-tab-btn2,
               &.fiq-tab3-active .fiq-tab-btn3,
@@ -2217,7 +2201,7 @@ select.fiq-se, input.fiq-input { outline: none; }
             }
             .fiq-cont { .tl; .bgc(#fff); .p(30,12); .-a; .w(1180); .-box;
               .fiq-list { .mb(9);
-                .fiq-tit { .fs(14); .ls(-0.35); .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; .-t; .pt(0); }
+                .fiq-tit { .fs(14);  .lh(40); .ib; .vam; .w(79); .tl; .m(0); .regular; .-t; .pt(0); }
                 .fiq-tit2 { .w(130); .ml(45); }
                 .fiq-date-wrap { .ib; .-a(#DDDDDD); .br(0); .-box; .p(0,10); .lh(40); .wh(306,40); .ib; .vam;
                   input { .fs(14); .wh(125,40); .lh(40); .-box; .ib; .vam; .-a; background: transparent; .p(0); }
@@ -2238,7 +2222,7 @@ select.fiq-se, input.fiq-input { outline: none; }
               .fiq-list3 {
                 .fiq-select { .ml(0); .ib; .vam; }
                 input { .wh(790,40); .-a(#ddd); .br(0); .p(0,10); .-box; .m(0,8); .ib; .vam; }
-                .fiq-find { .fs(14); .ls(-0.35); color:#fff; .bold; .bgc(#2D3039); .tc; .wh(210,40); .lh(40); .br(0); .m(0); .ib; .vam; .pointer; }
+                .fiq-find { .fs(14);  color:#fff; .bold; .bgc(#2D3039); .tc; .wh(210,40); .lh(40); .br(0); .m(0); .ib; .vam; .pointer; }
               }
             }
           }
@@ -2294,6 +2278,11 @@ select.fiq-se, input.fiq-input { outline: none; }
     }
 
 
+
+
+    &.fiq-edit-new {
+      .fiq-page10 .fiq-section .fiq-plus-wrap .fiq-view-r .fiq-table .fiq-t th { .p(12,0); .tc; }
+    }
 
 
   }
